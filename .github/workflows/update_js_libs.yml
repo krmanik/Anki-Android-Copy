@@ -10,10 +10,17 @@ jobs:
       - uses: actions/checkout@v3
       - name: 'Update js libs'
         run: |
+          # check if branch exists on local and remote
+          branch_in_local=$(git branch --list update-js-libs)
+          if [[ -z ${branch_in_local} ]]; then
+            git branch -D update-js-libs
+          fi
+
           # create a new branch and checkout
           git branch update-js-libs
           git checkout update-js-libs
 
+          # make it executable
           chmod +x ./tools/update-js-libs.sh
           ./tools/update-js-libs.sh
 
@@ -22,7 +29,14 @@ jobs:
           git config --global user.email github-actions@github.com
           git add .
           git commit -am "updated mathjax and jquery"
-          git push --set-upstream origin update-js-libs
+          
+          # check if branch exists on remote
+          branch_in_remote=$(git ls-remote --heads origin update-js-libs)
+          if [[ -z ${branch_in_remote} ]]; then
+            git push
+          else
+            git push --set-upstream origin update-js-libs
+          fi
 
       - name: 'Create pull request'
         uses: actions/github-script@v6
