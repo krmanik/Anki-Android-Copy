@@ -52,5 +52,5 @@ jobs:
               head: 'update-js-libs',
               base: 'main',
               title: 'Update jquery and mathjax',
-              body: steps.vars.outputs.jquery_ver + "\n" + steps.vars.outputs.mathjax_ver
+              body: "Updated\n" + ${{ steps.vars.outputs.jquery_ver }} + "\n" + $ {{ steps.vars.outputs.mathjax_ver }}
             });
