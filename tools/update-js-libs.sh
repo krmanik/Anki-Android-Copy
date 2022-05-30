@@ -13,6 +13,8 @@ git clone https://github.com/ankitects/anki ~/tmp/anki
 # build for mathjax and jquery
 cd ~/tmp/anki/qt/aqt/data/web/js/vendor; bazel build vendor
 
+sudo chmod -R -x .
+
 # change dir to AnkiDroid
 cd /home/runner/work/Anki-Android-Copy/Anki-Android-Copy
 
@@ -25,8 +27,3 @@ mkdir AnkiDroid/src/main/assets/mathjax
 
 # copy latest mathjax to assets dir
 cp -r ~/tmp/anki/.bazel/bin/qt/aqt/data/web/js/vendor/mathjax AnkiDroid/src/main/assets/
-
-
-# remove executable mode
-sudo chown -R $(id -u):$(id -g) AnkiDroid/src/main/assets/mathjax
-sudo chmod -R 644 AnkiDroid/src/main/assets/mathjax
