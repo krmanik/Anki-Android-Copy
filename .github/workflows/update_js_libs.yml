@@ -32,7 +32,7 @@ jobs:
             await github.rest.pulls.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              head: update-js-libs,
-              base: main,
+              head: 'update-js-libs',
+              base: 'main',
               title: 'Update jquery and mathjax'
             });
