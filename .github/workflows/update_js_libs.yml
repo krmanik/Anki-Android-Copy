@@ -24,14 +24,7 @@ jobs:
           git config --global user.email github-actions@github.com
           git add .
           git commit -am "updated mathjax and jquery"
-          
-          # check if branch exists on remote
-          branch_in_remote=$(git ls-remote --heads origin update-js-libs)
-          if [[ -z ${branch_in_remote} ]]; then
-            git push -f
-          else
-            git push --set-upstream origin update-js-libs
-          fi
+          git push origin --delete update-js-libs
 
       - name: 'Create pull request'
         uses: actions/github-script@v6
