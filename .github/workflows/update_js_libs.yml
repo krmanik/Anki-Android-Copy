@@ -1,0 +1,38 @@
+name: Update js libs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update_js_libs:
+    name: 'Update js libs'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: 'Update js libs'
+        run: |
+          # create a new branch and checkout
+          git branch update-js-libs
+          git checkout update-js-libs
+
+          chmod +x ./tools/update-js-libs.sh
+          ./tools/update-js-libs.sh
+
+          # commit changes
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
+          git add .
+          git commit -am "updated mathjax and jquery"
+          git push
+
+      - name: 'Create pull request'
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: update-js-libs,
+              base: main,
+              title: 'Update jquery and mathjax'
+            });
