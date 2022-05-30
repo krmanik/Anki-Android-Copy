@@ -28,7 +28,7 @@ jobs:
           # check if branch exists on remote
           branch_in_remote=$(git ls-remote --heads origin update-js-libs)
           if [[ -z ${branch_in_remote} ]]; then
-            git push
+            git push -f
           else
             git push --set-upstream origin update-js-libs
           fi
