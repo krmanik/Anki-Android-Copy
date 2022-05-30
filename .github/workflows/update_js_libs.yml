@@ -25,8 +25,8 @@ jobs:
           git commit -am "updated mathjax and jquery"
           git push
 
-      - name: 'Create pull request'
       - uses: actions/github-script@v6
+      - name: 'Create pull request'
         with:
           script: |
             await github.rest.pulls.create({
