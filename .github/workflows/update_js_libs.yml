@@ -22,6 +22,7 @@ jobs:
           git config --global user.email github-actions@github.com
           git add .
           git commit -am "updated mathjax and jquery"
+          git push --set-upstream origin update-js-libs
           git push
 
       - name: 'Create pull request'

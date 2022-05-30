@@ -24,4 +24,4 @@ rm -rf AnkiDroid/src/main/assets/mathjax
 mkdir AnkiDroid/src/main/assets/mathjax
 
 # copy latest mathjax to assets dir
-cp -r ~/tmp/anki/.bazel/bin/qt/aqt/data/web/js/vendor/mathjax AnkiDroid/src/main/assets/mathjax
+cp -r ~/tmp/anki/.bazel/bin/qt/aqt/data/web/js/vendor/mathjax AnkiDroid/src/main/assets/
