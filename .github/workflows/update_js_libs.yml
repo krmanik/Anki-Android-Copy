@@ -26,6 +26,7 @@ jobs:
           chmod +x ./tools/update-js-libs.sh
           ./tools/update-js-libs.sh
 
+          chmod +x ./tools/mathjax-mode.sh
           ./tools/mathjax-mode.sh
 
           # commit changes
