@@ -22,7 +22,6 @@ cp ~/tmp/anki/.bazel/bin/qt/aqt/data/web/js/vendor/jquery.min.js AnkiDroid/src/m
 # remove old mathjax file
 rm -rf AnkiDroid/src/main/assets/mathjax
 mkdir AnkiDroid/src/main/assets/mathjax
-sudo chmod 644 AnkiDroid/src/main/assets/mathjax
 
 # copy latest mathjax to assets dir
 cp -r ~/tmp/anki/.bazel/bin/qt/aqt/data/web/js/vendor/mathjax AnkiDroid/src/main/assets/
