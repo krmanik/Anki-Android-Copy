@@ -20,8 +20,7 @@ cd /home/runner/work/Anki-Android-Copy/Anki-Android-Copy
 cp ~/anki/.bazel/bin/qt/aqt/data/web/js/vendor/jquery.min.js AnkiDroid/src/main/assets/jquery.min.js
 
 # remove old mathjax file
-rm -rf AnkiDroid/src/main/assets/mathjax
-mkdir AnkiDroid/src/main/assets/mathjax
+rm -rf AnkiDroid/src/main/assets/mathjax/*
 
 # copy latest mathjax to assets dir
 cp -r ~/anki/.bazel/bin/qt/aqt/data/web/js/vendor/mathjax AnkiDroid/src/main/assets/
