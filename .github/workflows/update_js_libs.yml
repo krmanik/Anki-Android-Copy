@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: 'Update js libs'
+        id: vars
         run: |
 
           # check if branch exists on remote
@@ -37,6 +38,10 @@ jobs:
           jquery_ver=$(npm list jquery | grep -Po "jquery@(\d+\.)+\d+" | sort -u)
           mathjax_ver=$(npm list mathjax | grep -Po "mathjax@(\d+\.)+\d+")
 
+          # setting an output parameter
+          echo ::set-output name=jquery_ver::"$jquery_ver"
+          echo ::set-output name=mathjax_ver::"$mathjax_ver"
+
       - name: 'Create pull request'
         uses: actions/github-script@v6
         with:
@@ -47,5 +52,5 @@ jobs:
               head: 'update-js-libs',
               base: 'main',
               title: 'Update jquery and mathjax',
-              body: jquery_ver + "\n" + mathjax_ver
+              body: steps.vars.outputs.jquery_ver + "\n" + steps.vars.outputs.mathjax_ver
             });
