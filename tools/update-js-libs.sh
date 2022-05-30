@@ -25,3 +25,8 @@ mkdir AnkiDroid/src/main/assets/mathjax
 
 # copy latest mathjax to assets dir
 cp -r ~/tmp/anki/.bazel/bin/qt/aqt/data/web/js/vendor/mathjax AnkiDroid/src/main/assets/
+
+
+# remove executable mode
+sudo chown -R $(id -u):$(id -g) AnkiDroid/src/main/assets/mathjax
+sudo chmod -R 644 AnkiDroid/src/main/assets/mathjax
