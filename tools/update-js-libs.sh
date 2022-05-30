@@ -10,13 +10,11 @@ chmod +x bazel && sudo mv bazel /usr/local/bin/
 # clone Anki
 git clone https://github.com/ankitects/anki ~/tmp/anki
 
-pwd
-ls -la
-
 # build for mathjax and jquery
 cd ~/tmp/anki/qt/aqt/data/web/js/vendor; bazel build vendor
 
-pwd
+# change dir to AnkiDroid
+cd /home/runner/work/Anki-Android-Copy/Anki-Android-Copy
 
 # copy latest jquery to assets dir
 cp ~/tmp/anki/.bazel/bin/qt/aqt/data/web/js/vendor/jquery.min.js AnkiDroid/src/main/assets/jquery.min.js
