@@ -29,7 +29,7 @@ jobs:
           # commit changes
           git config --global user.name github-actions
           git config --global user.email github-actions@github.com
-          git update-index --add --chmod=-x AnkiDroid/src/main/assets/
+          git add .
           git commit -am "updated mathjax and jquery"
           git push --set-upstream origin update-js-libs
 
