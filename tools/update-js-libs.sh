@@ -36,7 +36,7 @@ cp $ANKI_SRC/.bazel/bin/ts/mathjax/index.js $ANKIDROID_SRC/AnkiDroid/src/main/as
 ANKI_MATHJAX_DIR="_anki/js/vendor/mathjax"
 ANKIDROID_MATHJAX_DIR="android_asset/mathjax"
 
- sed -i "s|$ANKI_MATHJAX_DIR|$ANKIDROID_MATHJAX_DIR|" AnkiDroid/src/main/assets/mathjax/conf.js
+sed -i "s|$ANKI_MATHJAX_DIR|$ANKIDROID_MATHJAX_DIR|" $ANKIDROID_SRC/AnkiDroid/src/main/assets/mathjax/conf.js
 
 # cleanup
 rm $ANKIDROID_SRC/AnkiDroid/src/main/assets/mathjax/mathjax-cp.sh
