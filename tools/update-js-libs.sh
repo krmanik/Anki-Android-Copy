@@ -42,7 +42,8 @@ sed -i 's/$ANKI_VENDOR_DIR/$ANKIDROID_ASSET_DIR/' $ANKIDROID_SRC/AnkiDroid/src/m
 rm $ANKIDROID_SRC/AnkiDroid/src/main/assets/mathjax/mathjax-cp.sh
 
 # restore mathjax.css file
-git restore $ANKIDROID_SRC/AnkiDroid/src/main/assets/mathjax/mathjax.css
+cd $ANKIDROID_SRC
+git restore AnkiDroid/src/main/assets/mathjax/mathjax.css
 
 # change mode of files in assets dir
 find $ANKIDROID_SRC/AnkiDroid/src/main/assets/mathjax/ -type f -print0 | xargs -0 chmod 644
