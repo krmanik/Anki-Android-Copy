@@ -7,7 +7,7 @@ jobs:
   sync_translations:
     name: 'Sync Translations with Crowdin'
     timeout-minutes: 20
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
         with:
@@ -32,10 +32,9 @@ jobs:
           echo "${{ secrets.CROWDIN_API_KEY }}" > ./tools/localization/.env
         shell: bash
 
-      - name: Setup nodejs and yarn
-        run: |
-          sudo apt install npm -y
-          sudo npm install yarn -g
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
       
       - name: Install dependencies and build
         run: |
@@ -63,6 +62,13 @@ jobs:
           cd ./tools/localization
           yarn start update
         
+      - name: Find broken strings
+        run: |
+          echo "Checking translations for known classes of error."
+          echo "(Note that if errors are found and you correct on crowdin, they make you wait 30 minutes for a new zip build)"
+          chmod +x ./tools/find-broken-strings-variables.sh
+          ./tools/find-broken-strings-variables.sh
+  
       - name: Commit changes
         run: |
           git add docs/marketing/localized_description AnkiDroid/src/main/res/values*
