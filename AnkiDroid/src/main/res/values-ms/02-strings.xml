@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -47,31 +42,31 @@
     <!-- How to format a percentage shown in the summary field of a preference -->
     <string name="preference_summary_percentage">XXX%</string>
     <!-- Navigation drawer strings -->
-    <string name="drawer_open">Buka laci</string>
+    <string name="drawer_open">Open drawer</string>
     <string name="drawer_close">Close drawer</string>
-    <string name="CardEditorCardDeck">Dek kad:</string>
-    <string name="CardEditorNoteDeck">Dek:</string>
-    <string name="CardEditorModel">Jenis:</string>
+    <string name="CardEditorCardDeck">Card deck:</string>
+    <string name="CardEditorNoteDeck">Deck:</string>
+    <string name="CardEditorModel">Type:</string>
     <string name="CardEditorTags">Tags: %1$s</string>
-    <string name="CardEditorCards">Kad: %1$s</string>
-    <string name="tag_name">Tag nama</string>
-    <string name="add_new_filter_tags">Tambah/penapis tag</string>
-    <string name="add_tag">Tambah tag</string>
-    <string name="check_all_tags">Semak/Buang tanda semua tag</string>
+    <string name="CardEditorCards">Cards: %1$s</string>
+    <string name="tag_name">Tag name</string>
+    <string name="add_new_filter_tags">Add/filter tags</string>
+    <string name="add_tag">Add tag</string>
+    <string name="check_all_tags">Check/uncheck all tags</string>
     <string name="filter_tags">Filter tags</string>
-    <string name="no_tags">Ou tidak berkata apa-apa lagi tag</string>
-    <string name="updated_version">Dikemaskini untuk versi %s</string>
+    <string name="no_tags">You haven’t added any tags yet</string>
+    <string name="updated_version">Updated to version %s</string>
     <!-- Reviewer.kt -->
     <string name="save_whiteboard">Save whiteboard</string>
-    <string name="enable_whiteboard">Dayakan papan putih</string>
-    <string name="disable_whiteboard">Menyahdayakan papan putih</string>
-    <string name="show_whiteboard">Menunjukkan papan putih</string>
-    <string name="hide_whiteboard">Sembunyi papan putih</string>
-    <string name="clear_whiteboard">Padam papan putih</string>
-    <string name="replay_audio">Main semula audio</string>
-    <string name="leech_suspend_notification">Kad ditandai seperti lintah dan digantung</string>
+    <string name="enable_whiteboard">Enable whiteboard</string>
+    <string name="disable_whiteboard">Disable whiteboard</string>
+    <string name="show_whiteboard">Show whiteboard</string>
+    <string name="hide_whiteboard">Hide whiteboard</string>
+    <string name="clear_whiteboard">Clear whiteboard</string>
+    <string name="replay_audio">Replay audio</string>
+    <string name="leech_suspend_notification">Card marked as leech and suspended</string>
     <string name="leech_notification">Card marked as leech</string>
-    <string name="corrupt_font">Fail font rosak %s</string>
+    <string name="corrupt_font">Corrupt font file %s</string>
     <string name="webview_crash_unknown">Unknown error</string>
     <string name="webview_crash_unknwon_detailed">This was caused by an internal error in the WebView</string>
     <string name="webview_crash_oom">Out of Memory</string>
@@ -82,18 +77,18 @@
     <string name="webview_crash_loop_dialog_content">System WebView failed to render card \'%1$s\'.\n %2$s</string>
     <!-- Browser -->
     <string-array name="browser_column1_headings">
-        <item>Soalan</item>
+        <item>Question</item>
         <item>Sort field</item>
     </string-array>
     <string-array name="browser_column2_headings">
-        <item>Jawapan</item>
-        <item>Kad</item>
-        <item>Dek</item>
-        <item>Nota</item>
-        <item>Soalan</item>
+        <item>Answer</item>
+        <item>Card</item>
+        <item>Deck</item>
+        <item>Note</item>
+        <item>Question</item>
         <item>Tags</item>
         <item>Lapses</item>
-        <item>Ulasan</item>
+        <item>Reviews</item>
         <item>Interval</item>
         <item>Ease</item>
         <item>Due</item>
@@ -104,28 +99,28 @@
     <!-- Custom study options -->
     <string name="custom_study_increase_new_limit">Modify today’s new card limit</string>
     <string name="custom_study_increase_review_limit">Modify today’s review card limit</string>
-    <string name="custom_study_review_forgotten">Kajian lupa kad</string>
+    <string name="custom_study_review_forgotten">Review forgotten cards</string>
     <string name="custom_study_review_ahead">Review ahead</string>
-    <string name="custom_study_random_selection">Belajar pilihan rawak kad</string>
-    <string name="custom_study_preview_new">Pratonton kad baru</string>
-    <string name="custom_study_limit_tags">Batas tertentu tag</string>
+    <string name="custom_study_random_selection">Study a random selection of cards</string>
+    <string name="custom_study_preview_new">Preview new cards</string>
+    <string name="custom_study_limit_tags">Limit to particular tags</string>
     <!-- Card editor -->
-    <string name="cardeditor_title_edit_card">Edit nota</string>
-    <string name="discard_unsaved_changes">Dekat dan hilang semasa input?</string>
+    <string name="cardeditor_title_edit_card">Edit note</string>
+    <string name="discard_unsaved_changes">Close and lose current input?</string>
     <string name="note_editor_no_cards_created">No cards created. Please fill in more fields</string>
     <string name="note_editor_no_first_field">The first field is empty</string>
     <string name="note_editor_no_cloze_delations">This note type must contain cloze deletions</string>
     <string name="note_editor_no_cards_created_all_fields">The current note type did not produce any cards.\nPlease choose another note type, or click ‘Cards’ and add a field substitution</string>
     <string name="note_editor_insert_cloze_no_cloze_note_type">Cloze deletions will only work on a Cloze note type</string>
-    <string name="saving_facts">Menyimpan Nota</string>
+    <string name="saving_facts">Saving note</string>
     <string name="saving_model">Saving note type</string>
-    <string name="save">Simpan</string>
-    <string name="close">Tutup</string>
-    <string name="select">Pilih</string>
-    <string name="saving_changes">Menyimpan perubahan&#8230;</string>
-    <string name="reordering_cards">Penyusunan semula Kad&#8230;</string>
-    <string name="field_remapping">%1$s (daripada \"%2$s\")</string>
-    <string name="confirm_map_cards_to_nothing">Apa kad dipetakan untuk tiada apa-apa akan dihapuskan. Jika nota tidak mempunyai baki kad, ia akan hilang. Adakah anda pasti anda mahu untuk terus?</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="select">Select</string>
+    <string name="saving_changes">Saving changes&#8230;</string>
+    <string name="reordering_cards">Reordering cards&#8230;</string>
+    <string name="field_remapping">%1$s (from “%2$s”)</string>
+    <string name="confirm_map_cards_to_nothing">Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?</string>
     <string name="timebox_reached_title">Timebox reached</string>
     <plurals name="timebox_reached">
         <item quantity="other">%1$d cards studied in %2$s</item>
@@ -134,16 +129,16 @@
     <plurals name="in_minutes">
         <item quantity="other">%1$d minutes</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">Kad AnkiDroid</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid card</string>
     <string name="note_editor_copy_note">Copy note</string>
     <string name="card_editor_reposition_card">Reposition</string>
     <string name="card_editor_reset_card">Reset progress</string>
     <string name="card_editor_reschedule_card" comment="Action to reschedule a card">Reschedule</string>
     <string name="card_editor_preview_card" comment="Button offering to preview some card(s)">Preview</string>
     <string name="preview_progress_bar_text" comment="What card we are on out of how many in card previewer progress bar">%1$d of %2$d</string>
-    <string name="error_insufficient_memory">Operasi ini tidak mungkin disebabkan oleh memori yang tidak mencukupi pada anda peranti</string>
+    <string name="error_insufficient_memory">Operation not possible due to insufficient memory on your device</string>
     <string name="rename" comment="Confirm that the renaming action should be processed.">Rename</string>
-    <string name="default_conf_delete_error">Pilihan lalai kumpulan tidak boleh dikeluarkan</string>
+    <string name="default_conf_delete_error">The default options group can’t be removed</string>
     <plurals name="factadder_cards_added">
         <item quantity="other">%d cards added</item>
     </plurals>
@@ -151,14 +146,14 @@
     <string name="check_media">Check media</string>
     <string name="empty_cards">Empty cards</string>
     <string name="check_db_message">Checking database&#8230;</string>
-    <string name="empty_card_warning">Ini kad adalah kosong. Gunakan \"Kosong kad\" pilihan dari menu di dek skrin senarai.</string>
+    <string name="empty_card_warning">This card is empty. Use the “Empty cards” option from the menu on the deck list screen.</string>
     <string name="unknown_type_field_warning">Type answer: unknown field %s</string>
     <string name="delete_deck">Deleting deck&#8230;</string>
     <string name="show_hint">Show %s</string>
     <string name="info_rate">Rate AnkiDroid</string>
     <string name="import_title">Importing</string>
     <string name="import_message_add" comment="Adding a new deck to the collection (import)">Add</string>
-    <string name="import_message_replace_confirm">Ini akan memadam ada koleksi dan menggantikannya dengan data file %s</string>
+    <string name="import_message_replace_confirm">This will delete your existing collection and replace it with the data of file %s</string>
     <plurals name="import_files_message_add_confirm">
         <item quantity="other">Do you want to import the following files:\n%s\nThis may take a long time</item>
     </plurals>
@@ -175,7 +170,7 @@
     <string name="import_error_exception">Failed to import package\n\n%s</string>
     <string name="import_error_not_apkg_extension">Filename “%s” doesn’t have .apkg or .colpkg extension</string>
     <string name="import_error_load_imported_database">Anki Database (.anki2) replacements are not yet supported. Please see the manual for replacement instructions.</string>
-    <string name="import_error_content_provider">Yang dipilih file tidak bisa menjadi diimport secara automatik dengan apa yang anda perlu lakukan. Sila lihat manual untuk bagaimana untuk manual import terbesar fail: \n%s</string>
+    <string name="import_error_content_provider">The selected file couldn’t be imported automatically by AnkiDroid. Please see the user manual for how to manually import anki files: \n%s</string>
     <string name="import_error_copy_file_to_cache">copyFileToCache() failed (possibly out of storage space)</string>
     <string name="import_error_unhandled_scheme">Unhandled import from: “%s”</string>
     <string name="import_error_multiple_colpkg">Multiple colpkg files were selected.</string>
@@ -210,12 +205,12 @@
     <string name="select_tts">Set TTS language</string>
     <string name="custom_study">Custom study</string>
     <string name="more_options">More</string>
-    <string name="dyn_deck_desc">Ini adalah dek khas untuk belajar di luar jadual biasa. Kad secara automatik akan kembali ke asal mereka dek setelah anda memberi ulasan mereka. Memotong dek ini dari dek senarai akan kembali semua selebihnya kad ke asal mereka dek.</string>
-    <string name="steps_error">Langkah-langkah harus jumlah yang lebih besar daripada 0</string>
+    <string name="dyn_deck_desc">This is a special deck for studying outside of the normal schedule. Cards will be automatically returned to their original decks after you review them. Deleting this deck from the deck list will return all remaining cards to their original deck.</string>
+    <string name="steps_error">Steps must be numbers greater than 0</string>
     <string name="steps_min_error">At least one step is required</string>
     <string name="sched_end">(end)</string>
-    <string name="sched_unbury_action">Untuk melihat mereka sekarang sentuh \"Unbury\" item di menu</string>
-    <string name="sched_has_buried">Beberapa berkaitan atau dikubur kad telah ditangguhkan sampai besok</string>
+    <string name="sched_unbury_action">To see them now touch the “Unbury” item in the menu</string>
+    <string name="sched_has_buried">Some related or buried cards were delayed until tomorrow</string>
     <string name="tag_editor_add_feedback">Touch “%2$s” to confirm adding “%1$s”</string>
     <string name="tag_editor_add_feedback_existing">Existing tag “%1$s” selected</string>
     <!-- Time spans -->
@@ -223,19 +218,19 @@
         <item quantity="other">%s seconds</item>
     </plurals>
     <plurals name="time_span_minutes">
-        <item quantity="other">%s minit</item>
+        <item quantity="other">%s minutes</item>
     </plurals>
     <plurals name="time_span_hours">
-        <item quantity="other">%s jam</item>
+        <item quantity="other">%s hours</item>
     </plurals>
     <plurals name="time_span_days">
-        <item quantity="other">%s hari</item>
+        <item quantity="other">%s days</item>
     </plurals>
     <plurals name="time_span_months">
-        <item quantity="other">%s bulan</item>
+        <item quantity="other">%s months</item>
     </plurals>
     <plurals name="time_span_years">
-        <item quantity="other">%s tahun</item>
+        <item quantity="other">%s years</item>
     </plurals>
     <!-- A decimal number of seconds.
     Please give this a best-effort translation and explain the requirements for
@@ -245,15 +240,15 @@
          languages which apparently use the other symbol to mean less
          than. -->
     <string name="less_than_time">&lt; %s</string>
-    <string name="decks_rename_exists">Dek itu sudah wujud</string>
-    <string name="decks_rename_filtered_nosubdecks">Ditapis dek tidak mempunyai subdecks</string>
-    <string name="filtered_deck_name">Dek yang ditapis</string>
-    <string name="reminder_title">Screened decks don\'t have subdecks!</string>
+    <string name="decks_rename_exists">That deck already exists</string>
+    <string name="decks_rename_filtered_nosubdecks">A filtered deck cannot have subdecks</string>
+    <string name="filtered_deck_name">Filtered Deck</string>
+    <string name="reminder_title">Do not forget to study today!</string>
     <plurals name="reminder_text">
         <item quantity="other">%2$d cards to review in %1$s</item>
     </plurals>
     <!-- Currently only used if exporting APKG fails -->
-    <string name="apk_share_error">Ralat perkongsian apkg file</string>
+    <string name="apk_share_error">Error sharing apkg file</string>
     <!-- Import and export v2 feedback -->
     <string name="export_v2_dummy_note">This file requires a newer version of Anki.</string>
     <!-- Placed in a snackbar with a long URL. Limit the length and move the URL to the start of the string -->

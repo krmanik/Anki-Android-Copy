@@ -1,36 +1,36 @@
-Memorizálj bármit az AnkiDroiddal!
+Memorize anything with AnkiDroid!
 
-Az AnkiDroid segítségével hatékonyan tanulhatsz szókártyákat, mert akkor szedi elő újra őket, mielőtt elfelejtenéd. Teljen kompatibilis és szinkronizálható az Anki nevű késleltetett ismétléses programmal, amely elérhető Windowson, Linuxon és MaxOS-en is.
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-Tanulj meg akármit, bármikor, bárhol, ha rád tör a tanulhatnék! Használd ki jól a buszozás, sorban állás, vagy másféle várakozás miatt kieső időt!
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-Készíts saját tanulókártya paklit, vagy tölts le néhányat a több, mint 6000, különböző témájú és nyelvű ingyen elérhető pakli közül!
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-Adj új szavakat a paklihoz az asztali Ankival, vagy közvetlenül az AnkiDroiddal. Az alkalmazással akár automatikusan is tudsz szavakat hozzáadni egy szótárból!
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ Fő funkciók:
-• támogatott szókártya tartalmak: szöveg, kép, hang, LaTeX
-• késleltetett ismétlés (supermemo 2 algoritmus)
-• szöveg-beszéd integráció
-• több, mint 6000 előre előkészített pakli
-• előrehaladás widget
-• részletes statisztikák
-• AnkiWeb szinkronizálás
-• nyílt forráskódú
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
+• spaced repetition (supermemo 2 algorithm)
+• text-to-speech integration
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
+• open source
 
-★ További funkciók:
-• válaszok beírása (lehetőség)
-• rajztábla
-• kártya szerkesztő/létrehozó
-• kártya böngésző
-• tabletre optimalizált elrendezés
-• importáld már meglévő gyűjteményed (Anki Desktoppal)
-• kártyák hozzáadása más programokból (pl. szótárak)
-• egyéni betűtípus támogatás
-• teljes mentési rendszer
-• navigáció söpréssel, lenyomással
-• testreszabható
-dinamikus pakli kezelés
-• éjszakai mód
-• 27 fordítás
-• minden korábbi AnkiDroid verzió letölthető a honlapról
+★ Additional features:
+• write answers (optional)
+• whiteboard
+• card editor/adder
+• card browser
+• tablet layout
+• import existing collection files (via Anki Desktop)
+• add cards by intent from other applications like dictionaries
+• custom font support
+• full backup system
+• navigation by swipe, tap
+• customisable
+• dynamic deck handling
+• night mode
+• 27 localisations
+• All previous AnkiDroid versions can be downloaded from the website

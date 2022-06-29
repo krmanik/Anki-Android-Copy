@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -45,21 +40,21 @@
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- How to format a percentage shown in the summary field of a preference -->
-    <string name="preference_summary_percentage">XXX %</string>
+    <string name="preference_summary_percentage">XXX%</string>
     <!-- Navigation drawer strings -->
-    <string name="drawer_open">Siyirməni aç</string>
-    <string name="drawer_close">Siyirməni bağla</string>
-    <string name="CardEditorCardDeck">Kart dəsti:</string>
-    <string name="CardEditorNoteDeck">Dəst:</string>
-    <string name="CardEditorModel">Növ:</string>
-    <string name="CardEditorTags">Etiketlər: %1$s</string>
-    <string name="CardEditorCards">Kartlar: %1$s</string>
-    <string name="tag_name">Etiket adı</string>
-    <string name="add_new_filter_tags">Etiket əlavə et/filtrlə</string>
-    <string name="add_tag">Etiket əlavə et</string>
-    <string name="check_all_tags">Bütün etiketləri işarələ/işarələmə</string>
-    <string name="filter_tags">Etiketləri filtrlə</string>
-    <string name="no_tags">Hələki heç bir etiket əlavə etməmisiniz.</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="CardEditorCardDeck">Card deck:</string>
+    <string name="CardEditorNoteDeck">Deck:</string>
+    <string name="CardEditorModel">Type:</string>
+    <string name="CardEditorTags">Tags: %1$s</string>
+    <string name="CardEditorCards">Cards: %1$s</string>
+    <string name="tag_name">Tag name</string>
+    <string name="add_new_filter_tags">Add/filter tags</string>
+    <string name="add_tag">Add tag</string>
+    <string name="check_all_tags">Check/uncheck all tags</string>
+    <string name="filter_tags">Filter tags</string>
+    <string name="no_tags">You haven’t added any tags yet</string>
     <string name="updated_version">Updated to version %s</string>
     <!-- Reviewer.kt -->
     <string name="save_whiteboard">Save whiteboard</string>

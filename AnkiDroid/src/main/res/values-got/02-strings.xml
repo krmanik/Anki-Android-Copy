@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -49,25 +44,25 @@
     <!-- Navigation drawer strings -->
     <string name="drawer_open">Open drawer</string>
     <string name="drawer_close">Close drawer</string>
-    <string name="CardEditorCardDeck">Kartawiko:</string>
-    <string name="CardEditorNoteDeck">Wiko:</string>
-    <string name="CardEditorModel">Haidus:</string>
-    <string name="CardEditorTags">Sokeiniwaurda: %1$s</string>
-    <string name="CardEditorCards">Kartos: %1$s</string>
-    <string name="tag_name">Namo sokeiniwaurdis</string>
+    <string name="CardEditorCardDeck">Card deck:</string>
+    <string name="CardEditorNoteDeck">Deck:</string>
+    <string name="CardEditorModel">Type:</string>
+    <string name="CardEditorTags">Tags: %1$s</string>
+    <string name="CardEditorCards">Cards: %1$s</string>
+    <string name="tag_name">Tag name</string>
     <string name="add_new_filter_tags">Add/filter tags</string>
-    <string name="add_tag">Biaik sokeiniwaurd</string>
+    <string name="add_tag">Add tag</string>
     <string name="check_all_tags">Check/uncheck all tags</string>
     <string name="filter_tags">Filter tags</string>
-    <string name="no_tags">Nauh ni biaiaukt sokeiniwaurd</string>
+    <string name="no_tags">You haven’t added any tags yet</string>
     <string name="updated_version">Updated to version %s</string>
     <!-- Reviewer.kt -->
     <string name="save_whiteboard">Save whiteboard</string>
-    <string name="enable_whiteboard">Brukei ƕeitabaurd</string>
-    <string name="disable_whiteboard">Unsatei ƕeitabaurd</string>
-    <string name="show_whiteboard">Ataugei ƕeitabaurd</string>
-    <string name="hide_whiteboard">Affilh ƕeitabaurd</string>
-    <string name="clear_whiteboard">Swairb ƕeitabaurd</string>
+    <string name="enable_whiteboard">Enable whiteboard</string>
+    <string name="disable_whiteboard">Disable whiteboard</string>
+    <string name="show_whiteboard">Show whiteboard</string>
+    <string name="hide_whiteboard">Hide whiteboard</string>
+    <string name="clear_whiteboard">Clear whiteboard</string>
     <string name="replay_audio">Replay audio</string>
     <string name="leech_suspend_notification">Card marked as leech and suspended</string>
     <string name="leech_notification">Card marked as leech</string>
@@ -82,18 +77,18 @@
     <string name="webview_crash_loop_dialog_content">System WebView failed to render card \'%1$s\'.\n %2$s</string>
     <!-- Browser -->
     <string-array name="browser_column1_headings">
-        <item>Sokns</item>
+        <item>Question</item>
         <item>Sort field</item>
     </string-array>
     <string-array name="browser_column2_headings">
-        <item>Andahafts</item>
-        <item>Karta</item>
-        <item>Wiko</item>
-        <item>Meleins</item>
-        <item>Bida</item>
-        <item>Sokeiniwaurda</item>
+        <item>Answer</item>
+        <item>Card</item>
+        <item>Deck</item>
+        <item>Note</item>
+        <item>Question</item>
+        <item>Tags</item>
         <item>Lapses</item>
-        <item>Domeinos</item>
+        <item>Reviews</item>
         <item>Interval</item>
         <item>Ease</item>
         <item>Due</item>
@@ -107,10 +102,10 @@
     <string name="custom_study_review_forgotten">Review forgotten cards</string>
     <string name="custom_study_review_ahead">Review ahead</string>
     <string name="custom_study_random_selection">Study a random selection of cards</string>
-    <string name="custom_study_preview_new">Faurasaihv niujos kartos</string>
+    <string name="custom_study_preview_new">Preview new cards</string>
     <string name="custom_study_limit_tags">Limit to particular tags</string>
     <!-- Card editor -->
-    <string name="cardeditor_title_edit_card">Inmaidei melein</string>
+    <string name="cardeditor_title_edit_card">Edit note</string>
     <string name="discard_unsaved_changes">Close and lose current input?</string>
     <string name="note_editor_no_cards_created">No cards created. Please fill in more fields</string>
     <string name="note_editor_no_first_field">The first field is empty</string>
@@ -119,12 +114,12 @@
     <string name="note_editor_insert_cloze_no_cloze_note_type">Cloze deletions will only work on a Cloze note type</string>
     <string name="saving_facts">Saving note</string>
     <string name="saving_model">Saving note type</string>
-    <string name="save">Gafast</string>
-    <string name="close">Luk</string>
-    <string name="select">Walei</string>
-    <string name="saving_changes">Inmaideinos gafastand&#8230;</string>
-    <string name="reordering_cards">Kartos aftra atgaraihtjand&#8230;</string>
-    <string name="field_remapping">%1$s (fram \'%2$s\')</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="select">Select</string>
+    <string name="saving_changes">Saving changes&#8230;</string>
+    <string name="reordering_cards">Reordering cards&#8230;</string>
+    <string name="field_remapping">%1$s (from “%2$s”)</string>
     <string name="confirm_map_cards_to_nothing">Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?</string>
     <string name="timebox_reached_title">Timebox reached</string>
     <plurals name="timebox_reached">
@@ -136,15 +131,15 @@
         <item quantity="one">%1$d minute</item>
         <item quantity="other">%1$d minutes</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid karta</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid card</string>
     <string name="note_editor_copy_note">Copy note</string>
     <string name="card_editor_reposition_card">Reposition</string>
     <string name="card_editor_reset_card">Reset progress</string>
     <string name="card_editor_reschedule_card" comment="Action to reschedule a card">Reschedule</string>
-    <string name="card_editor_preview_card" comment="Button offering to preview some card(s)">Faurasaihv</string>
+    <string name="card_editor_preview_card" comment="Button offering to preview some card(s)">Preview</string>
     <string name="preview_progress_bar_text" comment="What card we are on out of how many in card previewer progress bar">%1$d of %2$d</string>
     <string name="error_insufficient_memory">Operation not possible due to insufficient memory on your device</string>
-    <string name="rename" comment="Confirm that the renaming action should be processed.">Gif niujata namo</string>
+    <string name="rename" comment="Confirm that the renaming action should be processed.">Rename</string>
     <string name="default_conf_delete_error">The default options group can’t be removed</string>
     <plurals name="factadder_cards_added">
         <item quantity="one">%d card added</item>
@@ -152,15 +147,15 @@
     </plurals>
     <string name="check_db">Check database</string>
     <string name="check_media">Check media</string>
-    <string name="empty_cards">Lausos kartos</string>
+    <string name="empty_cards">Empty cards</string>
     <string name="check_db_message">Checking database&#8230;</string>
     <string name="empty_card_warning">This card is empty. Use the “Empty cards” option from the menu on the deck list screen.</string>
-    <string name="unknown_type_field_warning">Melei andahaft: unkunþs staþs %s</string>
-    <string name="delete_deck">Wiko usnimand&#8230;</string>
-    <string name="show_hint">Ataugei %s</string>
+    <string name="unknown_type_field_warning">Type answer: unknown field %s</string>
+    <string name="delete_deck">Deleting deck&#8230;</string>
+    <string name="show_hint">Show %s</string>
     <string name="info_rate">Rate AnkiDroid</string>
     <string name="import_title">Importing</string>
-    <string name="import_message_add" comment="Adding a new deck to the collection (import)">Biauk</string>
+    <string name="import_message_add" comment="Adding a new deck to the collection (import)">Add</string>
     <string name="import_message_replace_confirm">This will delete your existing collection and replace it with the data of file %s</string>
     <plurals name="import_files_message_add_confirm">
         <item quantity="one">Add “%s” to collection? This may take a long time</item>
@@ -211,13 +206,13 @@
     <string name="study_options" comment="Name for a preference category in Filtered deck (aka Cram deck, aka Custom study) options">Options</string>
     <string name="menu__deck_options">Deck options</string>
     <string name="menu__study_options" comment="Menu item that opens options for a Filtered deck (aka Cram deck, aka Custom study)">Study options</string>
-    <string name="select_tts">Satei bokos-du-stibnai razda</string>
-    <string name="custom_study">Anþara laiseins</string>
-    <string name="more_options">Mais</string>
+    <string name="select_tts">Set TTS language</string>
+    <string name="custom_study">Custom study</string>
+    <string name="more_options">More</string>
     <string name="dyn_deck_desc">This is a special deck for studying outside of the normal schedule. Cards will be automatically returned to their original decks after you review them. Deleting this deck from the deck list will return all remaining cards to their original deck.</string>
     <string name="steps_error">Steps must be numbers greater than 0</string>
-    <string name="steps_min_error">Mais þau aina griþs binah</string>
-    <string name="sched_end">(andeis)</string>
+    <string name="steps_min_error">At least one step is required</string>
+    <string name="sched_end">(end)</string>
     <string name="sched_unbury_action">To see them now touch the “Unbury” item in the menu</string>
     <string name="sched_has_buried">Some related or buried cards were delayed until tomorrow</string>
     <string name="tag_editor_add_feedback">Touch “%2$s” to confirm adding “%1$s”</string>
@@ -232,20 +227,20 @@
         <item quantity="other">%s minutes</item>
     </plurals>
     <plurals name="time_span_hours">
-        <item quantity="one">%s hveila</item>
-        <item quantity="other">%s hveilos</item>
+        <item quantity="one">%s hour</item>
+        <item quantity="other">%s hours</item>
     </plurals>
     <plurals name="time_span_days">
-        <item quantity="one">%s dags</item>
-        <item quantity="other">%s dagos</item>
+        <item quantity="one">%s day</item>
+        <item quantity="other">%s days</item>
     </plurals>
     <plurals name="time_span_months">
-        <item quantity="one">%s menoþs</item>
-        <item quantity="other">%s menoþs</item>
+        <item quantity="one">%s month</item>
+        <item quantity="other">%s months</item>
     </plurals>
     <plurals name="time_span_years">
-        <item quantity="one">%s jer</item>
-        <item quantity="other">%s jera</item>
+        <item quantity="one">%s year</item>
+        <item quantity="other">%s years</item>
     </plurals>
     <!-- A decimal number of seconds.
     Please give this a best-effort translation and explain the requirements for

@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -44,32 +39,31 @@
 ~ this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <string name="yes">oo</string>
+    <string name="yes">yes</string>
     <!-- Navigation drawer items-->
     <string name="decks">Decks</string>
-    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">Kard browser</string>
-    <string name="statistics">Istatistika</string>
-    <string name="settings">Ang mga setting</string>
-    <string name="help">Tulong</string>
-    <string name="drawing">pagguhit</string>
-    <string name="send_feedback">Magpadala ng tugun</string>
-    <string name="studyoptions_due_today">Nakatakda ngayon:</string>
-    <string name="studyoptions_new_total">Bilang ng mga bagong Kard:</string>
-    <string name="studyoptions_total_cards">Kabuuan ng mga kard:</string>
-    <string name="studyoptions_eta">Tinatayang oras (minuto):</string>
-    <string name="studyoptions_start">Pag-aaral</string>
+    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">Card browser</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="drawing">Drawing</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="studyoptions_due_today">Due today:</string>
+    <string name="studyoptions_new_total">Total new cards:</string>
+    <string name="studyoptions_total_cards">Total cards:</string>
+    <string name="studyoptions_eta">Estimated time (min):</string>
+    <string name="studyoptions_start">Study</string>
     <!-- DeckPicker.kt -->
-    <string name="expand">Palawakin</string>
-    <string name="collapse">Itiklop</string>
-    <string name="study_more">Suriin ang iba pa</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="study_more">Study more</string>
     <plurals name="deckpicker_title">
-        <item quantity="one">%1$d Kard na nakatakda (%2$s)</item>
-        <item quantity="other">%1$d nakatakdang kard (%2$s)</item>
+        <item quantity="one">%1$d card due (%2$s)</item>
+        <item quantity="other">%1$d cards due (%2$s)</item>
     </plurals>
     <plurals name="reviewer_window_title">
-        <item quantity="one">%d natitirang minuto
-mga natitirang minuto</item>
-        <item quantity="other">%d minutong natitira</item>
+        <item quantity="one">%d minute left</item>
+        <item quantity="other">%d minutes left</item>
     </plurals>
     <plurals name="reviewer_window_title_hours_new">
         <item quantity="one">%1$d hour %2$d left</item>
@@ -79,45 +73,45 @@ mga natitirang minuto</item>
         <item quantity="one">%1$d day %2$d left</item>
         <item quantity="other">%1$d days %2$d left</item>
     </plurals>
-    <string name="no_cards_placeholder_title">Walang laman ang tipon</string>
-    <string name="no_cards_placeholder_description">Magsimula idadag ang mga cards\nusing the + icon.</string>
+    <string name="no_cards_placeholder_title">Collection is empty</string>
+    <string name="no_cards_placeholder_description">Start adding cards\nusing the + icon.</string>
     <!-- The deck picker via AnkiStatsTaskHandler.java -->
     <plurals name="studied_cards_today">
-        <item quantity="one">Nag-aral ng %1$d kard sa %2$s ngayon</item>
-        <item quantity="other">Nag-aral ng %1$d kard sa %2$s ngayon</item>
+        <item quantity="one">Studied %1$d card in %2$s today</item>
+        <item quantity="other">Studied %1$d cards in %2$s today</item>
     </plurals>
     <!-- flashcard_portrait.xml -->
-    <string name="type_answer_hint">I-type ang sagot</string>
-    <string name="show_answer">Ipakita ang sagot</string>
-    <string name="hide_answer">Itago ang sagot</string>
-    <string name="ease_button_again">Muli</string>
-    <string name="ease_button_hard">Mahirap</string>
-    <string name="ease_button_good">Mabuti</string>
-    <string name="ease_button_easy">Madali</string>
-    <string name="studyoptions_congrats_undo">Bumalik sa dati %s</string>
-    <string name="menu_import">I - import</string>
-    <string name="undo">Bumalik sa dati</string>
-    <string name="undo_action_review">huling pagsusuri</string>
-    <string name="undo_action_change_deck_multi">Baguhin ang mga decks</string>
-    <string name="move_all_to_deck">Iusong lahat sa deck</string>
-    <string name="unbury">Hukayin muli</string>
-    <string name="rename_deck">Palitan ang pangalan ng deck</string>
-    <string name="create_shortcut">Gumawa ng daang tuwiran</string>
-    <string name="browse_cards">Supling ang mga cards</string>
-    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">Idagdag</string>
-    <string name="menu_add_note">Magdagdag ng tala</string>
-    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can\'t be found in AnkiDroid directly.">I-sync ang account</string>
-    <string name="menu_dismiss_note">Itago / burahin</string>
-    <string name="menu_bury_card">Ilibing ang kard</string>
-    <string name="menu_bury_note">Ilibing ang tala</string>
-    <string name="menu_suspend_card">Suspindihin ang kard</string>
-    <string name="menu_suspend_note">Suspindihin ang tala</string>
-    <string name="menu_bury">Ilibing</string>
-    <string name="menu_suspend">Suspindihin</string>
-    <string name="menu_delete_note">Burahin ang tala</string>
-    <string name="menu_flag">Watawat</string>
-    <string name="menu_flag_card">Card ng isang watawat</string>
-    <string name="menu_flag_card_zero">Walang watawat</string>
+    <string name="type_answer_hint">Type answer</string>
+    <string name="show_answer">Show answer</string>
+    <string name="hide_answer">Hide answer</string>
+    <string name="ease_button_again">Again</string>
+    <string name="ease_button_hard">Hard</string>
+    <string name="ease_button_good">Good</string>
+    <string name="ease_button_easy">Easy</string>
+    <string name="studyoptions_congrats_undo">Undo %s</string>
+    <string name="menu_import">Import</string>
+    <string name="undo">Undo</string>
+    <string name="undo_action_review">last review</string>
+    <string name="undo_action_change_deck_multi">change decks</string>
+    <string name="move_all_to_deck">Move all to deck</string>
+    <string name="unbury">Unbury</string>
+    <string name="rename_deck">Rename deck</string>
+    <string name="create_shortcut">Create shortcut</string>
+    <string name="browse_cards">Browse cards</string>
+    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">Add</string>
+    <string name="menu_add_note">Add note</string>
+    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can\'t be found in AnkiDroid directly.">Sync account</string>
+    <string name="menu_dismiss_note">Hide / delete</string>
+    <string name="menu_bury_card">Bury card</string>
+    <string name="menu_bury_note">Bury note</string>
+    <string name="menu_suspend_card">Suspend card</string>
+    <string name="menu_suspend_note">Suspend note</string>
+    <string name="menu_bury">Bury</string>
+    <string name="menu_suspend">Suspend</string>
+    <string name="menu_delete_note">Delete note</string>
+    <string name="menu_flag">Flag</string>
+    <string name="menu_flag_card">Flag card</string>
+    <string name="menu_flag_card_zero">No flag</string>
     <string name="menu_flag_card_one">Red flag</string>
     <string name="menu_flag_card_two">Orange flag</string>
     <string name="menu_flag_card_three">Green flag</string>
@@ -126,14 +120,14 @@ mga natitirang minuto</item>
     <string name="menu_flag_card_six">Turquoise flag</string>
     <string name="menu_flag_card_seven">Purple flag</string>
     <string name="menu_edit_tags">Edit tags</string>
-    <string name="delete_note_message">Talaga bang gusto mong burahin ang talang ito at pati na rin ang lahat ngmga kard?\n%s</string>
-    <string name="menu_search">Hanapin sa %1$s</string>
-    <string name="menu_mark_note">Markahan ang tala</string>
-    <string name="menu_unmark_note">Alisin ang marka ng tala</string>
+    <string name="delete_note_message">Really delete this note and all its cards?\n%s</string>
+    <string name="menu_search">Lookup in %1$s</string>
+    <string name="menu_mark_note">Mark note</string>
+    <string name="menu_unmark_note">Unmark note</string>
     <string name="menu_toggle_mic_tool_bar">Check pronunciation</string>
-    <string name="new_deck">Gumawa ng deck</string>
-    <string name="new_dynamic_deck">Gumawa ng na-filter na deck</string>
-    <string name="directory_inaccessible">Ang AnkiDroid directory ay hindi mahanap</string>
+    <string name="new_deck">Create deck</string>
+    <string name="new_dynamic_deck">Create filtered deck</string>
+    <string name="directory_inaccessible">AnkiDroid directory is inaccessible</string>
     <!--This is shown when AnkiDroid starts up with no storage permissions.
     The user is taken to the "App Info" screen, and needs to click "Permissions" and
     grant AnkiDroid the \'Storage\' permission. This needs to be a fairly generic message as implementations
@@ -156,55 +150,55 @@ mga natitirang minuto</item>
     <string name="time_quantity_years">%.1f yr</string>
     <!-- or "%.1f a" -->
     <string name="rebuild_filtered_deck">Rebuilding filtered deck&#8230;</string>
-    <string name="rebuild_cram_label">Muling itayo</string>
-    <string name="empty_cram_label">Walang laman</string>
+    <string name="rebuild_cram_label">Rebuild</string>
+    <string name="empty_cram_label">Empty</string>
     <string name="create_subdeck">Create subdeck</string>
     <string name="empty_filtered_deck">Emptying filtered deck&#8230;</string>
-    <string name="custom_study_deck_name">I-custom ang study session</string>
-    <string name="custom_study_deck_exists">Baguhin muna ang pangalan ng existing custom study deck</string>
-    <string name="empty_deck">Ang deck na ito ay walang laman</string>
+    <string name="custom_study_deck_name">Custom study session</string>
+    <string name="custom_study_deck_exists">Rename the existing custom study deck first</string>
+    <string name="empty_deck">This deck is empty</string>
     <string name="search_deck" comment="Deck search for selecting it">Deck Search</string>
     <string name="search_for_download_deck" comment="Deck search value for downloading deck">Deck Search</string>
     <string name="empty_deck_add_note">Add card</string>
     <string name="invalid_deck_name">Invalid deck name</string>
-    <string name="studyoptions_empty">Ang deck na ito ay walang laman. Pindotin ang + na button para magdagdag ng laman.</string>
-    <string name="studyoptions_limit_reached">Ang pang araw - araw na pag - aaral ay naabot na</string>
-    <string name="studyoptions_empty_schedule">Walang kard na nakatakdang pag-aralan</string>
-    <string name="studyoptions_congrats_finished">Congratulations! Natapos mo na para sa ngayon.</string>
-    <string name="studyoptions_congrats_more_rev">Ang limitasyon sa araw na ito ay naabot na, ngunit mayroon pang mga kard na kailangang suriin. Maaaring mong dagdagan ang limistayon sa mga pagpipilian.</string>
-    <string name="studyoptions_congrats_more_new">Ang limitasyon sa araw na ito ay naabot na. Mayroong pang mga bagong kard na magagamit; maaari mong dagdagan ang limitasyon sa mga opsyon, ngunit dadagdagan nito ang iyong mga panandaliang workload ng pagsusuri.</string>
-    <string name="studyoptions_congrats_custom">Para mag-aral sa labas ng normal na iskedyul, pindutin ang pindutan ng \"Pasadyang pag-aaral\"</string>
-    <string name="studyoptions_no_cards_due">Walang kard na nakatakda pa</string>
-    <string name="sd_card_not_mounted">Ang device storage ay hindi nakataas</string>
+    <string name="studyoptions_empty">This deck is empty. Press the + button to add new content.</string>
+    <string name="studyoptions_limit_reached">Daily study limit reached</string>
+    <string name="studyoptions_empty_schedule">No cards scheduled to study</string>
+    <string name="studyoptions_congrats_finished">Congratulations! You have finished for now.</string>
+    <string name="studyoptions_congrats_more_rev">Today’s limit has been reached, but there are still cards to review. You can increase the limit in the options.</string>
+    <string name="studyoptions_congrats_more_new">Today’s limit has been reached. There are more new cards available; you can increase the limit in the options, but this will increase your short-term review workload.</string>
+    <string name="studyoptions_congrats_custom">To study outside of the normal schedule, touch the “Custom study” button</string>
+    <string name="studyoptions_no_cards_due">No cards are due yet</string>
+    <string name="sd_card_not_mounted">Device storage not mounted</string>
     <string name="empty_cloze_warning">Edit this note and add some cloze deletions. (%1$s)</string>
-    <string name="button_sync" comment="Text of the sync button">I-sync</string>
-    <string name="cancel_sync_confirm">Gusto mo bang kanselahin ang sync?</string>
-    <string name="continue_sync">Ipagtuloy ang pagsync</string>
-    <string name="sync_cancelled">Nakansela ang sync</string>
-    <string name="sync_cancel_message">Kinakansela...\nIto ay maaaring matagalan.</string>
-    <string name="export">I-export</string>
-    <string name="export_collection">I-export ang mga koleksiyon</string>
-    <string name="export_deck">I-export ang deck</string>
-    <string name="nothing">Wala</string>
+    <string name="button_sync" comment="Text of the sync button">Sync</string>
+    <string name="cancel_sync_confirm">Do you want to cancel the sync?</string>
+    <string name="continue_sync">Continue sync</string>
+    <string name="sync_cancelled">Sync cancelled</string>
+    <string name="sync_cancel_message">Cancelling&#8230;\nThis may take some time.</string>
+    <string name="export">Export</string>
+    <string name="export_collection">Export collection</string>
+    <string name="export_deck">Export deck</string>
+    <string name="nothing">Nothing</string>
     <!-- Card template editor -->
-    <string name="title_activity_template_editor">Uri ng mga kard</string>
-    <string name="card_template_editor_front">Harapan ng template</string>
-    <string name="card_template_editor_back">Likod ng template</string>
-    <string name="card_template_editor_styling">Pagstyle</string>
+    <string name="title_activity_template_editor">Card types</string>
+    <string name="card_template_editor_front">Front template</string>
+    <string name="card_template_editor_back">Back template</string>
+    <string name="card_template_editor_styling">Styling</string>
     <string name="card_template_editor_menu_card_browser_appearance">Card Browser Appearance</string>
     <string name="card_template_editor_deck_override">Deck override</string>
     <string name="card_template_editor_insert_field">Insert field</string>
     <string name="card_template_editor_select_field">Select field</string>
-    <string name="card_template_editor_cant_delete">Hindi bababa sa isang uri ng kard ang kinakailangan</string>
+    <string name="card_template_editor_cant_delete">At least one card type is required</string>
     <plurals name="card_template_editor_confirm_add">
         <item quantity="one">This will create %1$d card. Proceed?</item>
         <item quantity="other">This will create %1$d cards. Proceed?</item>
     </plurals>
     <plurals name="card_template_editor_confirm_delete">
-        <item quantity="one">Tanggalin ang \"%2$s\" uri ng kard, at ang %1$d kard nito?</item>
-        <item quantity="other">Burahin ang \"%2$s\" uri ng kard, at ang %1$d kard nito?</item>
+        <item quantity="one">Delete the “%2$s” card type, and its %1$d card?</item>
+        <item quantity="other">Delete the “%2$s” card type, and its %1$d cards?</item>
     </plurals>
-    <string name="invalid_template">Ang isang kard ay hindi mabubuo</string>
+    <string name="invalid_template">A card could not be generated</string>
     <string name="card_template_editor_would_delete_note">Removing this card type would cause one or more notes to be deleted. Please create and save a new card type first.</string>
     <string name="card_template_editor_save_error">Unable to save card template changes: %s</string>
     <string name="template_for_current_card_deleted">The card type for the current card was deleted.</string>
@@ -214,8 +208,8 @@ mga natitirang minuto</item>
     <!-- card Info -->
     <string name="card_info_title">Card info</string>
     <!-- Permissions -->
-    <string name="read_write_permission_label">Basahin at isulat sa database ng AnkiDroid</string>
-    <string name="read_write_permission_description">i-access ang mga umiiral na tala, kard, mga uri ng tala, at mga deck, pati na rin ang gumawa ng mga bago</string>
+    <string name="read_write_permission_label">Read and write to the AnkiDroid database</string>
+    <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
     <!-- Context Menu -->
     <string name="card_browser_context_menu" comment="The value which appears in the system context menu. Note the casing difference">Card Browser</string>
     <string name="context_menu_anki_card_label">Anki Card</string>

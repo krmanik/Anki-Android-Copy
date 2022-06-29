@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ 	Zaur Molotnikov & Bibek Shrestha
 ~ This program is free software; you can redistribute it and/or modify it under
@@ -40,29 +35,29 @@
 -->
 <resources>
     <!-- Main editor popup menu items -->
-    <string name="multimedia_editor_popup_image">ಚಿತ್ರವನ್ನು ಸೇರಿಸಿ</string>
-    <string name="multimedia_editor_popup_audio_clip">ಆಡಿಯೊ ಕ್ಲಿಪ್ ಸೇರಿಸಿ</string>
+    <string name="multimedia_editor_popup_image">Add image</string>
+    <string name="multimedia_editor_popup_audio_clip">Add audio clip</string>
     <string name="multimedia_editor_popup_video_clip">Add video clip</string>
-    <string name="multimedia_editor_popup_audio">ಆಡಿಯೊವನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿ</string>
-    <string name="multimedia_editor_popup_text">ಸುಧಾರಿತ ಸಂಪಾದಕ</string>
-    <string name="multimedia_editor_popup_cloze">ಕ್ಲೋಜ್ ಅಳಿಸುವಿಕೆ</string>
-    <string name="multimedia_editor_popup_clear_field">ಕ್ಷೇತ್ರವನ್ನು ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="multimedia_editor_popup_audio">Record audio</string>
+    <string name="multimedia_editor_popup_text">Advanced editor</string>
+    <string name="multimedia_editor_popup_cloze">Cloze deletion</string>
+    <string name="multimedia_editor_popup_clear_field">Clear field</string>
     <!-- TODO this string should be in dialogs.xml with the other help_item_support_* strings -->
-    <string name="multimedia_editor_trans_translate">ಅನುವಾದಿಸು</string>
+    <string name="multimedia_editor_trans_translate">Translate</string>
     <!-- Pronunciation activity (Beolingus) -->
-    <string name="multimedia_editor_pron_load">ಲೋಡ್ ಮಾಡಿ</string>
-    <string name="multimedia_editor_pron_looking_up">ಉಚ್ಚಾರಣೆಯನ್ನು ನೋಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="multimedia_editor_pron_load">Load</string>
+    <string name="multimedia_editor_pron_looking_up">Looking up pronunciation</string>
     <!-- in controller when fails -->
-    <string name="multimedia_editor_pron_pronunciation_failed">ಉಚ್ಚಾರಣೆ ವಿಫಲವಾಗಿದೆ</string>
-    <string name="multimedia_editor_word_search_try_lower_case">ಲೋವರ್ ಕೇಸ್ ಅಕ್ಷರಗಳನ್ನು ಮಾತ್ರ ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="multimedia_editor_pron_pronunciation_failed">Pronunciation failed</string>
+    <string name="multimedia_editor_word_search_try_lower_case">Try using only lower case characters</string>
     <string name="multimedia_editor_poweredbeolingus">Powered by Beolingus</string>
     <!-- Field editing general -->
     <!-- these are button names to convert field type -->
-    <string name="multimedia_editor_field_editing_text" comment="Select the field\'s type to Text.">ಪಠ್ಯ</string>
-    <string name="multimedia_editor_field_editing_image">ಚಿತ್ರ</string>
-    <string name="multimedia_editor_field_editing_audio">ಆಡಿಯೋ ರೆಕಾರ್ಡಿಂಗ್</string>
-    <string name="multimedia_editor_field_editing_audio_clip">ಆಡಿಯೋ ಕ್ಲಿಪ್</string>
-    <string name="multimedia_editor_field_editing_done" comment="Label of a button to tell the app that the current action is \'Done\'.">ಮುಗಿದಿದೆ</string>
+    <string name="multimedia_editor_field_editing_text" comment="Select the field\'s type to Text.">Text</string>
+    <string name="multimedia_editor_field_editing_image">Image</string>
+    <string name="multimedia_editor_field_editing_audio">Audio recording</string>
+    <string name="multimedia_editor_field_editing_audio_clip">Audio Clip</string>
+    <string name="multimedia_editor_field_editing_done" comment="Label of a button to tell the app that the current action is \'Done\'.">Done</string>
     <!-- Text field editing -->
     <!-- buttons -->
     <string name="multimedia_editor_text_field_editing_say">Pronunciation</string>

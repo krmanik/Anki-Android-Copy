@@ -1,36 +1,36 @@
-Onthoud alles met AnkiDroid!
+Memorize anything with AnkiDroid!
 
-AnkiDroid stelt u in staat om op een efficiënte manier woordjes te leren, door u flitskaarten te tonen vlak voordat u ze zou vergeten. Werkt volledig samen met het gespreide-herhalingsprogramma Anki (met synchronisatie), die beschikbaar is voor Windows, Linux en Mac OS X.
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-Leer van alles, waar en wanneer u maar wilt. Maak nuttig gebruik van wachttijden zoals tijdens een busreis of in de rij bij de kassa.
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-Bouw je eigen set flitskaarten of download de gratis sets voor talloze onderwerpen en in vele talen (meer dan 6000 beschikbaar).
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-Voeg materiaal toe via de desktopapplicatie Anki of rechtstreeks via AnkiDroid. De toepassing biedt zelfs ondersteuning voor het automatisch toevoegen van materiaal uit een woordenboek!
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ Belangrijkste functies:
-• flitskaarten maken met tekst, afbeeldingen, geluiden en LaTeX
-• gespreide herhaling (supermemo 2-algoritme)
-• tekst-naar-spraak integratie
-• meer dan 6000 kant-en-klare leersets
-• voortgangswidget
-• gedetailleerde statistieken
-• synchronisatie met AnkiWeb
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
+• spaced repetition (supermemo 2 algorithm)
+• text-to-speech integration
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
 • open source
 
-★ Extra's:
-• geschreven antwoorden (optioneel)
+★ Additional features:
+• write answers (optional)
 • whiteboard
-• kaarten bewerken/toevoegen
-• kaartenbrowser
-• tablet lay-out
-• importeren van bestaande verzameling bestanden (via Anki Desktop)
-• kaarten via het intent-protocol toevoegen vanuit andere toepassingen zoals woordenboeken
-• ondersteuning voor aangepaste lettertypes
-• volledig backupsysteem
-• navigatie door vegen en tikken
-• aanpasbaar
-• dynamisch sorteren van sets
-• nachtmodus
-• 27 talen
-• alle eerdere versies van AnkiDroid kunnen vanaf de website worden gedownload
+• card editor/adder
+• card browser
+• tablet layout
+• import existing collection files (via Anki Desktop)
+• add cards by intent from other applications like dictionaries
+• custom font support
+• full backup system
+• navigation by swipe, tap
+• customisable
+• dynamic deck handling
+• night mode
+• 27 localisations
+• All previous AnkiDroid versions can be downloaded from the website

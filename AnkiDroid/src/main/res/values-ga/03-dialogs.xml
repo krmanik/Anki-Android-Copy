@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -44,17 +39,15 @@
 ~ this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="check_db_title">Déan seic ar an bunachar sonraí?</string>
+    <string name="check_db_title">Check database?</string>
     <string name="check_db_warning">This may take a long time</string>
     <string name="check_db_acknowledge">Database checked</string>
     <string name="check_db_acknowledge_shrunk">Database checked and optimized.\nShrunk by %d MB.</string>
-    <string name="contextmenu_deckpicker_delete_deck">Scrios deic</string>
-    <string name="delete_deck_default_deck">Ní feidir leat an deic faillí a scriosadh</string>
-    <string name="delete_deck_title">Scrios an deic seo?</string>
+    <string name="contextmenu_deckpicker_delete_deck">Delete deck</string>
+    <string name="delete_deck_default_deck">The default deck can’t be deleted</string>
+    <string name="delete_deck_title">Delete deck?</string>
     <plurals name="delete_deck_message">
-        <item quantity="one">Scrios gach carta as %1$s? Tá carta amháin %2$d aige.
-
-Scrios gach carta as %1$s? Tá cartaí %2$d aige.</item>
+        <item quantity="one">Delete all cards in %1$s? It contains %2$d card.</item>
         <item quantity="two">Delete all cards in %1$s? It contains %2$d cards.</item>
         <item quantity="few">Delete all cards in %1$s? It contains %2$d cards.</item>
         <item quantity="many">Delete all cards in %1$s? It contains %2$d cards.</item>

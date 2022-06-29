@@ -1,36 +1,36 @@
-Lär dig vad som helst med AnkiDroid!
+Memorize anything with AnkiDroid!
 
-AnkiDroid lär dig flashkort effektivt genom att visa dig korten precis innan du glömmer bort dem. Fullt kompatibel med den repetitionsbaserade programvaran Anki (inklusive synkronisering), som finns tillgänglig för Windows, Linux och MacOS.
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-Studera allt möjligt var och när du vill. Utnyttja inaktiv tid på bussen, i kön på affären eller när du väntar på något annat!
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-Skapa dina egna flashkort eller ladda ner gratis kortlekar på flera olika språk och ämnen (mer än 6000 tillgängliga).
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-Lägg till material genom skrivbordsprogrammet Anki eller direkt via AnkiDroid. Programmet stöder även att automatiskt lägga till material från en ordlista!
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ Huvudfunktioner:
-• fungerande innehåll för flashkort: text, bilder, ljud och LaTeX
-• intervallbaserad repetition (supermemo 2-algoritm)
-• text-till-tal-integration
-• mer än 6000 tillgängliga kortlekar
-• widget som visar dina framsteg
-• detaljerad statistik
-• synkronisering med AnkiWeb
-• öppen källkod
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
+• spaced repetition (supermemo 2 algorithm)
+• text-to-speech integration
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
+• open source
 
-★ Ytterligare funktioner:
-• skriv svar (tillval)
+★ Additional features:
+• write answers (optional)
 • whiteboard
-• redigera/lägg till kort
-• kortutforskare
-• layout för surfplattor
-• importera befintliga kortlekar (via Anki Desktop)
-• lägga till kort från andra program som t.ex. ordlistor
-• stöd för anpassade teckensnitt
-• fullständigt säkerhetskopieringssystem
-• navigering med svepgester, knackningar
-• anpassningsbar
-• dynamisk hantering av kortlekar
-• nattläge
-• översatt till 27 språk
-• Alla tidigare versioner av AnkiDroid kan hämtas från webbsidan
+• card editor/adder
+• card browser
+• tablet layout
+• import existing collection files (via Anki Desktop)
+• add cards by intent from other applications like dictionaries
+• custom font support
+• full backup system
+• navigation by swipe, tap
+• customisable
+• dynamic deck handling
+• night mode
+• 27 localisations
+• All previous AnkiDroid versions can be downloaded from the website

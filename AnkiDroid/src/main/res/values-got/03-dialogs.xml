@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -44,21 +39,21 @@
 ~ this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="check_db_title">Saihv gibahuzd?</string>
-    <string name="check_db_warning">Lagga hveila wairþai mahts ist</string>
-    <string name="check_db_acknowledge">Gibahuzd gasaihvan</string>
+    <string name="check_db_title">Check database?</string>
+    <string name="check_db_warning">This may take a long time</string>
+    <string name="check_db_acknowledge">Database checked</string>
     <string name="check_db_acknowledge_shrunk">Database checked and optimized.\nShrunk by %d MB.</string>
-    <string name="contextmenu_deckpicker_delete_deck">Usnim wikon</string>
-    <string name="delete_deck_default_deck">Biuhto galisa fraqistjan mahts nist.</string>
-    <string name="delete_deck_title">Usnim wikon?</string>
+    <string name="contextmenu_deckpicker_delete_deck">Delete deck</string>
+    <string name="delete_deck_default_deck">The default deck can’t be deleted</string>
+    <string name="delete_deck_title">Delete deck?</string>
     <plurals name="delete_deck_message">
         <item quantity="one">Delete all cards in %1$s? It contains %2$d card.</item>
         <item quantity="other">Delete all cards in %1$s? It contains %2$d cards.</item>
     </plurals>
-    <string name="delete_cram_deck_message">Sandei allos kartos in %s ibuks du frumistom wikom izo?</string>
-    <string name="no_tts_available_message">Bokos-du-gwaurdja razda nist</string>
+    <string name="delete_cram_deck_message">Send all cards in %s back to their original decks?</string>
+    <string name="no_tts_available_message">No text-to-speech language available</string>
     <string name="initializing_tts">Initializing TTS&#8230;</string>
-    <string name="tts_no_tts">Ni rodei</string>
+    <string name="tts_no_tts">Don’t speak</string>
     <string name="unused_strings">\n\nUnused files:\n</string>
     <string-array name="about_content">
         <item><![CDATA[<h2>%1$s:<br/>Flashcards for Android</h2>AnkiDroid is a flashcard application which is fully compatible with the desktop software <a href=\"%2$s\">Anki</a>. You can create, download and learn material on both AnkiDroid or Anki Desktop, and synchronize them easily with AnkiWeb.]]></item>
@@ -130,19 +125,19 @@
     <string name="restore_backup">Your collection will be replaced with an older copy. Any unsaved progress will be lost.</string>
     <string name="restore_backup_choose_another">Choose another</string>
     <string name="dialog_cancel">Cancel</string>
-    <string name="dialog_ok">JA</string>
+    <string name="dialog_ok">OK</string>
     <string name="dialog_no">No</string>
-    <string name="dialog_continue">Þairhwis</string>
-    <string name="dialog_positive_create" comment="Create a new collection, probably erasing the previous one, may be necessary in case of error.">Skapei</string>
-    <string name="dialog_positive_delete">Usnim</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="dialog_positive_create" comment="Create a new collection, probably erasing the previous one, may be necessary in case of error.">Create</string>
+    <string name="dialog_positive_delete">Delete</string>
     <!-- Currently unsued, should be useful in the future -->
     <string name="dialog_positive_disable" tools:ignore="UnusedResources">Disable</string>
     <string name="dialog_positive_overwrite">Overwrite</string>
-    <string name="dialog_positive_remove">Usnim</string>
-    <string name="dialog_positive_repair">Nasei</string>
+    <string name="dialog_positive_remove">Remove</string>
+    <string name="dialog_positive_repair">Repair</string>
     <string name="dialog_positive_replace">Replace</string>
     <string name="dialog_positive_restore">Restore</string>
-    <string name="dialog_positive_set">Satei</string>
+    <string name="dialog_positive_set">Set</string>
     <string name="dialog_collection_path_not_dir">The path specified wasn’t a valid directory</string>
     <!-- Media checking -->
     <string name="check_media_title">Check media?</string>
@@ -155,7 +150,7 @@
     <string name="check_media_nohave">Files used on cards but not in media folder: %d</string>
     <string name="check_media_no_unused_missing">No unused or missing files found</string>
     <string name="check_media_db_updated">Media database rebuilt</string>
-    <string name="check_media_delete_unused">Usnim unbruhta</string>
+    <string name="check_media_delete_unused">Delete unused</string>
     <string name="delete_media_message">Deleting media&#8230;</string>
     <string name="delete_media_result_title">Deletion result</string>
     <plurals name="delete_media_result_message">

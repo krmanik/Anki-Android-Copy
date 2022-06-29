@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -46,61 +41,66 @@
 <resources>
     <string name="yes">yes</string>
     <!-- Navigation drawer items-->
-    <string name="decks">卡組</string>
-    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">瀏覽卡</string>
-    <string name="statistics">統計數字</string>
-    <string name="settings">設定</string>
-    <string name="help">求助</string>
+    <string name="decks">Decks</string>
+    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">Card browser</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
     <string name="drawing">Drawing</string>
-    <string name="send_feedback">畀意見</string>
-    <string name="studyoptions_due_today">今日到期:</string>
-    <string name="studyoptions_new_total">新卡總數:</string>
-    <string name="studyoptions_total_cards">卡總數:</string>
-    <string name="studyoptions_eta">預計時間(分鐘):</string>
-    <string name="studyoptions_start">學習</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="studyoptions_due_today">Due today:</string>
+    <string name="studyoptions_new_total">Total new cards:</string>
+    <string name="studyoptions_total_cards">Total cards:</string>
+    <string name="studyoptions_eta">Estimated time (min):</string>
+    <string name="studyoptions_start">Study</string>
     <!-- DeckPicker.kt -->
-    <string name="expand">展開</string>
-    <string name="collapse">收起</string>
-    <string name="study_more">學習更多</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="study_more">Study more</string>
     <plurals name="deckpicker_title">
-        <item quantity="other">%1$d 張卡就嚟到期 (%2$s)</item>
+        <item quantity="one">%1$d card due (%2$s)</item>
+        <item quantity="other">%1$d cards due (%2$s)</item>
     </plurals>
     <plurals name="reviewer_window_title">
-        <item quantity="other">剩低 %d 分鐘</item>
+        <item quantity="one">%d minute left</item>
+        <item quantity="other">%d minutes left</item>
     </plurals>
     <plurals name="reviewer_window_title_hours_new">
+        <item quantity="one">%1$d hour %2$d left</item>
         <item quantity="other">%1$d hours %2$d left</item>
     </plurals>
     <plurals name="reviewer_window_title_days_new">
+        <item quantity="one">%1$d day %2$d left</item>
         <item quantity="other">%1$d days %2$d left</item>
     </plurals>
     <string name="no_cards_placeholder_title">Collection is empty</string>
     <string name="no_cards_placeholder_description">Start adding cards\nusing the + icon.</string>
     <!-- The deck picker via AnkiStatsTaskHandler.java -->
     <plurals name="studied_cards_today">
-        <item quantity="other">今日用咗 %2$s 學習 %1$d 卡</item>
+        <item quantity="one">Studied %1$d card in %2$s today</item>
+        <item quantity="other">Studied %1$d cards in %2$s today</item>
     </plurals>
     <!-- flashcard_portrait.xml -->
-    <string name="type_answer_hint">輸入答案</string>
-    <string name="show_answer">顯示答案</string>
+    <string name="type_answer_hint">Type answer</string>
+    <string name="show_answer">Show answer</string>
     <string name="hide_answer">Hide answer</string>
-    <string name="ease_button_again">由頭嚟過</string>
-    <string name="ease_button_hard">深</string>
-    <string name="ease_button_good">中</string>
-    <string name="ease_button_easy">淺</string>
-    <string name="studyoptions_congrats_undo">還原 %s</string>
-    <string name="menu_import">導入</string>
-    <string name="undo">還原</string>
-    <string name="undo_action_review">上次複習</string>
-    <string name="undo_action_change_deck_multi">轉換卡組</string>
-    <string name="move_all_to_deck">移動所有卡牌到卡組</string>
+    <string name="ease_button_again">Again</string>
+    <string name="ease_button_hard">Hard</string>
+    <string name="ease_button_good">Good</string>
+    <string name="ease_button_easy">Easy</string>
+    <string name="studyoptions_congrats_undo">Undo %s</string>
+    <string name="menu_import">Import</string>
+    <string name="undo">Undo</string>
+    <string name="undo_action_review">last review</string>
+    <string name="undo_action_change_deck_multi">change decks</string>
+    <string name="move_all_to_deck">Move all to deck</string>
     <string name="unbury">Unbury</string>
-    <string name="rename_deck">重新命名卡組</string>
+    <string name="rename_deck">Rename deck</string>
     <string name="create_shortcut">Create shortcut</string>
     <string name="browse_cards">Browse cards</string>
-    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">加入</string>
-    <string name="menu_add_note">加入筆記</string>
-    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can\'t be found in AnkiDroid directly.">同步帳號</string>
+    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">Add</string>
+    <string name="menu_add_note">Add note</string>
+    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can\'t be found in AnkiDroid directly.">Sync account</string>
     <string name="menu_dismiss_note">Hide / delete</string>
     <string name="menu_bury_card">Bury card</string>
     <string name="menu_bury_note">Bury note</string>
@@ -191,9 +191,11 @@
     <string name="card_template_editor_select_field">Select field</string>
     <string name="card_template_editor_cant_delete">At least one card type is required</string>
     <plurals name="card_template_editor_confirm_add">
+        <item quantity="one">This will create %1$d card. Proceed?</item>
         <item quantity="other">This will create %1$d cards. Proceed?</item>
     </plurals>
     <plurals name="card_template_editor_confirm_delete">
+        <item quantity="one">Delete the “%2$s” card type, and its %1$d card?</item>
         <item quantity="other">Delete the “%2$s” card type, and its %1$d cards?</item>
     </plurals>
     <string name="invalid_template">A card could not be generated</string>
@@ -228,6 +230,7 @@
     <string name="sync_conflict_title_new">Select collection to keep</string>
     <string name="sync_conflict_replace_title">Replace collection</string>
     <plurals name="deckpicker_title_zero_due">
+        <item quantity="one">%1$d card (0 due)</item>
         <item quantity="other">%1$d cards (0 due)</item>
     </plurals>
     <string name="copy_note_type_name" comment="The new name of a copied note type">%s copy</string>

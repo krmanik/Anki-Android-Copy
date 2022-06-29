@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -45,17 +40,17 @@
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="check_db_title">Check database?</string>
-    <string name="check_db_warning">Ini mungkin mengambil waktu yang lama</string>
+    <string name="check_db_warning">This may take a long time</string>
     <string name="check_db_acknowledge">Database checked</string>
     <string name="check_db_acknowledge_shrunk">Database checked and optimized.\nShrunk by %d MB.</string>
     <string name="contextmenu_deckpicker_delete_deck">Delete deck</string>
-    <string name="delete_deck_default_deck">Lalai dek tidak boleh dipadamkan</string>
+    <string name="delete_deck_default_deck">The default deck can’t be deleted</string>
     <string name="delete_deck_title">Delete deck?</string>
     <plurals name="delete_deck_message">
         <item quantity="other">Delete all cards in %1$s? It contains %2$d cards.</item>
     </plurals>
     <string name="delete_cram_deck_message">Send all cards in %s back to their original decks?</string>
-    <string name="no_tts_available_message">Tidak ada teks-untuk-ucapan bahasa yang tersedia</string>
+    <string name="no_tts_available_message">No text-to-speech language available</string>
     <string name="initializing_tts">Initializing TTS&#8230;</string>
     <string name="tts_no_tts">Don’t speak</string>
     <string name="unused_strings">\n\nUnused files:\n</string>
@@ -74,7 +69,7 @@
         <item quantity="other">%d cards repositioned</item>
     </plurals>
     <string name="reset_card_dialog_title">Reset card progress</string>
-    <string name="reset_card_dialog_message">Kartu ini akan diletakkan pada akhir yang baru kad barisan</string>
+    <string name="reset_card_dialog_message">This card will be placed at the end of the new card queue</string>
     <plurals name="reset_cards_dialog_acknowledge">
         <item quantity="other">%d cards reset</item>
     </plurals>
@@ -85,7 +80,7 @@
     <plurals name="reschedule_card_dialog_interval">
         <item quantity="other">Current interval: %d days</item>
     </plurals>
-    <string name="reschedule_card_dialog_message">Menjadwal ulang untuk memberi ulasan di hari x:</string>
+    <string name="reschedule_card_dialog_message">Reschedule for review in x days</string>
     <plurals name="reschedule_cards_dialog_acknowledge">
         <item quantity="other">%d cards rescheduled</item>
     </plurals>
@@ -95,23 +90,23 @@
     <string name="answering_error_title">Database error</string>
     <string name="answering_error_message">Writing to the collection failed. The database could be corrupt or there may not to be enough empty space on disk.\n\nIf this happens more often, try checking the database, repairing the collection or restoring it from a backup. Touch “options” for that.\n\Or it could be an AnkiDroid bug as well; please report the error so that we can check this.</string>
     <string name="answering_error_report">Report error</string>
-    <string name="repair_deck_dialog">Apakah anda benar-benar ingin untuk cuba membaiki pangkalan data?\n\nsebelum memulai usaha, salinan akan diwujudkan dalam subfolder \"%s\".</string>
+    <string name="repair_deck_dialog">Do you really want to try to repair the database?\n\nBefore starting the attempt, a copy will be created in subfolder “%s”.</string>
     <string name="intent_aedict_empty">Category “default” is empty</string>
-    <string name="intent_aedict_category">Untuk menambah kad untuk apa yang anda perlu lakukan membuang semua Nota kategori atau menambah satu yang bernama \"default\"</string>
+    <string name="intent_aedict_category">To add cards to AnkiDroid remove all Notepad categories or add one named “default”</string>
     <string name="custom_study_new_total_new">New cards in deck: %d</string>
     <string name="custom_study_rev_total_rev">Reviews due in deck: %d</string>
     <string name="custom_study_new_extend">Increase/decrease (“-3”) today’s new card limit by</string>
     <string name="custom_study_rev_extend">Increase/decrease (“-3”) today’s review limit by</string>
-    <string name="custom_study_forgotten">Kajian kad lupa pada akhir hari x:</string>
-    <string name="custom_study_ahead">Mengkaji semula ke depan dengan hari x:</string>
-    <string name="custom_study_random">Pilih x kad secara rawak daripada dek:</string>
-    <string name="custom_study_preview">Preview baru kad berkata pada akhir hari x:</string>
+    <string name="custom_study_forgotten">Review cards forgotten in last x days:</string>
+    <string name="custom_study_ahead">Review ahead by x days:</string>
+    <string name="custom_study_random">Select x cards randomly from the deck:</string>
+    <string name="custom_study_preview">Preview new cards added in the last x days:</string>
     <string name="custom_study_rebuild_deck_corrupt">Could not rebuild custom study deck</string>
     <string name="importing_collection">Importing collection&#8230;</string>
     <string name="import_media_count">Importing media files %1$d%%&#8230;</string>
     <string name="import_progress">• Importing notes: %1$d%%\n• Importing cards: %2$d%%\n• Post-processing: %3$d%%</string>
     <string name="import_update_details">Updated %1$d of %2$d existing notes.</string>
-    <string name="import_update_ignored">Beberapa kemas kini telah diabaikan karena jenis perhatian yang telah berubah</string>
+    <string name="import_update_ignored">Some updates were ignored because note type has changed</string>
     <plurals name="import_complete_message">
         <item quantity="other">Files imported: %1$d\nTotal cards imported: %2$d</item>
     </plurals>
@@ -120,7 +115,7 @@
     <string name="no_space_to_downgrade_title">No space</string>
     <string name="no_space_to_downgrade_content">AnkiDroid needs %s free storage space to continue. Please clear some space</string>
     <string name="restore_backup_title">Restore backup?</string>
-    <string name="restore_backup">Koleksi anda akan digantikan dengan yang lebih tua salinan. Mana-mana yang tidak disimpan kemajuan akan hilang.</string>
+    <string name="restore_backup">Your collection will be replaced with an older copy. Any unsaved progress will be lost.</string>
     <string name="restore_backup_choose_another">Choose another</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="dialog_ok">OK</string>

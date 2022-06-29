@@ -1,36 +1,36 @@
-Naudokite „AnkiDroid“ ir viską atsiminkite!
+Memorize anything with AnkiDroid!
 
-„AnkiDroid“ programa suteikia galimybę veiksmingai mokytis, parodydama korteles dar prieš spėjant jas pamiršti. Ją galite naudoti kartu su intervalinio kartojimo programa „Anki“ (įskaitant tarpusavio sinchronizavimą), kurią galite naudoti „Windows“, „Linux“ ir „MacOS“ operacinėse sistemose.
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-Mokykitės įvairių dalykų bet kada ir bet kur. Išnaudokite laisvą laiką keliaudami autobusu, stovėdami prekybos centro eilėje ar neturėdami ką veikti!
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-Kurkite atminties kortelių rinkinius patys arba nemokamai juos parsisiųskite įvairiomis kalbomis ir temomis (kurių yra daugiau nei 6000).
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-Naują medžiagą galite suvesti naudodami kompiuterinę „Anki“ versiją arba mobiliesiems įrenginiams skirtą programėlę „AnkiDroid“. Programa netgi turi galimybę pridėti medžiagą tiesiai iš žodyno!
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ Pagrindinės savybės:
-• palaiko tekstinį, vaizdinį, garsinį ir LaTeX turinį
-• intervalinis kartojimasis (naudojant „SuperMemo 2“ algoritmą) 
-• integruotas teksto pavertimas garsu
-• daugiau nei 6000 siūlomų rinkinių
-• pažangos stebėjimo valdiklis
-• išsami statistika
-• sinchronizavimas su „AnkiWeb“
-• atviroji programinė įranga
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
+• spaced repetition (supermemo 2 algorithm)
+• text-to-speech integration
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
+• open source
 
-★ Papildomos savybės:
-• atsakymų rašymas ranka (pasirinktinai)
-• rašymo lenta
-• kortelių redagavimo/pridėjimo funkcija
-• kortelių naršyklė
-• planšetėms pritaikytas išdėstymas
-• turimos kolekcijos failų importavimas (naudojant kompiuterinę „Anki“ versiją)
-• kortelių pridėjimas iš kitų programų, pavyzdžiui, žodynų
-• palaikomi individualūs šriftai
-• išsami atsarginių kopijų sistema
-• naršymas braukiant ar baksnojant pirštais
-• individualus pritaikymas
-• dinamiškas rinkinio tvarkymas
-• naktinis režimas
-• 27 lokalizacijos
-• Visas ankstesnes „AnkiDroid“ versijas galima parsisiųsti iš interneto svetainės
+★ Additional features:
+• write answers (optional)
+• whiteboard
+• card editor/adder
+• card browser
+• tablet layout
+• import existing collection files (via Anki Desktop)
+• add cards by intent from other applications like dictionaries
+• custom font support
+• full backup system
+• navigation by swipe, tap
+• customisable
+• dynamic deck handling
+• night mode
+• 27 localisations
+• All previous AnkiDroid versions can be downloaded from the website

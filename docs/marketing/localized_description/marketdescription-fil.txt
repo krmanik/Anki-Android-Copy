@@ -1,36 +1,36 @@
-Kabisaduhin ang anumang bagay sa AnkiDroid!
+Memorize anything with AnkiDroid!
 
-Hinahayaan ka ng AnkiDroid na matutunan mo ang mga flashcards nang mabisa sa pamamagitan ng pagpapakita sa mga ito bago mo malilimutan. Ito ay ganap na katugma sa spaced repetition na software na Anki (kabilang ang pag-synchronize), na magagamit para sa Windows, Linux at MacOS.
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-Pag-aralan ang lahat ng uri ng mga bagay saan man at kailan mo gusto. Sulitin ang mga oras na walang ginagawa sa mga biyahe sa bus, sa queue ng supermarket o anumang iba pang sitwasyon sa paghihintay!
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-Lumikha ng iyong sariling mga deck ng flashcard o mag-download ng mga libreng deck na naipon para sa maraming mga wika at paksa (higit sa 6000 magagamit).
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-Magdagdag ng materyal sa pamamagitan ng Anki desktop application o direkta sa pamamagitan ng AnkiDroid. Sinusuportahan pa ng application ang pagdaragdag ng materyal awtomatikong mula sa isang diksyunaryo!
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ Mga pangunahing tampok:
-• Sinusuportahan ang mga nilalaman ng flashcard: teksto, mga imahe, mga tunog, LaTeX
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
 • spaced repetition (supermemo 2 algorithm)
 • text-to-speech integration
-• higit sa 6000 premade deck
-• widget ng progreso
-• detalyadong istatistika
-• pag-sync sa AnkiWeb
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
 • open source
 
-★ Karagdagang mga tampok:
-• sumulat ng mga sagot (opsyonal)
+★ Additional features:
+• write answers (optional)
 • whiteboard
-• editor ng card / pang-dagdag ng card
-• browser ng card
+• card editor/adder
+• card browser
 • tablet layout
-• mag-import ng mga umiiral na mga file ng koleksyon (sa pamamagitan ng Anki Desktop)
-• magdagdag ng mga card sa pamamagitan ng layunin mula sa iba pang mga application tulad ng mga diksyunaryo
-• pasadyang suporta font
-• buong backup na sistema
-• nabigasyon sa pamamagitan ng mag-swipe, tapikin
+• import existing collection files (via Anki Desktop)
+• add cards by intent from other applications like dictionaries
+• custom font support
+• full backup system
+• navigation by swipe, tap
 • customisable
-• dynamic handling handling
+• dynamic deck handling
 • night mode
-• 27 localisasyon
-• Maaaring ma-download ang lahat ng mga nakaraang bersyon ng AnkiDroid mula sa website nito
+• 27 localisations
+• All previous AnkiDroid versions can be downloaded from the website

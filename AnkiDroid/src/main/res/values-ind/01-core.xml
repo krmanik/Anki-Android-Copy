@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -44,29 +39,29 @@
 ~ this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <string name="yes">Ya</string>
+    <string name="yes">yes</string>
     <!-- Navigation drawer items-->
-    <string name="decks">Dek</string>
-    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">Peramban kartu</string>
-    <string name="statistics">Statistik</string>
-    <string name="settings">Pengaturan</string>
-    <string name="help">Bantuan</string>
-    <string name="drawing">Gambar</string>
-    <string name="send_feedback">Kirim Masukan</string>
-    <string name="studyoptions_due_today">Jatuh tempo hari ini:</string>
-    <string name="studyoptions_new_total">Total kartu baru:</string>
-    <string name="studyoptions_total_cards">Total kartu:</string>
-    <string name="studyoptions_eta">Estimasi waktu (mnt):</string>
-    <string name="studyoptions_start">Belajar</string>
+    <string name="decks">Decks</string>
+    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">Card browser</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="drawing">Drawing</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="studyoptions_due_today">Due today:</string>
+    <string name="studyoptions_new_total">Total new cards:</string>
+    <string name="studyoptions_total_cards">Total cards:</string>
+    <string name="studyoptions_eta">Estimated time (min):</string>
+    <string name="studyoptions_start">Study</string>
     <!-- DeckPicker.kt -->
-    <string name="expand">Perluas</string>
-    <string name="collapse">Tutup</string>
-    <string name="study_more">Belajar lagi</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="study_more">Study more</string>
     <plurals name="deckpicker_title">
-        <item quantity="other">%1$d kartu jatuh tempo (%2$s)</item>
+        <item quantity="other">%1$d cards due (%2$s)</item>
     </plurals>
     <plurals name="reviewer_window_title">
-        <item quantity="other">%d menit lagi</item>
+        <item quantity="other">%d minutes left</item>
     </plurals>
     <plurals name="reviewer_window_title_hours_new">
         <item quantity="other">%1$d hours %2$d left</item>
@@ -74,65 +69,65 @@
     <plurals name="reviewer_window_title_days_new">
         <item quantity="other">%1$d days %2$d left</item>
     </plurals>
-    <string name="no_cards_placeholder_title">Koleksi kosong</string>
-    <string name="no_cards_placeholder_description">Mulai tambahkan kartu\nmenggunakan ikon +.</string>
+    <string name="no_cards_placeholder_title">Collection is empty</string>
+    <string name="no_cards_placeholder_description">Start adding cards\nusing the + icon.</string>
     <!-- The deck picker via AnkiStatsTaskHandler.java -->
     <plurals name="studied_cards_today">
-        <item quantity="other">Mempelajari %1$d kartu dalam %2$s hari ini</item>
+        <item quantity="other">Studied %1$d cards in %2$s today</item>
     </plurals>
     <!-- flashcard_portrait.xml -->
-    <string name="type_answer_hint">Ketik jawaban</string>
-    <string name="show_answer">Tampilkan jawaban</string>
-    <string name="hide_answer">Sembunyikan jawaban</string>
-    <string name="ease_button_again">Ulang</string>
-    <string name="ease_button_hard">Sulit</string>
-    <string name="ease_button_good">Baik</string>
-    <string name="ease_button_easy">Mudah</string>
-    <string name="studyoptions_congrats_undo">Urungkan %s</string>
-    <string name="menu_import">Impor</string>
-    <string name="undo">Urungkan</string>
-    <string name="undo_action_review">ulasan terakhir</string>
-    <string name="undo_action_change_deck_multi">ganti dek</string>
-    <string name="move_all_to_deck">Pindahkan semua ke dek</string>
-    <string name="unbury">Angkat</string>
-    <string name="rename_deck">Ubah nama dek</string>
-    <string name="create_shortcut">Buat shortcut</string>
-    <string name="browse_cards">Telusuri kartu</string>
-    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">Tambah</string>
-    <string name="menu_add_note">Tambah catatan</string>
-    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can\'t be found in AnkiDroid directly.">Sinkronisasi akun</string>
-    <string name="menu_dismiss_note">Sembunyikan / hapus</string>
-    <string name="menu_bury_card">Pendam kartu</string>
-    <string name="menu_bury_note">Pendam catatan</string>
-    <string name="menu_suspend_card">Tangguhkan kartu</string>
-    <string name="menu_suspend_note">Tangguhkan catatan</string>
-    <string name="menu_bury">Pendam</string>
-    <string name="menu_suspend">Tangguhkan</string>
-    <string name="menu_delete_note">Hapus catatan</string>
-    <string name="menu_flag">Panji</string>
-    <string name="menu_flag_card">Beri kartu panji</string>
-    <string name="menu_flag_card_zero">Tidak ada panji</string>
-    <string name="menu_flag_card_one">Panji merah</string>
-    <string name="menu_flag_card_two">Panji jingga</string>
-    <string name="menu_flag_card_three">Panji hijau</string>
-    <string name="menu_flag_card_four">Panji Biru</string>
-    <string name="menu_flag_card_five">Bendera pink</string>
-    <string name="menu_flag_card_six">Bendera toska</string>
-    <string name="menu_flag_card_seven">Bendera ungu</string>
-    <string name="menu_edit_tags">Edit tag</string>
-    <string name="delete_note_message">Yakin akan menghapus catatan ini dan semua kartunya?\n%s</string>
-    <string name="menu_search">Pencarian di %1$s</string>
-    <string name="menu_mark_note">Tandai catatan</string>
-    <string name="menu_unmark_note">Batal tandai catatan</string>
-    <string name="menu_toggle_mic_tool_bar">Cek pelafalan</string>
-    <string name="new_deck">Buat dek</string>
-    <string name="new_dynamic_deck">Buat dek terfilter</string>
-    <string name="directory_inaccessible">Direktori AnkiDroid tidak dapat diakses</string>
+    <string name="type_answer_hint">Type answer</string>
+    <string name="show_answer">Show answer</string>
+    <string name="hide_answer">Hide answer</string>
+    <string name="ease_button_again">Again</string>
+    <string name="ease_button_hard">Hard</string>
+    <string name="ease_button_good">Good</string>
+    <string name="ease_button_easy">Easy</string>
+    <string name="studyoptions_congrats_undo">Undo %s</string>
+    <string name="menu_import">Import</string>
+    <string name="undo">Undo</string>
+    <string name="undo_action_review">last review</string>
+    <string name="undo_action_change_deck_multi">change decks</string>
+    <string name="move_all_to_deck">Move all to deck</string>
+    <string name="unbury">Unbury</string>
+    <string name="rename_deck">Rename deck</string>
+    <string name="create_shortcut">Create shortcut</string>
+    <string name="browse_cards">Browse cards</string>
+    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">Add</string>
+    <string name="menu_add_note">Add note</string>
+    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can\'t be found in AnkiDroid directly.">Sync account</string>
+    <string name="menu_dismiss_note">Hide / delete</string>
+    <string name="menu_bury_card">Bury card</string>
+    <string name="menu_bury_note">Bury note</string>
+    <string name="menu_suspend_card">Suspend card</string>
+    <string name="menu_suspend_note">Suspend note</string>
+    <string name="menu_bury">Bury</string>
+    <string name="menu_suspend">Suspend</string>
+    <string name="menu_delete_note">Delete note</string>
+    <string name="menu_flag">Flag</string>
+    <string name="menu_flag_card">Flag card</string>
+    <string name="menu_flag_card_zero">No flag</string>
+    <string name="menu_flag_card_one">Red flag</string>
+    <string name="menu_flag_card_two">Orange flag</string>
+    <string name="menu_flag_card_three">Green flag</string>
+    <string name="menu_flag_card_four">Blue flag</string>
+    <string name="menu_flag_card_five">Pink flag</string>
+    <string name="menu_flag_card_six">Turquoise flag</string>
+    <string name="menu_flag_card_seven">Purple flag</string>
+    <string name="menu_edit_tags">Edit tags</string>
+    <string name="delete_note_message">Really delete this note and all its cards?\n%s</string>
+    <string name="menu_search">Lookup in %1$s</string>
+    <string name="menu_mark_note">Mark note</string>
+    <string name="menu_unmark_note">Unmark note</string>
+    <string name="menu_toggle_mic_tool_bar">Check pronunciation</string>
+    <string name="new_deck">Create deck</string>
+    <string name="new_dynamic_deck">Create filtered deck</string>
+    <string name="directory_inaccessible">AnkiDroid directory is inaccessible</string>
     <!--This is shown when AnkiDroid starts up with no storage permissions.
     The user is taken to the "App Info" screen, and needs to click "Permissions" and
     grant AnkiDroid the \'Storage\' permission. This needs to be a fairly generic message as implementations
     of the permissions/app info screen will differ between devices. -->
-    <string name="startup_no_storage_permission">Mohon beri AnkiDroid izin ‘Penyimpanan’ untuk melanjutkan</string>
+    <string name="startup_no_storage_permission">Please grant AnkiDroid the ‘Storage’ permission to continue</string>
     <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -140,96 +135,95 @@
         not be translated, at least not for languages using the Latin
         alphabet.
     -->
-    <string name="time_quantity_seconds">%d d</string>
-    <string name="time_quantity_minutes">%d mnt</string>
-    <string name="time_quantity_hours_minutes">%1$d j %2$d m </string>
-    <string name="time_quantity_hours">%d j</string>
-    <string name="time_quantity_days">%d hr</string>
-    <string name="time_quantity_days_hours">%1$d hr %2$d j</string>
-    <string name="time_quantity_months">%.1f bln</string>
-    <string name="time_quantity_years">%.1f th</string>
+    <string name="time_quantity_seconds">%d s</string>
+    <string name="time_quantity_minutes">%d min</string>
+    <string name="time_quantity_hours_minutes">%1$d h %2$d m</string>
+    <string name="time_quantity_hours">%d h</string>
+    <string name="time_quantity_days">%d d</string>
+    <string name="time_quantity_days_hours">%1$d d %2$d h</string>
+    <string name="time_quantity_months">%.1f mo</string>
+    <string name="time_quantity_years">%.1f yr</string>
     <!-- or "%.1f a" -->
-    <string name="rebuild_filtered_deck">Sedang membuat dek yang telah difilter</string>
-    <string name="rebuild_cram_label">Buat ulang</string>
-    <string name="empty_cram_label">Kosong</string>
-    <string name="create_subdeck">Buat subdek</string>
-    <string name="empty_filtered_deck">Mengosongkan dek yang telah difilter</string>
-    <string name="custom_study_deck_name">Sesi belajar kustom</string>
-    <string name="custom_study_deck_exists">Ubah nama dek belajar kustom yang ada</string>
-    <string name="empty_deck">Dek ini kosong</string>
-    <string name="search_deck" comment="Deck search for selecting it">Mencari Dek</string>
+    <string name="rebuild_filtered_deck">Rebuilding filtered deck&#8230;</string>
+    <string name="rebuild_cram_label">Rebuild</string>
+    <string name="empty_cram_label">Empty</string>
+    <string name="create_subdeck">Create subdeck</string>
+    <string name="empty_filtered_deck">Emptying filtered deck&#8230;</string>
+    <string name="custom_study_deck_name">Custom study session</string>
+    <string name="custom_study_deck_exists">Rename the existing custom study deck first</string>
+    <string name="empty_deck">This deck is empty</string>
+    <string name="search_deck" comment="Deck search for selecting it">Deck Search</string>
     <string name="search_for_download_deck" comment="Deck search value for downloading deck">Deck Search</string>
-    <string name="empty_deck_add_note">Tambah kartu</string>
-    <string name="invalid_deck_name">Nama dek tidak valid</string>
-    <string name="studyoptions_empty">Dek Ini kosong. Tekan tombol + untuk menambah konten baru.</string>
-    <string name="studyoptions_limit_reached">Batas belajar harian tercapai</string>
-    <string name="studyoptions_empty_schedule">Tidak ada kartu yang dijadwalkan untuk dipelajari</string>
-    <string name="studyoptions_congrats_finished">Selamat! Kamu telah selesai untuk sekarang.</string>
-    <string name="studyoptions_congrats_more_rev">Batas hari ini telah dicapai, tetapi masih ada kartu-kartu untuk diulas. Kamu dapat menaikkan batasan di pengaturan.</string>
-    <string name="studyoptions_congrats_more_new">Batas hari ini telah dicapai. Ada banyak kartu baru yang tersedia; Kamu dapat menaikkan batas di pengaturan, tetapi ini akan menambah beban kerja ulasan jangka pendekmu.</string>
-    <string name="studyoptions_congrats_custom">Untuk belajar di luar jadwal normal, sentuh tombol \"Belajar kustom\"</string>
-    <string name="studyoptions_no_cards_due">Belum ada kartu jatuh tempo.</string>
-    <string name="sd_card_not_mounted">Penyimpanan perangkat tidak terpasang</string>
-    <string name="empty_cloze_warning">Edit catatan ini dan menambahkan beberapa kloza deletasi (titik-titik). (%1$s)</string>
-    <string name="button_sync" comment="Text of the sync button">Sinkronisasi</string>
-    <string name="cancel_sync_confirm">Batalkan sinkronisasi?</string>
-    <string name="continue_sync">Lanjutkan sinkronisasi</string>
-    <string name="sync_cancelled">Sinkronisasi dibatalkan</string>
-    <string name="sync_cancel_message">Membatalkan&#8230;\nIni dapat memakan waktu lama.</string>
-    <string name="export">Ekspor</string>
-    <string name="export_collection">Ekspor koleksi</string>
-    <string name="export_deck">Ekspor dek</string>
-    <string name="nothing">Tidak ada</string>
+    <string name="empty_deck_add_note">Add card</string>
+    <string name="invalid_deck_name">Invalid deck name</string>
+    <string name="studyoptions_empty">This deck is empty. Press the + button to add new content.</string>
+    <string name="studyoptions_limit_reached">Daily study limit reached</string>
+    <string name="studyoptions_empty_schedule">No cards scheduled to study</string>
+    <string name="studyoptions_congrats_finished">Congratulations! You have finished for now.</string>
+    <string name="studyoptions_congrats_more_rev">Today’s limit has been reached, but there are still cards to review. You can increase the limit in the options.</string>
+    <string name="studyoptions_congrats_more_new">Today’s limit has been reached. There are more new cards available; you can increase the limit in the options, but this will increase your short-term review workload.</string>
+    <string name="studyoptions_congrats_custom">To study outside of the normal schedule, touch the “Custom study” button</string>
+    <string name="studyoptions_no_cards_due">No cards are due yet</string>
+    <string name="sd_card_not_mounted">Device storage not mounted</string>
+    <string name="empty_cloze_warning">Edit this note and add some cloze deletions. (%1$s)</string>
+    <string name="button_sync" comment="Text of the sync button">Sync</string>
+    <string name="cancel_sync_confirm">Do you want to cancel the sync?</string>
+    <string name="continue_sync">Continue sync</string>
+    <string name="sync_cancelled">Sync cancelled</string>
+    <string name="sync_cancel_message">Cancelling&#8230;\nThis may take some time.</string>
+    <string name="export">Export</string>
+    <string name="export_collection">Export collection</string>
+    <string name="export_deck">Export deck</string>
+    <string name="nothing">Nothing</string>
     <!-- Card template editor -->
-    <string name="title_activity_template_editor">Tipe kartu</string>
-    <string name="card_template_editor_front">Templat depan</string>
-    <string name="card_template_editor_back">Templat belakang</string>
-    <string name="card_template_editor_styling">Penataan</string>
-    <string name="card_template_editor_menu_card_browser_appearance">Tampilan Peramban Kartu</string>
-    <string name="card_template_editor_deck_override">Paksa Lokasi Dek</string>
-    <string name="card_template_editor_insert_field">Masukkan bidang</string>
-    <string name="card_template_editor_select_field">Pilih bidang</string>
-    <string name="card_template_editor_cant_delete">Setidaknya satu tipe kartu diperlukan.</string>
+    <string name="title_activity_template_editor">Card types</string>
+    <string name="card_template_editor_front">Front template</string>
+    <string name="card_template_editor_back">Back template</string>
+    <string name="card_template_editor_styling">Styling</string>
+    <string name="card_template_editor_menu_card_browser_appearance">Card Browser Appearance</string>
+    <string name="card_template_editor_deck_override">Deck override</string>
+    <string name="card_template_editor_insert_field">Insert field</string>
+    <string name="card_template_editor_select_field">Select field</string>
+    <string name="card_template_editor_cant_delete">At least one card type is required</string>
     <plurals name="card_template_editor_confirm_add">
-        <item quantity="other">Ini akan membuat %1$d kartu. Lanjutkan?</item>
+        <item quantity="other">This will create %1$d cards. Proceed?</item>
     </plurals>
     <plurals name="card_template_editor_confirm_delete">
-        <item quantity="other">Hapus tipe kartu \"%2$s\", beserta kartu %1$d?</item>
+        <item quantity="other">Delete the “%2$s” card type, and its %1$d cards?</item>
     </plurals>
-    <string name="invalid_template">Kartu tidak dapat dibuat</string>
-    <string name="card_template_editor_would_delete_note">Menghapus tipe kartu ini akan menyebabkan satu catatan atau lebih terhapus. Silahkan buat dahulu tipe kartu yang baru.</string>
-    <string name="card_template_editor_save_error">Tidak dapat menyimpan perubahan templat kartu: %s</string>
-    <string name="template_for_current_card_deleted">Templat untuk kartu ini sudah dihapus.</string>
+    <string name="invalid_template">A card could not be generated</string>
+    <string name="card_template_editor_would_delete_note">Removing this card type would cause one or more notes to be deleted. Please create and save a new card type first.</string>
+    <string name="card_template_editor_save_error">Unable to save card template changes: %s</string>
+    <string name="template_for_current_card_deleted">The card type for the current card was deleted.</string>
     <!-- Card Browser Appearance -->
-    <string name="card_template_browser_appearance_title">Tampilan Peramban </string>
+    <string name="card_template_browser_appearance_title">Browser appearance</string>
     <string name="current_and_default_deck">%1$s (%2$s)</string>
     <!-- card Info -->
-    <string name="card_info_title">Info kartu</string>
+    <string name="card_info_title">Card info</string>
     <!-- Permissions -->
-    <string name="read_write_permission_label">Baca dan tulis ke basisdata AnkiDroid</string>
-    <string name="read_write_permission_description">mengakses catatan yang ada, kartu, tipe catatan, dan dek, serta membuat yang baru</string>
+    <string name="read_write_permission_label">Read and write to the AnkiDroid database</string>
+    <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
     <!-- Context Menu -->
-    <string name="card_browser_context_menu" comment="The value which appears in the system context menu. Note the casing difference">Peramban Kartu</string>
-    <string name="context_menu_anki_card_label">Kartu Anki</string>
-    <string name="has_a_problem" comment="First field is either front template or back template. Second field is the error message.">%1$s memiliki masalah:<br/>%2$s</string>
-    <string name="more_information">Info lebih lanjut</string>
-    <string name="no_field">Ditemukan \'{{%1$s}}\', tapi tidak ada bagian yang disebut \'%1$s\'.</string>
-    <string name="closed_tag_not_open">Ditemukan \'{{/%1$s}}\', tapi tidak ada \'{{#%1$s}}\' atau \'{{^%1$s}}\'.</string>
-    <string name="missing_closing_bracket">Tidak ada \'}}\' di \'%s\'.</string>
-    <string name="open_tag_not_closed">Tidak ada  \'{{%s}}\'.</string>
-    <string name="wrong_tag_closed">Ditemukan \'{{/%1$s}}\', tapi yang dicari \'{{/%2$s}}\' </string>
-    <string name="filter_error">Terjadi kesalahan di filter %s</string>
+    <string name="card_browser_context_menu" comment="The value which appears in the system context menu. Note the casing difference">Card Browser</string>
+    <string name="context_menu_anki_card_label">Anki Card</string>
+    <string name="has_a_problem" comment="First field is either front template or back template. Second field is the error message.">%1$s has a problem:<br/>%2$s</string>
+    <string name="more_information">More information</string>
+    <string name="no_field">Found \'{{%1$s}}\', but there is no field called \'%1$s\'.</string>
+    <string name="closed_tag_not_open">Found \'{{/%1$s}}\', but missing \'{{#%1$s}}\' or \'{{^%1$s}}\'.</string>
+    <string name="missing_closing_bracket">Missing \'}}\' in \'%s\'.</string>
+    <string name="open_tag_not_closed">Missing \'{{%s}}\'.</string>
+    <string name="wrong_tag_closed">Found \'{{/%1$s}}\', but expected \'{{/%2$s}}\'</string>
+    <string name="filter_error">Error in filter %s</string>
     <!-- Sync conflict -->
-    <string name="sync_conflict_message_new">Koleksi tidak dapat digabungkan. \nBagian mana yang ingin anda pertahankan?</string>
+    <string name="sync_conflict_message_new">The collections can’t be combined.\nWhich collection do you want to keep?</string>
     <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">AnkiDroid</string>
     <string name="sync_conflict_keep_remote_new" comment="Select AnkiWeb files to keep while syncing">AnkiWeb</string>
-    <string name="sync_conflict_remote_confirm_new">Ganti koleksi anda di AnkiDroid dengan koleksi yang berasal dari AnkiWeb?</string>
-    <string name="sync_conflict_local_confirm_new">Ganti koleksi anda yang ada di AnkiWeb dengan koleksi anda dari AnkiDroid?</string>
-    <string name="sync_conflict_title_new">Pilih koleksi untuk dipertahankan</string>
-    <string name="sync_conflict_replace_title">Ganti koleksi</string>
+    <string name="sync_conflict_remote_confirm_new">Replace your collection on AnkiDroid with your collection from AnkiWeb?</string>
+    <string name="sync_conflict_local_confirm_new">Replace your collection on AnkiWeb with your collection from AnkiDroid?</string>
+    <string name="sync_conflict_title_new">Select collection to keep</string>
+    <string name="sync_conflict_replace_title">Replace collection</string>
     <plurals name="deckpicker_title_zero_due">
-        <item quantity="other">%1$d kartu (0 jatuh tempo)
-%1$d kartu (0 jatuh tempo)</item>
+        <item quantity="other">%1$d cards (0 due)</item>
     </plurals>
     <string name="copy_note_type_name" comment="The new name of a copied note type">%s copy</string>
 </resources>

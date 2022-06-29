@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -47,28 +42,28 @@
     <!-- How to format a percentage shown in the summary field of a preference -->
     <string name="preference_summary_percentage">XXX%</string>
     <!-- Navigation drawer strings -->
-    <string name="drawer_open">ড্রয়ার খুলুন</string>
-    <string name="drawer_close">ড্রয়ার বন্ধ করুন</string>
-    <string name="CardEditorCardDeck">কার্ড ডেক:</string>
-    <string name="CardEditorNoteDeck">ডেক:</string>
-    <string name="CardEditorModel">ধরন:</string>
-    <string name="CardEditorTags">ট্যাগ: %1$s</string>
-    <string name="CardEditorCards">তাস: %1$s</string>
-    <string name="tag_name">ট্যাগ নাম</string>
-    <string name="add_new_filter_tags">ট্যাগ যুক্ত/ফিল্টার করুন</string>
-    <string name="add_tag">ট্যাগ যোগ করুন</string>
-    <string name="check_all_tags">সমস্ত ট্যাগ চেক/আনচেক করুন</string>
-    <string name="filter_tags">ট্যাগ ফিল্টার করুন</string>
-    <string name="no_tags">আপনি এখনো কোন ট্যাগ যুক্ত করেননি</string>
-    <string name="updated_version">%s সংস্করণে আপডেট করা হয়েছে</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="CardEditorCardDeck">Card deck:</string>
+    <string name="CardEditorNoteDeck">Deck:</string>
+    <string name="CardEditorModel">Type:</string>
+    <string name="CardEditorTags">Tags: %1$s</string>
+    <string name="CardEditorCards">Cards: %1$s</string>
+    <string name="tag_name">Tag name</string>
+    <string name="add_new_filter_tags">Add/filter tags</string>
+    <string name="add_tag">Add tag</string>
+    <string name="check_all_tags">Check/uncheck all tags</string>
+    <string name="filter_tags">Filter tags</string>
+    <string name="no_tags">You haven’t added any tags yet</string>
+    <string name="updated_version">Updated to version %s</string>
     <!-- Reviewer.kt -->
-    <string name="save_whiteboard">হোয়াইটবোর্ডে রাখো</string>
-    <string name="enable_whiteboard">হোয়াইটবোর্ড সক্রিয় করুন</string>
-    <string name="disable_whiteboard">হোয়াইটবোর্ড নিষ্ক্রিয় করুন</string>
-    <string name="show_whiteboard">হোয়াইটবোর্ড প্রদর্শন করুন</string>
-    <string name="hide_whiteboard">হোয়াইটবোর্ড আড়াল করুন</string>
-    <string name="clear_whiteboard">হোয়াইটবোর্ড পরিষ্কার করুন</string>
-    <string name="replay_audio">অডিও আবার চালান</string>
+    <string name="save_whiteboard">Save whiteboard</string>
+    <string name="enable_whiteboard">Enable whiteboard</string>
+    <string name="disable_whiteboard">Disable whiteboard</string>
+    <string name="show_whiteboard">Show whiteboard</string>
+    <string name="hide_whiteboard">Hide whiteboard</string>
+    <string name="clear_whiteboard">Clear whiteboard</string>
+    <string name="replay_audio">Replay audio</string>
     <string name="leech_suspend_notification">Card marked as leech and suspended</string>
     <string name="leech_notification">Card marked as leech</string>
     <string name="corrupt_font">Corrupt font file %s</string>
@@ -82,12 +77,12 @@
     <string name="webview_crash_loop_dialog_content">System WebView failed to render card \'%1$s\'.\n %2$s</string>
     <!-- Browser -->
     <string-array name="browser_column1_headings">
-        <item>প্রশ্ন</item>
-        <item>ভুক্তি সাজাও</item>
+        <item>Question</item>
+        <item>Sort field</item>
     </string-array>
     <string-array name="browser_column2_headings">
-        <item>উত্তর</item>
-        <item>তাস</item>
+        <item>Answer</item>
+        <item>Card</item>
         <item>Deck</item>
         <item>Note</item>
         <item>Question</item>

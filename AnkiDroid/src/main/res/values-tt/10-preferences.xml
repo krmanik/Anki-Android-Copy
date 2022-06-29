@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -49,7 +44,7 @@
     <string name="enabled">Enabled</string>
     <!-- preferences.xml categories-->
     <string name="pref_cat_general" comment="name of the general preference category" maxLength="41">General</string>
-    <string name="pref_cat_general_summ">Төп көйләүләр</string>
+    <string name="pref_cat_general_summ">General settings</string>
     <string name="pref_cat_reviewing" maxLength="41">Reviewing</string>
     <string name="pref_cat_sync" comment="title of the sync preferences category" maxLength="41">Sync</string>
     <string name="pref_cat_scheduling" maxLength="41">Scheduling</string>
@@ -57,16 +52,16 @@
     <string name="pref_cat_appearance" maxLength="41">Appearance</string>
     <string name="pref_cat_appearance_summ">Change themes and default font</string>
     <string name="pref_cat_themes" maxLength="41">Themes</string>
-    <string name="pref_cat_fonts" maxLength="41">Шрифтлар</string>
-    <string name="pref_cat_gestures" maxLength="41">Ишарәләр</string>
+    <string name="pref_cat_fonts" maxLength="41">Fonts</string>
+    <string name="pref_cat_gestures" maxLength="41">Gestures</string>
     <string name="pref_cat_controls" maxLength="41">Controls</string>
     <string name="pref_cat_advanced" maxLength="41">Advanced</string>
     <string name="pref_cat_advanced_summ">Optimization and experimental features</string>
     <string name="pref_cat_performance" maxLength="41">Performance</string>
     <string name="pref_cat_workarounds" maxLength="41">Workarounds</string>
     <string name="pref_cat_plugins" maxLength="41">Plugins</string>
-    <string name="about_title" maxLength="41">AnkiDroid турында</string>
-    <string name="about_version">Версия: </string>
+    <string name="about_title" maxLength="41">About AnkiDroid</string>
+    <string name="about_version">Version: </string>
     <!-- preferences.xml entries-->
     <string name="whiteboard_stroke_width" maxLength="41">Stroke width</string>
     <string name="use_input_tag" maxLength="41">Type answer into the card</string>
@@ -83,13 +78,13 @@
     <string name="card_browser_hide_media_summary">Display media filenames in the card browser question/answer fields</string>
     <string name="col_path" maxLength="41">AnkiDroid directory</string>
     <string name="fullscreen_review" maxLength="41">Fullscreen mode</string>
-    <string name="full_screen_off">Сүнгән</string>
+    <string name="full_screen_off">Off</string>
     <string name="full_screen_system">Hide the system bars</string>
     <string name="full_screen_complete">Hide the system bars and answer buttons</string>
     <string name="full_screen_error_gestures">You must enable gestures to hide the answer buttons</string>
     <string name="answer_buttons_position" maxLength="41">Answer buttons position</string>
     <string-array name="answer_buttons_position_labels">
-        <item>Өске</item>
+        <item>Top</item>
         <item>Bottom</item>
         <item>None</item>
     </string-array>
@@ -99,8 +94,8 @@
     <string name="gestures_corner_touch_summary">Allow touch gestures in screen corners</string>
     <string name="gestures_full_screen_nav_drawer" maxLength="41">Full screen navigation drawer</string>
     <string name="gestures_fullscreen_nav_drawer_summary">Open navigation drawer when swiped right from anywhere on the screen</string>
-    <string name="gestures_swipe_up" maxLength="41">Ачу өчен өскә шудыру</string>
-    <string name="gestures_swipe_down" maxLength="41">Аска шудыру</string>
+    <string name="gestures_swipe_up" maxLength="41">Swipe up</string>
+    <string name="gestures_swipe_down" maxLength="41">Swipe down</string>
     <string name="gestures_swipe_left" maxLength="41">Swipe left</string>
     <string name="gestures_swipe_right" maxLength="41">Swipe right</string>
     <string name="gestures_double_tap" maxLength="41">Double touch</string>
@@ -116,7 +111,7 @@
     <string name="gestures_corner_tap_bottom_right" maxLength="41">Touch bottom right</string>
     <string name="more_scrolling_buttons" maxLength="41">eReader</string>
     <string name="more_scrolling_buttons_summ">Also use kanji/katakana, emoji/kao-moji buttons for scrolling</string>
-    <string name="card_browser_enable_external_context_menu">‘%s’ Меню</string>
+    <string name="card_browser_enable_external_context_menu">‘%s’ Menu</string>
     <string name="card_browser_enable_external_context_menu_summary">Enables the ‘%s’ context menu globally</string>
     <string name="double_scrolling_gap" maxLength="41">Double scrolling</string>
     <string name="double_scrolling_gap_summ">Double the scroll gap with eReader</string>
@@ -125,7 +120,7 @@
     <string name="tts_summ">Reads out question and answer if no sound file is included</string>
     <string name="sync_fetch_missing_media" maxLength="41">Fetch media on sync</string>
     <string name="sync_fetch_missing_media_summ">Automatically fetch missing media when syncing</string>
-    <string name="sync_account" maxLength="41">AnkiWeb хисап язмасы</string>
+    <string name="sync_account" maxLength="41">AnkiWeb account</string>
     <string name="sync_account_summ_logged_out">Not logged in</string>
     <string name="sync_account_summ_logged_in" comment="The summary for the account setting when logged in. Parameter is the username (email)">%s</string>
     <string name="automatic_sync_choice" maxLength="41">Automatic synchronization</string>
@@ -134,11 +129,11 @@
     <string name="sync_status_badge" maxLength="41">Display synchronization status</string>
     <string name="sync_status_badge_summ">Change the sync icon when changes can be uploaded</string>
     <string name="app_theme" maxLength="41">Theme</string>
-    <string name="day_theme" maxLength="41">Көн темасы</string>
-    <string name="night_theme" maxLength="41">Төнге режим</string>
+    <string name="day_theme" maxLength="41">Day theme</string>
+    <string name="night_theme" maxLength="41">Night theme</string>
     <string name="default_font" maxLength="41">Default font</string>
     <string name="override_font" maxLength="41">Default font applicability</string>
-    <string name="language" maxLength="41">Тел</string>
+    <string name="language" maxLength="41">Language</string>
     <string name="language_system">System language</string>
     <string name="notification_pref" maxLength="41">Notifications</string>
     <string name="notification_pref_title" maxLength="41">Notify when</string>
@@ -151,9 +146,9 @@
     <string name="timeout_answer" maxLength="41">Timeout answer</string>
     <string name="timeout_answer_summ">Show answer automatically without user input. Delay includes time for automatically played audio files.</string>
     <string name="timeout_answer_seconds" maxLength="41">Time to show answer</string>
-    <string name="timeout_answer_seconds_summ" comment="The time to wait (in seconds) in the reviewer before automatically showing the next question or answer">XXX сек</string>
+    <string name="timeout_answer_seconds_summ" comment="The time to wait (in seconds) in the reviewer before automatically showing the next question or answer">XXX s</string>
     <string name="timeout_question_seconds" maxLength="41">Time to show next question</string>
-    <string name="select_locale_title">Телне сайлау</string>
+    <string name="select_locale_title">Select language</string>
     <string name="software_render" maxLength="41">Disable card hardware render</string>
     <string name="software_render_summ">Hardware render is faster but may have problems, specifically on Android 8/8.1. If you cannot see parts of the card review user interface, try this setting.</string>
     <string name="safe_display" maxLength="41">Safe display mode</string>
@@ -180,7 +175,7 @@
     <string name="new_spread" maxLength="41">New card position</string>
     <string name="learn_cutoff" maxLength="41">Learn ahead limit</string>
     <string name="time_limit" maxLength="41">Timebox time limit</string>
-    <string name="time_limit_summ">XXX мин</string>
+    <string name="time_limit_summ">XXX min</string>
     <string name="new_timezone" maxLength="41">New timezone handling</string>
     <string name="day_offset_with_description" maxLength="41">Start of next day</string>
     <string name="day_offset_summ">XXX hours past midnight</string>
@@ -190,11 +185,11 @@
     <string name="sched_v2_summ">Enable the new scheduler. Forces changes in one direction on next sync</string>
     <string name="sched_ver_toggle_title">Confirm</string>
     <string name="sched_ver_1to2">The experimental scheduler could cause incorrect scheduling. Please ensure you have read the documentation first. Proceed?</string>
-    <string name="pref_keep_screen_on" maxLength="41">Экран гел ачык</string>
+    <string name="pref_keep_screen_on" maxLength="41">Keep screen on</string>
     <string name="pref_keep_screen_on_summ">Disable screen timeout</string>
     <string name="convert_fen_text" maxLength="41">Chess notation support</string>
     <string name="convert_fen_text_summ">Draw chessboard from Forsyth–Edwards Notation. The notation must be enclosed in [fen][/fen] tags.</string>
-    <string name="enable_api_title" maxLength="41">AnkiDroid API кабызу</string>
+    <string name="enable_api_title" maxLength="41">Enable AnkiDroid API</string>
     <string name="enable_api_summary">Let other apps connect to AnkiDroid and read / write data without your intervention</string>
     <string name="custom_buttons" maxLength="41">App bar buttons</string>
     <string name="custom_buttons_summary">Customize which actions appear in the app bar</string>
@@ -249,16 +244,16 @@
     <plurals name="deck_conf_group_summ">
         <item quantity="other">%1$s\n%2$d decks use this group</item>
     </plurals>
-    <string name="deck_conf_new_cards" maxLength="41">Яңа кәртләр</string>
+    <string name="deck_conf_new_cards" maxLength="41">New cards</string>
     <string name="deck_conf_rev_cards" maxLength="41" comment="Name of the deck options submenu for configuring reviews of due cards.">Reviews</string>
     <string name="deck_conf_lps_cards" maxLength="41" comment="Label of the submenu stating how lapses cards are treated.">Lapses</string>
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">General</string>
     <string name="deck_conf_reminders" maxLength="41">Reminders</string>
     <string name="deck_conf_steps" maxLength="41">Steps (in minutes)</string>
-    <string name="deck_conf_order" maxLength="41">Тәртипкә салу</string>
-    <string name="deck_conf_new_cards_day" maxLength="41">Яңа кәртләр / көн </string>
+    <string name="deck_conf_order" maxLength="41">Order</string>
+    <string name="deck_conf_new_cards_day" maxLength="41">New cards/day</string>
     <string name="deck_conf_graduating_ivl" maxLength="41">Graduating interval</string>
-    <string name="deck_conf_days">XXX көн</string>
+    <string name="deck_conf_days">XXX day(s)</string>
     <string name="deck_conf_easy_ivl" maxLength="41">Easy interval</string>
     <string name="deck_conf_start_ease" maxLength="41">Starting ease</string>
     <string name="deck_conf_max_rev" maxLength="41">Maximum reviews/day</string>
@@ -266,7 +261,7 @@
     <string name="deck_conf_new_bury_summ">Related new cards are buried until the next day</string>
     <string name="deck_conf_rev_bury" maxLength="41">Bury related reviews</string>
     <string name="deck_conf_rev_bury_summ">Related reviews are buried until the next day</string>
-    <string name="deck_conf_use_general_timeout_settings" maxLength="41">Төп көйләүләрне куллану</string>
+    <string name="deck_conf_use_general_timeout_settings" maxLength="41">Use general settings</string>
     <string name="deck_conf_use_general_timeout_settings_summ">Use general \'Automatic display answer\' settings instead of using the settings for this group.</string>
     <string name="deck_conf_easy_bonus" maxLength="41">Easy bonus</string>
     <string name="deck_conf_hard_factor" maxLength="41">Hard interval</string>
@@ -275,10 +270,10 @@
     <string name="deck_conf_new_lps_ivl" maxLength="41">New interval</string>
     <string name="deck_conf_min_ivl" maxLength="41">Minimum interval</string>
     <string name="deck_conf_leech_thres" maxLength="41">Leech threshold</string>
-    <string name="deck_conf_fails">XXX хата</string>
+    <string name="deck_conf_fails">XXX lapse(s)</string>
     <string name="deck_conf_leech_action" maxLength="41">Leech action</string>
     <string name="deck_conf_max_time" maxLength="41">Maximal answer time</string>
-    <string name="deck_conf_seconds">XXX секунд</string>
+    <string name="deck_conf_seconds">XXX seconds</string>
     <string name="deck_conf_timer" maxLength="41">Show answer timer</string>
     <string name="deck_conf_autoplay" maxLength="41">Automatically play audio</string>
     <string name="deck_conf_replayq" maxLength="41">Replay question</string>
@@ -286,10 +281,10 @@
     <string name="deck_conf_manage" maxLength="41">Group management</string>
     <string name="deck_conf_manage_summ">Add and change options groups</string>
     <string name="deck_conf_current_group" maxLength="41">Current group</string>
-    <string name="deck_conf_rename" maxLength="41" comment="Menu entry to rename a deck">Исемен үзгәртү</string>
+    <string name="deck_conf_rename" maxLength="41" comment="Menu entry to rename a deck">Rename</string>
     <string name="deck_conf_reset" maxLength="41">Restore defaults</string>
     <string name="deck_conf_reset_message">Restore current options group to default values?</string>
-    <string name="deck_conf_add" maxLength="41" comment="Adding a new deck option group">Кушу</string>
+    <string name="deck_conf_add" maxLength="41" comment="Adding a new deck option group">Add</string>
     <string name="deck_conf_add_summ">Create a copy of the current options group</string>
     <string name="deck_conf_remove_message">Remove current options group?</string>
     <string name="deck_conf_set_subdecks" maxLength="41">Set for all subdecks</string>
@@ -299,7 +294,7 @@
     <string name="deck_conf_set_subdecks_message">Set current options group for all of this deck’s subdecks?</string>
     <string name="pref_browser_editor_font" maxLength="41">Browser and editor font</string>
     <string name="deck_conf_cram_filter" maxLength="41">Filter</string>
-    <string name="deck_conf_cram_search" maxLength="41">Эзләү</string>
+    <string name="deck_conf_cram_search" maxLength="41">Search</string>
     <string name="deck_conf_cram_limit" maxLength="41">Limit to</string>
     <string name="deck_conf_cram_order" maxLength="41">cards selected by</string>
     <string name="deck_conf_cram_reschedule" maxLength="41" comment="Title of the box labelled by deck_conf_cram_reschedule_summ">Reschedule</string>

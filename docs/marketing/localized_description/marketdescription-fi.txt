@@ -1,36 +1,36 @@
-Muista mitä tahansa AnkiDroidilla!
+Memorize anything with AnkiDroid!
 
-AnkiDroid mahdollistaa muistikorttien oppimisen erittäin tehokkaasti näyttäen ne juuri ennen kuin ehdit unohtaa ne. Se on täysin yhteensopiva Anki-aikavälikertausohjelmiston kanssa (mukaanlukien synkronisointi), joka on saatavilla Windows, Linux ja MacOS -ympäristöihin.
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-Opiskele kaikenlaisia asioita missä ja milloin haluat. Käytä hyväksesi toimettomuus bussimatkalla, ruokakaupan jonossa tai muussa odotustilanteessa!
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-Luo omat muistikorttipakat tai lataa ilmaisia pakkoja useille kielille ja useille aiheille (yli 6000 pakkaa valmiiksi saatavilla).
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-Lisää materiaalia työpöytäsovelluksen (Anki) kautta tai suoraan AnkiDroidista. Sovellus tukee jopa materiaalien lisäämistä automaattisesti sanakirjasta!
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ Pääominaisuudet:
-• tuetut sisältömuodot: teksti, kuvat, äänet, LaTeX-merkinnät
-• aikavälitoisto (supermemo 2 -algoritmi)
-• tekstistä puheeksi -tuki
-• yli 6000 valmista pakkaa
-• widget edistymiseen
-• yksityiskohtaiset tilastot
-• synkronointi AnkiWebin kanssa
-• avoimen lähdekoodin sovellus
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
+• spaced repetition (supermemo 2 algorithm)
+• text-to-speech integration
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
+• open source
 
-★ Lisäominaisuudet:
-• kirjoita vastaukset (valinnainen)
-• luonnoslehtiö
-• korttien muokkaus ja lisäys
-• korttiselain
-• tablet näkymä
-• olemassa olevien kokoelmien tuominen (Anki-työpöytäsovelluksesta)
-• lisää kortteja (Intent) muista sovelluksissa kuten sanakirjoista
-• tuki omien kirjasinten käyttöön
-• tuki varmuuskopioille
-• siirtyminen pyyhkäisemällä tai napauttamalla
-• muokattava
-• tuki dynaamisille pakoille
-• yötila
-• saatavilla 27 kielellä
-• Kaikki aiemmat AnkiDroid-versiot ovat saatavilla verkkosivuilta
+★ Additional features:
+• write answers (optional)
+• whiteboard
+• card editor/adder
+• card browser
+• tablet layout
+• import existing collection files (via Anki Desktop)
+• add cards by intent from other applications like dictionaries
+• custom font support
+• full backup system
+• navigation by swipe, tap
+• customisable
+• dynamic deck handling
+• night mode
+• 27 localisations
+• All previous AnkiDroid versions can be downloaded from the website

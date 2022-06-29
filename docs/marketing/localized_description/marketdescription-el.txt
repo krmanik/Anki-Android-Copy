@@ -1,36 +1,36 @@
-Απομνημονεύστε οτιδήποτε με το Ανκί-Ντρόιντ!
+Memorize anything with AnkiDroid!
 
-Το Ανκί-Ντρόιντ σας επιτρέπει να μάθετε κάρτες πολύ αποτελεσματικά παρουσιάζοντάς τες λίγο πριν τις ξεχάσετε. Είναι πλήρως συμβατό με το λογισμικό επαναλήψεων κατά διαστήματα Ανκί (συμπεριλαμβανομένου και του συγχρονισμού), το οποίο είναι διαθέσιμο για Windows, Linux και MacOS.
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-Μελετήστε όλα τα είδη πραγμάτων, οπουδήπουτε κι οποτεδήποτε θέλετε. Αξιοποιήστε τον αδρανή χρόνο στο λεωφορείο, στις ουρές σε σούπερ μάρκετ ή σε οποιαδήποτε άλλη κατάσταση αναμονής!
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-Δημιουργήστε τις δικές σας τράπουλες εκμάθησης ή κατεβάστε δωρεάν τράπουλες για πολλές γλώσσες και θέματα (πάνω από 6000 διαθέσιμες).
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-Προσθέστε υλικό μέσω της εφαρμογής Ανκί υπολογιστή ή απευθείας μέσω του Ανκί-Ντρόιντ. Η εφαρμογή υποστηρίζει και την αυτόματη προσθήκη υλικού από λεξικό!
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ Κύρια χαρακτηριστικά:
-• υποστήριζόμενοι τύποι δεδομένων για κάρτες: κέιμενο, εικόνες, ήχοι, LaTeX
-• επανάληψη κατά διαστήματα (αλγόριθμος supermemo 2)
-• ενσωμάτωση μετατροπής κειμένου σε ομιλία
-• πάνω από 6000 έτοιμες τράπουλες
-• γραφικό στοιχείο προόδου
-• λεπτομερή στατιστικά
-• συγχρονισμός με το AnkiWeb
-• ανοικτός κώδικας
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
+• spaced repetition (supermemo 2 algorithm)
+• text-to-speech integration
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
+• open source
 
-★ Πρόσθετα χαρακτηριστικά:
-• εγγραφή απαντήσεων (προαιρετικά)
-• πίνακας σχεδιασμού
-• εργαλεία επεξεργασίας/προσθήκης καρτών
-• ευρετήριο καρτών
-• διάταξη για ταμπλέτα
-• εισαγωγή υπάρχουσας συλλογής αρχείων (μέσω Ανκί για Υπολογιστή)
-• προσθήκη καρτών από άλλες εφαρμογές όπως λεξικά
-• υποστήριξη προσαρμοσμένης γραμματοσειράς
-• πλήρες σύστημα αντιγράφων ασφαλείας
-• πλοήγηση με ολίσθηση, άγγιγμα
-• προσαρμόσιμο
-• δυναμική διαχείρηση τραπουλών
-• λειτουργία νύχτας
-• 27 μεταφράσεις
-• Όλες τις προηγούμενες εκδόσεις του Ανκί-Ντρόιντ μπορούν να βρεθούν στην ιστοσελίδα
+★ Additional features:
+• write answers (optional)
+• whiteboard
+• card editor/adder
+• card browser
+• tablet layout
+• import existing collection files (via Anki Desktop)
+• add cards by intent from other applications like dictionaries
+• custom font support
+• full backup system
+• navigation by swipe, tap
+• customisable
+• dynamic deck handling
+• night mode
+• 27 localisations
+• All previous AnkiDroid versions can be downloaded from the website

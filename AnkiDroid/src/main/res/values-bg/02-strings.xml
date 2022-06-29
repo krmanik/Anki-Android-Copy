@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -47,159 +42,159 @@
     <!-- How to format a percentage shown in the summary field of a preference -->
     <string name="preference_summary_percentage">XXX%</string>
     <!-- Navigation drawer strings -->
-    <string name="drawer_open">Отвори чекмеджето</string>
-    <string name="drawer_close">Затвори чекмеджето</string>
-    <string name="CardEditorCardDeck">Тесте от карти:</string>
-    <string name="CardEditorNoteDeck">Тесте:</string>
-    <string name="CardEditorModel">Тип:</string>
-    <string name="CardEditorTags">Етикети:%1$s</string>
-    <string name="CardEditorCards">Карти: %1$s</string>
-    <string name="tag_name">Име на етикет</string>
-    <string name="add_new_filter_tags">Добавяне/филтър на тагове</string>
-    <string name="add_tag">Нов етикет</string>
-    <string name="check_all_tags">Избор/премахване на всички етикети</string>
-    <string name="filter_tags">Филтър на етикети</string>
-    <string name="no_tags">Все още не сте добавили етикети</string>
-    <string name="updated_version">Обновено до версия %s</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="CardEditorCardDeck">Card deck:</string>
+    <string name="CardEditorNoteDeck">Deck:</string>
+    <string name="CardEditorModel">Type:</string>
+    <string name="CardEditorTags">Tags: %1$s</string>
+    <string name="CardEditorCards">Cards: %1$s</string>
+    <string name="tag_name">Tag name</string>
+    <string name="add_new_filter_tags">Add/filter tags</string>
+    <string name="add_tag">Add tag</string>
+    <string name="check_all_tags">Check/uncheck all tags</string>
+    <string name="filter_tags">Filter tags</string>
+    <string name="no_tags">You haven’t added any tags yet</string>
+    <string name="updated_version">Updated to version %s</string>
     <!-- Reviewer.kt -->
-    <string name="save_whiteboard">Запазете бялата дъска</string>
-    <string name="enable_whiteboard">Разрешаване на бяла дъска</string>
-    <string name="disable_whiteboard">Забраняване на бяла дъска</string>
-    <string name="show_whiteboard">Покажи бялатадъска</string>
-    <string name="hide_whiteboard">Скрий бялатадъска</string>
-    <string name="clear_whiteboard">Изчисти бялатадъска</string>
-    <string name="replay_audio">Аудиото отново</string>
-    <string name="leech_suspend_notification">Карта, маркирана като залепена и спряна</string>
-    <string name="leech_notification">Карта, маркирана като залепена</string>
-    <string name="corrupt_font">Повреден шрифт %s</string>
-    <string name="webview_crash_unknown">Неизвестна грешка</string>
-    <string name="webview_crash_unknwon_detailed">Това е причинено от вътрешна грешка в WebView</string>
-    <string name="webview_crash_oom">Недостиг на памет</string>
-    <string name="webview_crash_oom_details">WebView беше прекратен от системата. Това обикновено се случва, когато свърши паметта на приложението, често поради големи шрифтове или файлове.</string>
-    <string name="webview_crash_nonfatal">WebView визуализаторът се срина. Причина:%s</string>
-    <string name="webview_crash_fatal">Фатална грешка: WebView визуализаторът се срина. Причина: %s</string>
-    <string name="webview_crash_loop_dialog_title">Неуспех при системно WebView визуализиране</string>
+    <string name="save_whiteboard">Save whiteboard</string>
+    <string name="enable_whiteboard">Enable whiteboard</string>
+    <string name="disable_whiteboard">Disable whiteboard</string>
+    <string name="show_whiteboard">Show whiteboard</string>
+    <string name="hide_whiteboard">Hide whiteboard</string>
+    <string name="clear_whiteboard">Clear whiteboard</string>
+    <string name="replay_audio">Replay audio</string>
+    <string name="leech_suspend_notification">Card marked as leech and suspended</string>
+    <string name="leech_notification">Card marked as leech</string>
+    <string name="corrupt_font">Corrupt font file %s</string>
+    <string name="webview_crash_unknown">Unknown error</string>
+    <string name="webview_crash_unknwon_detailed">This was caused by an internal error in the WebView</string>
+    <string name="webview_crash_oom">Out of Memory</string>
+    <string name="webview_crash_oom_details">The WebView was terminated by the system. This typically happens when the application runs out of memory, often due to large fonts or media.</string>
+    <string name="webview_crash_nonfatal">WebView renderer crashed. Cause: %s</string>
+    <string name="webview_crash_fatal">Fatal Error: WebView renderer crashed. Cause: %s</string>
+    <string name="webview_crash_loop_dialog_title">System WebView Rendering Failure</string>
     <string name="webview_crash_loop_dialog_content">System WebView failed to render card \'%1$s\'.\n %2$s</string>
     <!-- Browser -->
     <string-array name="browser_column1_headings">
-        <item>Въпрос</item>
-        <item>Поле за сортиране</item>
+        <item>Question</item>
+        <item>Sort field</item>
     </string-array>
     <string-array name="browser_column2_headings">
-        <item>Oтговор</item>
-        <item>Карта</item>
-        <item>Тесте</item>
-        <item>Бележка</item>
-        <item>Въпрос</item>
-        <item>Етикети</item>
-        <item>Пропуски</item>
-        <item>Разглеждания</item>
-        <item>Интервал</item>
+        <item>Answer</item>
+        <item>Card</item>
+        <item>Deck</item>
+        <item>Note</item>
+        <item>Question</item>
+        <item>Tags</item>
+        <item>Lapses</item>
+        <item>Reviews</item>
+        <item>Interval</item>
         <item>Ease</item>
         <item>Due</item>
-        <item>променена карта</item>
-        <item>Създадено</item>
-        <item>променена бележка</item>
+        <item>Card Modified</item>
+        <item>Created</item>
+        <item>Note Modified</item>
     </string-array>
     <!-- Custom study options -->
-    <string name="custom_study_increase_new_limit">Модифициране на днешното ограничение за нови карти</string>
-    <string name="custom_study_increase_review_limit">Модифициране на днешния лимит за преглед на карти</string>
-    <string name="custom_study_review_forgotten">Преглед забравени карти</string>
-    <string name="custom_study_review_ahead">Преглед напред</string>
-    <string name="custom_study_random_selection">Учи случаен подбор от карти</string>
-    <string name="custom_study_preview_new">Преглед на нови карти</string>
-    <string name="custom_study_limit_tags">Ограничаване до определени тагове</string>
+    <string name="custom_study_increase_new_limit">Modify today’s new card limit</string>
+    <string name="custom_study_increase_review_limit">Modify today’s review card limit</string>
+    <string name="custom_study_review_forgotten">Review forgotten cards</string>
+    <string name="custom_study_review_ahead">Review ahead</string>
+    <string name="custom_study_random_selection">Study a random selection of cards</string>
+    <string name="custom_study_preview_new">Preview new cards</string>
+    <string name="custom_study_limit_tags">Limit to particular tags</string>
     <!-- Card editor -->
-    <string name="cardeditor_title_edit_card">Промяна на бележка</string>
-    <string name="discard_unsaved_changes">Затворете и загубете текущите входни данни?</string>
-    <string name="note_editor_no_cards_created">Няма създадени карти. Моля, попълнете още полета</string>
-    <string name="note_editor_no_first_field">Първото поле е празно</string>
+    <string name="cardeditor_title_edit_card">Edit note</string>
+    <string name="discard_unsaved_changes">Close and lose current input?</string>
+    <string name="note_editor_no_cards_created">No cards created. Please fill in more fields</string>
+    <string name="note_editor_no_first_field">The first field is empty</string>
     <string name="note_editor_no_cloze_delations">This note type must contain cloze deletions</string>
     <string name="note_editor_no_cards_created_all_fields">The current note type did not produce any cards.\nPlease choose another note type, or click ‘Cards’ and add a field substitution</string>
     <string name="note_editor_insert_cloze_no_cloze_note_type">Cloze deletions will only work on a Cloze note type</string>
-    <string name="saving_facts">Записване на бележка</string>
-    <string name="saving_model">запазване типа на бележката</string>
-    <string name="save">Запис</string>
-    <string name="close">Затвори</string>
-    <string name="select">Изберете</string>
-    <string name="saving_changes">Записване на промените...</string>
-    <string name="reordering_cards">Пренареждане на карти&#8230;</string>
-    <string name="field_remapping">%1$s (от \"%2$s\")</string>
-    <string name="confirm_map_cards_to_nothing">Несъпоставените карти ще бъдат отстранени. Бележки, останали без карти ще бъдат загубени. Продължавате ли?</string>
+    <string name="saving_facts">Saving note</string>
+    <string name="saving_model">Saving note type</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="select">Select</string>
+    <string name="saving_changes">Saving changes&#8230;</string>
+    <string name="reordering_cards">Reordering cards&#8230;</string>
+    <string name="field_remapping">%1$s (from “%2$s”)</string>
+    <string name="confirm_map_cards_to_nothing">Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?</string>
     <string name="timebox_reached_title">Timebox reached</string>
     <plurals name="timebox_reached">
-        <item quantity="one">%1$d карта изучена за %2$s</item>
-        <item quantity="other">%1$d карти изучени за %2$s</item>
+        <item quantity="one">%1$d card studied in %2$s</item>
+        <item quantity="other">%1$d cards studied in %2$s</item>
     </plurals>
     <!-- minutes used in \'[studied in] x minutes\' context, causing inflexion in some languages -->
     <plurals name="in_minutes">
-        <item quantity="one">%1$d минута</item>
-        <item quantity="other">%1$d минути</item>
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid карта</string>
-    <string name="note_editor_copy_note">Копиране на бележката</string>
-    <string name="card_editor_reposition_card">Препозициониране</string>
-    <string name="card_editor_reset_card">Начално състояние на напредъка</string>
-    <string name="card_editor_reschedule_card" comment="Action to reschedule a card">Повторно планиране</string>
-    <string name="card_editor_preview_card" comment="Button offering to preview some card(s)">Преглед</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid card</string>
+    <string name="note_editor_copy_note">Copy note</string>
+    <string name="card_editor_reposition_card">Reposition</string>
+    <string name="card_editor_reset_card">Reset progress</string>
+    <string name="card_editor_reschedule_card" comment="Action to reschedule a card">Reschedule</string>
+    <string name="card_editor_preview_card" comment="Button offering to preview some card(s)">Preview</string>
     <string name="preview_progress_bar_text" comment="What card we are on out of how many in card previewer progress bar">%1$d of %2$d</string>
-    <string name="error_insufficient_memory">Операцията е невъзможна поради недостатъчна памет на вашето устройство</string>
-    <string name="rename" comment="Confirm that the renaming action should be processed.">Преименуване</string>
-    <string name="default_conf_delete_error">Опциите по подразбиране на групата не могат да се махнат</string>
+    <string name="error_insufficient_memory">Operation not possible due to insufficient memory on your device</string>
+    <string name="rename" comment="Confirm that the renaming action should be processed.">Rename</string>
+    <string name="default_conf_delete_error">The default options group can’t be removed</string>
     <plurals name="factadder_cards_added">
-        <item quantity="one">%d карта добавена</item>
-        <item quantity="other">%d карти добавени</item>
+        <item quantity="one">%d card added</item>
+        <item quantity="other">%d cards added</item>
     </plurals>
-    <string name="check_db">Проверка на базата данни</string>
-    <string name="check_media">Проверка на медии</string>
-    <string name="empty_cards">Празни карти</string>
-    <string name="check_db_message">Проверка на базата данни&#8230;</string>
-    <string name="empty_card_warning">Тази карта е празна. Използвайте опцията \"Празни карти\" от менюто на екрана със списъка с тестета.</string>
-    <string name="unknown_type_field_warning">Въведете отговор: неизвестно поле %s</string>
-    <string name="delete_deck">Изтриване на тесте&#8230;</string>
-    <string name="show_hint">Покажи %s</string>
-    <string name="info_rate">Оцени AnkiDroid</string>
-    <string name="import_title">Внасяне</string>
-    <string name="import_message_add" comment="Adding a new deck to the collection (import)">Добави</string>
-    <string name="import_message_replace_confirm">Това ще изтрие вашата съществуваща колекция и ще я замени с данните от файла %s</string>
+    <string name="check_db">Check database</string>
+    <string name="check_media">Check media</string>
+    <string name="empty_cards">Empty cards</string>
+    <string name="check_db_message">Checking database&#8230;</string>
+    <string name="empty_card_warning">This card is empty. Use the “Empty cards” option from the menu on the deck list screen.</string>
+    <string name="unknown_type_field_warning">Type answer: unknown field %s</string>
+    <string name="delete_deck">Deleting deck&#8230;</string>
+    <string name="show_hint">Show %s</string>
+    <string name="info_rate">Rate AnkiDroid</string>
+    <string name="import_title">Importing</string>
+    <string name="import_message_add" comment="Adding a new deck to the collection (import)">Add</string>
+    <string name="import_message_replace_confirm">This will delete your existing collection and replace it with the data of file %s</string>
     <plurals name="import_files_message_add_confirm">
         <item quantity="one">Add “%s” to collection? This may take a long time</item>
         <item quantity="other">Do you want to import the following files:\n%s\nThis may take a long time</item>
     </plurals>
-    <string name="import_log_no_apkg">Това не е валиден Anki package файл</string>
+    <string name="import_log_no_apkg">This isn’t a valid Anki package file</string>
     <string name="import_title_error" comment="Title of error dialog">Error</string>
-    <string name="import_log_failed_unzip">Неуспешно разархивиране на apkg %s:</string>
-    <string name="import_log_failed_copy_to">Неуспешно копиране на apkg до %s</string>
+    <string name="import_log_failed_unzip">Failed to unzip apkg: %s</string>
+    <string name="import_log_failed_copy_to">Failed to copy apkg to %s</string>
     <string name="import_log_failed_validate">apkg failed validation</string>
     <string name="import_log_insufficient_space_error">There is not enough space to import the package.\nNeeded - %1$s \nAvailable - %2$s.\n\nHaving Trouble? Try to free space on your phone if possible. Alternatively, sync uses less space than import. You may try importing the package with a device with more space (for example Anki Desktop) and then sync it to this device.</string>
     <string name="import_log_file_cache_cleared">Error importing file, likely a cache clear during processing.\nPlease try again</string>
-    <string name="import_succeeded_but_check_database">Импортирането на данните е успешно, но почистването на след импортирането се провали. Стартирайте проверка на базата данни по-късно. Главна причина: %s</string>
-    <string name="import_error_unhandled_request">Заявката за импортиране не може да бъде обработена</string>
+    <string name="import_succeeded_but_check_database">Data import succeeded but post-import cleanup failed. Run check database later. Root cause: %s</string>
+    <string name="import_error_unhandled_request">Unable to process import request</string>
     <string name="import_error_corrupt_zip">The apkg file is corrupt. Please delete and re-download it.\n\nRoot cause: %s</string>
-    <string name="import_error_exception">Неуспешно импортиране на пакет \n\n%s</string>
+    <string name="import_error_exception">Failed to import package\n\n%s</string>
     <string name="import_error_not_apkg_extension">Filename “%s” doesn’t have .apkg or .colpkg extension</string>
     <string name="import_error_load_imported_database">Anki Database (.anki2) replacements are not yet supported. Please see the manual for replacement instructions.</string>
-    <string name="import_error_content_provider">Избраният файл не можа да бъде импортиран автоматично от AnkiDroid. Моля, вижте ръководството на потребителя за как да ръчно да импортирате anki файлове: \n%s</string>
+    <string name="import_error_content_provider">The selected file couldn’t be imported automatically by AnkiDroid. Please see the user manual for how to manually import anki files: \n%s</string>
     <string name="import_error_copy_file_to_cache">copyFileToCache() failed (possibly out of storage space)</string>
     <string name="import_error_unhandled_scheme">Unhandled import from: “%s”</string>
     <string name="import_error_multiple_colpkg">Multiple colpkg files were selected.</string>
     <string name="import_error_colpkg_apkg">Both apkg &amp; colpkg files were selected at once.</string>
     <string name="import_stats_error">Some errors occurred while importing the following files:\n%s</string>
-    <string name="import_replacing">Замяна на колекция&#8230;</string>
+    <string name="import_replacing">Replacing collection&#8230;</string>
     <string name="import_interrupted">Import interrupted: AnkiDroid was closed</string>
-    <string name="export_include_schedule">Включване на планирането</string>
-    <string name="export_include_media">Включване на медия</string>
+    <string name="export_include_schedule">Include scheduling</string>
+    <string name="export_include_media">Include media</string>
     <string name="confirm_apkg_export">Export collection as Anki package?</string>
-    <string name="confirm_apkg_export_deck">Експортиране на \"%s\" като apkg файл?</string>
-    <string name="export_in_progress">Експортиране на Anki пакетен файл&#8230;</string>
+    <string name="confirm_apkg_export_deck">Export “%s” as apkg file?</string>
+    <string name="export_in_progress">Exporting Anki package file&#8230;</string>
     <string name="export_successful_title">Send Anki package?</string>
-    <string name="export_send_button">Изпращане</string>
-    <string name="export_save_button">Запис във файл</string>
+    <string name="export_send_button">Send</string>
+    <string name="export_save_button">Save to file</string>
     <string name="export_send_no_handlers">No applications available to handle apkg. Saving...</string>
-    <string name="export_save_apkg_successful">Успешно запазване на Anki пакет</string>
+    <string name="export_save_apkg_successful">Successfully saved Anki package</string>
     <string name="export_save_apkg_unsuccessful">Save Anki package failed</string>
     <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-    <string name="export_email_subject">Експортирани от AnkiDroid флашкарти: %s</string>
+    <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
     <string name="export_email_text"><![CDATA[        Hi!
         <br/><br/>
         This is an Anki flashcards deck sent from AnkiDroid[1].
@@ -207,121 +202,121 @@
         [1] %1$s<br/>
         [2] %2$s
         ]]></string>
-    <string name="export_unsuccessful">Грешка при експортиране на apkg файл</string>
-    <string name="study_options" comment="Name for a preference category in Filtered deck (aka Cram deck, aka Custom study) options">Настройки</string>
-    <string name="menu__deck_options">Опции за тестето</string>
-    <string name="menu__study_options" comment="Menu item that opens options for a Filtered deck (aka Cram deck, aka Custom study)">Опции за учене</string>
-    <string name="select_tts">Задаване на TTS език</string>
-    <string name="custom_study">Допълнително учене</string>
-    <string name="more_options">Още</string>
-    <string name="dyn_deck_desc">Това е специално тесте за учене извън нормалния график. Картите автоматично ще бъдат върнати в техните първоначални тестета след като бъдат разгледани. Изтриването на това тесте от списъка с тестета ще върне всички останали карти в тестетата, където са били първоначално.</string>
-    <string name="steps_error">Стъпките трябва да са числа, по-големи от 0</string>
-    <string name="steps_min_error">Изисква се една стъпка</string>
-    <string name="sched_end">(край)</string>
-    <string name="sched_unbury_action">за да ги видите сега докосване \"Откопаване\" в менюто</string>
-    <string name="sched_has_buried">Някои свързани или заровени карти са отложени до утре</string>
-    <string name="tag_editor_add_feedback">Докоснете \"%2$s\", за да потвърдите добавянето на \"%1$s\"</string>
-    <string name="tag_editor_add_feedback_existing">Избран е съществуващ етикет \"%1$s\"</string>
+    <string name="export_unsuccessful">Error exporting apkg file</string>
+    <string name="study_options" comment="Name for a preference category in Filtered deck (aka Cram deck, aka Custom study) options">Options</string>
+    <string name="menu__deck_options">Deck options</string>
+    <string name="menu__study_options" comment="Menu item that opens options for a Filtered deck (aka Cram deck, aka Custom study)">Study options</string>
+    <string name="select_tts">Set TTS language</string>
+    <string name="custom_study">Custom study</string>
+    <string name="more_options">More</string>
+    <string name="dyn_deck_desc">This is a special deck for studying outside of the normal schedule. Cards will be automatically returned to their original decks after you review them. Deleting this deck from the deck list will return all remaining cards to their original deck.</string>
+    <string name="steps_error">Steps must be numbers greater than 0</string>
+    <string name="steps_min_error">At least one step is required</string>
+    <string name="sched_end">(end)</string>
+    <string name="sched_unbury_action">To see them now touch the “Unbury” item in the menu</string>
+    <string name="sched_has_buried">Some related or buried cards were delayed until tomorrow</string>
+    <string name="tag_editor_add_feedback">Touch “%2$s” to confirm adding “%1$s”</string>
+    <string name="tag_editor_add_feedback_existing">Existing tag “%1$s” selected</string>
     <!-- Time spans -->
     <plurals name="time_span_seconds">
-        <item quantity="one">%s секунда</item>
-        <item quantity="other">%s секунди</item>
+        <item quantity="one">%s second</item>
+        <item quantity="other">%s seconds</item>
     </plurals>
     <plurals name="time_span_minutes">
-        <item quantity="one">%s минута</item>
-        <item quantity="other">%s минути</item>
+        <item quantity="one">%s minute</item>
+        <item quantity="other">%s minutes</item>
     </plurals>
     <plurals name="time_span_hours">
-        <item quantity="one">%s час</item>
-        <item quantity="other">%s часа</item>
+        <item quantity="one">%s hour</item>
+        <item quantity="other">%s hours</item>
     </plurals>
     <plurals name="time_span_days">
-        <item quantity="one">%s ден</item>
-        <item quantity="other">%s дни</item>
+        <item quantity="one">%s day</item>
+        <item quantity="other">%s days</item>
     </plurals>
     <plurals name="time_span_months">
-        <item quantity="one">%s месец</item>
-        <item quantity="other">%s месеца</item>
+        <item quantity="one">%s month</item>
+        <item quantity="other">%s months</item>
     </plurals>
     <plurals name="time_span_years">
-        <item quantity="one">%s година</item>
-        <item quantity="other">%s години</item>
+        <item quantity="one">%s year</item>
+        <item quantity="other">%s years</item>
     </plurals>
     <!-- A decimal number of seconds.
     Please give this a best-effort translation and explain the requirements for
     formatting decimals in your language in the CrowdIn comments -->
-    <string name="time_span_decimal_seconds">%s секунди</string>
+    <string name="time_span_decimal_seconds">%s seconds</string>
     <!-- The reason for making a simple “< x” translatable are RTL
          languages which apparently use the other symbol to mean less
          than. -->
     <string name="less_than_time">&lt; %s</string>
-    <string name="decks_rename_exists">Това тесте вече съществува</string>
-    <string name="decks_rename_filtered_nosubdecks">Филтрирано тесте не може да има подтестета</string>
-    <string name="filtered_deck_name">Филтриране на тестета</string>
-    <string name="reminder_title">Не забравяйте да учите днес!</string>
+    <string name="decks_rename_exists">That deck already exists</string>
+    <string name="decks_rename_filtered_nosubdecks">A filtered deck cannot have subdecks</string>
+    <string name="filtered_deck_name">Filtered Deck</string>
+    <string name="reminder_title">Do not forget to study today!</string>
     <plurals name="reminder_text">
         <item quantity="one">%2$d card to review in %1$s</item>
-        <item quantity="other">%2$d карти за преглед след %1$s</item>
+        <item quantity="other">%2$d cards to review in %1$s</item>
     </plurals>
     <!-- Currently only used if exporting APKG fails -->
-    <string name="apk_share_error">Грешка при споделяне apkg файл</string>
+    <string name="apk_share_error">Error sharing apkg file</string>
     <!-- Import and export v2 feedback -->
-    <string name="export_v2_dummy_note">Този файл изисква по-нова версия на Anki.</string>
+    <string name="export_v2_dummy_note">This file requires a newer version of Anki.</string>
     <!-- Placed in a snackbar with a long URL. Limit the length and move the URL to the start of the string -->
-    <string name="activity_start_failed_load_url">Зареждането на „%s“ бе неуспешно.</string>
-    <string name="activity_start_failed">Системата няма инсталирано приложение, което може да извърши това действие.</string>
-    <string name="multimedia_editor_image_compression_failed"><![CDATA[Изображенията на камерата може да са големи. Бихте могли да искате да компресирате и преоразмерите изображенията в медийната директория]]></string>
-    <string name="no_browser_notification">Не е намерен браузър， моля, посетете уеб страница от компютър или мобилен телефон: </string>
-    <string name="web_page_error">Грешка при зареждане на страница: %s</string>
-    <string name="no_outgoing_link_in_cardbrowser">Връзка към външна страница в картата не се поддържа.</string>
+    <string name="activity_start_failed_load_url">Loading \'%s\' failed.</string>
+    <string name="activity_start_failed">The system does not have an app installed that can perform this action.</string>
+    <string name="multimedia_editor_image_compression_failed"><![CDATA[Camera images may be large. You may wish to compress & resize images in the media directory]]></string>
+    <string name="no_browser_notification">No browser found，please visit web page by pc or mobile: </string>
+    <string name="web_page_error">Error loading page: %s</string>
+    <string name="no_outgoing_link_in_cardbrowser">External page link in card is not supported.</string>
     <!-- The name of the deck which corrupt cards will be moved to -->
-    <string name="check_integrity_recovered_deck_name">Възстановени карти</string>
+    <string name="check_integrity_recovered_deck_name">Recovered Cards</string>
     <!-- Deckpicker Background -->
-    <string name="background_image_title">Фон</string>
-    <string name="choose_an_image">Изберете изображение</string>
+    <string name="background_image_title">Background</string>
+    <string name="choose_an_image">Select image</string>
     <!-- Card Template Browser Appearance -->
-    <string name="restore_default">Възстанови по подразбиране</string>
+    <string name="restore_default">Restore Default</string>
     <string name="cloze_sample_text">This is a {{%1$s::sample}} cloze deletion.</string>
     <string name="basic_answer_sample_text_user" comment="has a typo, so that user sees a highlighted difference in basic answer model     ">exomple</string>
     <string name="basic_answer_sample_text">an example</string>
-    <string name="reviewer_tts_cloze_spoken_replacement">Празно</string>
+    <string name="reviewer_tts_cloze_spoken_replacement">Blank</string>
     <!-- in options menu & Navigation Drawer -->
-    <string name="ankidroid_turn_on_fullscreen_nav_drawer">Моля, включете цял екран, за да използвате Показване на чекмеджето за навигация с помощта на JavaScript.</string>
-    <string name="ankidroid_turn_on_fullscreen_options_menu">Моля, включете цял екран, за да използвате менюто „Показване на опциите“ с помощта на JavaScript.</string>
+    <string name="ankidroid_turn_on_fullscreen_nav_drawer">Please turn on fullscreen to use Show Navigation Drawer using JavaScript.</string>
+    <string name="ankidroid_turn_on_fullscreen_options_menu">Please turn on fullscreen to use Show Options Menu using JavaScript.</string>
     <!-- Whiteboard save image message in Reviewer -->
-    <string name="white_board_image_save_failed">Запазването на изображението на бялата дъска не бе успешно. %s</string>
-    <string name="white_board_image_saved">Изображението на бялата дъска е запазено в %s</string>
-    <string name="title_whiteboard_pen_color">Цвят на писалката за бяла дъска</string>
+    <string name="white_board_image_save_failed">Failed to save whiteboard image. %s</string>
+    <string name="white_board_image_saved">Whiteboard image saved to %s</string>
+    <string name="title_whiteboard_pen_color">Whiteboard pen color</string>
     <string name="title_whiteboard_editor">Whiteboard editor</string>
     <!-- CSV/Note Import -->
-    <string name="note_importer_empty_cards_found"><![CDATA[Намерени са празни карти. Моля, стартирайте Инструменти>Празни карти.]]></string>
-    <string name="note_importer_error_empty_first_field">Празно първо поле: %s</string>
-    <string name="note_importer_error_first_field_matched">Съвпадение на първото поле: %s</string>
-    <string name="note_importer_error_added_duplicate_first_field">Добавен дубликат с първо поле: %s</string>
-    <string name="note_importer_error_appeared_twice">Появява се два пъти във файл: %s</string>
-    <string name="note_importer_error_empty_notes">Една или повече бележки не бяха импортирани, тъй като не генерираха карти. Това може да се случи, когато имате празни полета или когато не сте преобразували съдържанието в текстовия файл в правилните полета</string>
-    <string name="csv_importer_error_invalid_field_count">„%1$s“ имаше %2$d полета, очаквайки %3$d</string>
-    <string name="csv_importer_error_exception">Прекъснато: %s</string>
-    <string name="user_is_a_robot">Открит автоматичен тест. Ако сте човек, свържете се с екипа за поддръжка на AnkiDroid</string>
+    <string name="note_importer_empty_cards_found"><![CDATA[Empty cards found. Please run Tools>Empty Cards.]]></string>
+    <string name="note_importer_error_empty_first_field">Empty first field: %s</string>
+    <string name="note_importer_error_first_field_matched">First field matched: %s</string>
+    <string name="note_importer_error_added_duplicate_first_field">Added duplicate with first field: %s</string>
+    <string name="note_importer_error_appeared_twice">Appeared twice in file: %s</string>
+    <string name="note_importer_error_empty_notes">One or more notes were not imported, because they didn\'t generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields</string>
+    <string name="csv_importer_error_invalid_field_count">‘%1$s’ had %2$d fields, expected %3$d</string>
+    <string name="csv_importer_error_exception">Aborted: %s</string>
+    <string name="user_is_a_robot">Detected automated test. If you are a human, contact AnkiDroid support</string>
     <plurals name="note_importer_notes_added">
-        <item quantity="one">%d бележката е добавена</item>
-        <item quantity="other">%d бележките са добавени</item>
+        <item quantity="one">%d note added</item>
+        <item quantity="other">%d notes added</item>
     </plurals>
     <plurals name="note_importer_notes_updated">
-        <item quantity="one">%d бележката е обновена</item>
-        <item quantity="other">%d бележките са обновени</item>
+        <item quantity="one">%d note updated</item>
+        <item quantity="other">%d notes updated</item>
     </plurals>
     <plurals name="note_importer_notes_unchanged">
-        <item quantity="one">%d бележката е непроменена</item>
-        <item quantity="other">%d бележките са непроменени</item>
+        <item quantity="one">%d note unchanged</item>
+        <item quantity="other">%d notes unchanged</item>
     </plurals>
     <!-- JS api -->
-    <string name="api_version_developer_contact">Тази карта използва неподдържани функции на AnkiDroid. Свържете се с разработчика %1$s или вижте уикито. %2$s</string>
-    <string name="invalid_json_data">Картата предоставя невалидни данни. %s</string>
-    <string name="valid_js_api_version">Невалидна версия на AnkiDroid JS API. Свържете се с разработчика %s или вижте уики</string>
+    <string name="api_version_developer_contact">This card uses unsupported AnkiDroid features. Contact developer %1$s, or view the wiki. %2$s</string>
+    <string name="invalid_json_data">Card provided invalid data. %s</string>
+    <string name="valid_js_api_version">Invalid AnkiDroid JS API version. Contact developer %s, or view wiki</string>
     <string name="update_js_api_version">AnkiDroid JS API update available. Contact developer %s, or view wiki</string>
-    <string name="reviewer_invalid_api_version_visit_documentation">Преглед</string>
-    <string name="anki_js_error_code">(Код на грешката: %1$d)</string>
+    <string name="reviewer_invalid_api_version_visit_documentation">View</string>
+    <string name="anki_js_error_code">(Error Code: %d)</string>
     <!-- About AnkiDroid screen -->
     <string name="about_ankidroid_successfully_copied_debug">Copied debug information to clipboard</string>
     <string name="about_ankidroid_error_copy_debug_info">Error copying debug information to clipboard</string>
@@ -331,18 +326,18 @@
     <string name="cannot_load_http_resource">Loading http resources is no longer supported</string>
     <!-- Deck Picker -->
     <string name="deck_picker_failed_deck_load">Failed to load deck ‘%s’</string>
-    <string name="search_decks">Потърси тесте</string>
-    <string name="ankidroid_init_failed_webview_title">Фатална грешка</string>
+    <string name="search_decks">Search decks</string>
+    <string name="ankidroid_init_failed_webview_title">Fatal Error</string>
     <string name="ankidroid_init_failed_webview">AnkiDroid relies on the System WebView which is unavailable. This can happen if the system is installing updates. Please try again in a few minutes.\n\n%s</string>
     <!-- A Menu item to change the Font Size (currently in the Note Editor) -->
-    <string name="menu_font_size">Големина на шрифт</string>
+    <string name="menu_font_size">Font size</string>
     <string name="menu_show_toolbar" comment="Checkable item stating whether the note editor toolbar should be shown">Show toolbar</string>
     <string name="format_insert_bold">Format as Bold</string>
     <string name="format_insert_italic">Format as Italic</string>
     <string name="format_insert_underline">Format as Underline</string>
     <string name="insert_horizontal_line">Insert Horizontal Line</string>
     <string name="insert_heading">Insert Heading</string>
-    <string name="format_font_size">Промяна на размера на шрифта</string>
+    <string name="format_font_size">Change Font Size</string>
     <string name="insert_mathjax">Insert MathJax Equation</string>
     <string name="insert_cloze">Insert Cloze Deletion</string>
     <string name="note_editor_toolbar_icon">Button text</string>
@@ -357,26 +352,26 @@
     <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">You may need to use iManager to allow AnkiDroid to add shortcuts</string>
     <string name="create_shortcut_failed" comment="home screen == launcher">Your home screen does not allow AnkiDroid to add shortcuts</string>
     <string name="create_shortcut_error">Error adding shortcut: %s</string>
-    <string name="note_editor_capitalize" comment="This is for a switch with a checkbox - on: enabled">Изречения с главна буква</string>
+    <string name="note_editor_capitalize" comment="This is for a switch with a checkbox - on: enabled">Capitalize sentences</string>
     <string name="menu_scroll_toolbar" comment="Checkbox stating whether note editor toolbar is scrollable or stacked. Checked: Scroll">Scroll toolbar</string>
     <!-- Symbols used as Button text in IncrementNumberRangePreference -->
     <string name="plus_sign" comment="Label for increment button in IncrementerNumberRangePreference">+</string>
     <string name="minus_sign" comment="Label for decrement button in IncrementerNumberRangePreference">-</string>
     <!-- Used for credential empty warning message -->
-    <string name="email_id_empty">Изисква се адрес на е-поща</string>
-    <string name="password_empty">Изисква се парола</string>
+    <string name="email_id_empty">Email address is required</string>
+    <string name="password_empty">Password is required</string>
     <string name="back_pressed_once">Press back again to exit</string>
     <string name="back_pressed_once_reviewer">Press back again to return</string>
     <!-- %% is required to display % symbol. Reference: https://stackoverflow.com/a/16834358 -->
     <string name="percentage">%s%%</string>
     <string name="download_deck">Download deck</string>
-    <string name="try_again">Опитайте пак</string>
-    <string name="cancel_download">Отмяна на изтеглянето</string>
-    <string name="cancel_download_question_title">Отменяте ли изтеглянето?</string>
-    <string name="downloading_file">Изтегля се %s</string>
+    <string name="try_again">Try Again</string>
+    <string name="cancel_download">Cancel download</string>
+    <string name="cancel_download_question_title">Cancel download?</string>
+    <string name="downloading_file">Downloading %s</string>
     <string name="import_deck">Import Deck</string>
     <string name="something_wrong">Something went wrong, please try again</string>
-    <string name="download_failed">Неуспешно изтегляне</string>
+    <string name="download_failed">Download failed</string>
     <string name="deck_download_progress_message">You can use other apps while the download is running</string>
     <string name="check_network">Please check your network connection</string>
     <string name="search_using_deck_name">Search using deck name</string>
@@ -388,7 +383,7 @@
     <!-- Reviewer actions -->
     <string name="buried_card">Buried card</string>
     <string name="buried_note">Buried note</string>
-    <string name="deleted_note">Изтрита бележка</string>
+    <string name="deleted_note">Deleted note</string>
     <string name="suspended_card">Suspended card</string>
     <string name="suspended_note">Suspended note</string>
     <!--  Note Editor Toggle Sticky  -->
