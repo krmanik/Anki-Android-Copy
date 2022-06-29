@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Casey Link <unnamedrambler@gmail.com>
 ~
@@ -75,11 +70,11 @@
     <!-- theme labels -->
     <string name="theme_follow_system">Follow system</string>
     <!-- day_theme_labels -->
-    <string name="day_theme_light">Ак</string>
+    <string name="day_theme_light">Light</string>
     <string name="day_theme_plain">Plain</string>
     <!-- night_theme_labels -->
-    <string name="night_theme_black">Кара</string>
-    <string name="night_theme_dark">Караңгы</string>
+    <string name="night_theme_black">Black</string>
+    <string name="night_theme_dark">Dark</string>
     <!-- html_size_code_labels -->
     <string name="html_size_code_xx_small">xx-small</string>
     <string name="html_size_code_x_small">x-small</string>

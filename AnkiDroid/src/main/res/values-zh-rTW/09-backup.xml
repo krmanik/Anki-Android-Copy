@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -44,25 +39,25 @@
 ~ this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <string name="backup_deck_no_space_left">備份未儲存。記憶卡上無足夠剩餘空間。請降低備份深度或移除其他檔案。</string>
-    <string name="sd_space_warning">記憶卡少於%d mb的空間. 請釋放一些空間以避免資料遺失. </string>
-    <string name="backup_restore">從備份還原</string>
-    <string name="backup_new_collection">新的集合</string>
-    <string name="backup_del_collection">刪除集合，並建立新的集合</string>
-    <string name="backup_del_collection_question">是否真的要刪除集合，並建立新的集合？這會刪除所有的學習進度以及所有的卡片。</string>
-    <string name="backup_full_sync_from_server">從伺服器完整同步</string>
-    <string name="backup_full_sync_from_server_question">你確定要用 AnkiWeb 上的集合來覆蓋本地集合嗎？這會把從上次同步以來所有的學習進度以及新增的資料都刪掉。</string>
-    <string name="error_handling_title">錯誤處理</string>
-    <string name="error_handling_options" comment="In a warning message, the label of the suggested action that the user should take">選項</string>
-    <string name="backup_retry_opening">重試開啟</string>
-    <string name="backup_error_menu_repair">修復資料庫</string>
+    <string name="backup_deck_no_space_left">Backup not saved. Not enough space left on SD card. Lower the backup depth or remove some other files.</string>
+    <string name="sd_space_warning">Less than %d MB space on your SD card left.\nFree some space to avoid data loss.</string>
+    <string name="backup_restore">Restore from backup</string>
+    <string name="backup_new_collection">New collection</string>
+    <string name="backup_del_collection">Delete collection and create new one</string>
+    <string name="backup_del_collection_question">Delete the collection and create a new one? This will drop all your learning progress and delete all cards.</string>
+    <string name="backup_full_sync_from_server">Full sync from server</string>
+    <string name="backup_full_sync_from_server_question">Overwrite your collection with the one from AnkiWeb? This will drop all your learning progress and added information since your last sync.</string>
+    <string name="error_handling_title">Error handling</string>
+    <string name="error_handling_options" comment="In a warning message, the label of the suggested action that the user should take">Options</string>
+    <string name="backup_retry_opening">Retry opening</string>
+    <string name="backup_error_menu_repair">Repair database</string>
     <!-- Collection used to be called deck. Name is kept for consistency with translation software -->
-    <string name="backup_repair_deck_progress">修復資料庫中\n請稍後...</string>
-    <string name="backup_invalid_file_error">所選的備份檔案無效</string>
-    <string name="backup_restore_select_title">請選擇要還原的備份檔案</string>
-    <string name="backup_restore_no_backups">裝置上沒有可用來還原集合的備份檔案，如果你的電腦上有備份檔，請手動複製到你的 AnkiDroid 資料夾裡。</string>
-    <string name="open_collection_failed_title">無法打開集合</string>
-    <string name="corrupt_db_message">您的集合已損壞。 \n\n請點擊\"選項\"從備份還原，如果依然無法正常工作，請參閱手動修復數據庫: \n%1$s</string>
-    <string name="access_collection_failed_message">訪問您的集合時出現錯誤。它可能由無害的 bug或其他問題造成。 \n\n嘗試點擊\"選項\"按鈕運行檢查數據庫，或從備份還原。如果您仍然看到此消息，請提交bug報告: \n%1$s</string>
-    <string name="deck_repair_error">無法修復集合</string>
+    <string name="backup_repair_deck_progress">Repairing database&#8230;</string>
+    <string name="backup_invalid_file_error">The selected backup file was invalid</string>
+    <string name="backup_restore_select_title">Select backup to restore</string>
+    <string name="backup_restore_no_backups">No backups available on this device. If you have backups on your desktop computer, copy them manually into your AnkiDroid folder.</string>
+    <string name="open_collection_failed_title">Collection not opened</string>
+    <string name="corrupt_db_message">Your collection has become corrupted.\n\nTouch “options” to restore from a backup, or if that doesn’t work, see the following instructions for manually repairing the database:\n%1$s</string>
+    <string name="access_collection_failed_message">An error occurred while accessing your collection. It may have been caused by a harmless bug, or there may be a problem with it. \n\nTry running check database, or restoring from backup by pressing the “options” button. If you continue to see this message, please file a bug report:\n%1$s</string>
+    <string name="deck_repair_error">Collection couldn’t be repaired</string>
 </resources>

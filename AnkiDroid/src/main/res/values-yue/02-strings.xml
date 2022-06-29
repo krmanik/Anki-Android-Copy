@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -49,17 +44,17 @@
     <!-- Navigation drawer strings -->
     <string name="drawer_open">Open drawer</string>
     <string name="drawer_close">Close drawer</string>
-    <string name="CardEditorCardDeck">卡組:</string>
-    <string name="CardEditorNoteDeck">卡組:</string>
-    <string name="CardEditorModel">分類:</string>
-    <string name="CardEditorTags">標籤: %1$s</string>
-    <string name="CardEditorCards">卡牌: %1$s</string>
-    <string name="tag_name">標名</string>
+    <string name="CardEditorCardDeck">Card deck:</string>
+    <string name="CardEditorNoteDeck">Deck:</string>
+    <string name="CardEditorModel">Type:</string>
+    <string name="CardEditorTags">Tags: %1$s</string>
+    <string name="CardEditorCards">Cards: %1$s</string>
+    <string name="tag_name">Tag name</string>
     <string name="add_new_filter_tags">Add/filter tags</string>
-    <string name="add_tag">加入標籤</string>
+    <string name="add_tag">Add tag</string>
     <string name="check_all_tags">Check/uncheck all tags</string>
     <string name="filter_tags">Filter tags</string>
-    <string name="no_tags">你仲未加入任何標籤</string>
+    <string name="no_tags">You haven’t added any tags yet</string>
     <string name="updated_version">Updated to version %s</string>
     <!-- Reviewer.kt -->
     <string name="save_whiteboard">Save whiteboard</string>
@@ -68,7 +63,7 @@
     <string name="show_whiteboard">Show whiteboard</string>
     <string name="hide_whiteboard">Hide whiteboard</string>
     <string name="clear_whiteboard">Clear whiteboard</string>
-    <string name="replay_audio">重播錄音</string>
+    <string name="replay_audio">Replay audio</string>
     <string name="leech_suspend_notification">Card marked as leech and suspended</string>
     <string name="leech_notification">Card marked as leech</string>
     <string name="corrupt_font">Corrupt font file %s</string>
@@ -82,16 +77,16 @@
     <string name="webview_crash_loop_dialog_content">System WebView failed to render card \'%1$s\'.\n %2$s</string>
     <!-- Browser -->
     <string-array name="browser_column1_headings">
-        <item>問題</item>
+        <item>Question</item>
         <item>Sort field</item>
     </string-array>
     <string-array name="browser_column2_headings">
-        <item>答案</item>
+        <item>Answer</item>
         <item>Card</item>
         <item>Deck</item>
-        <item>筆記</item>
-        <item>問題</item>
-        <item>標籤</item>
+        <item>Note</item>
+        <item>Question</item>
+        <item>Tags</item>
         <item>Lapses</item>
         <item>Reviews</item>
         <item>Interval</item>
@@ -128,10 +123,12 @@
     <string name="confirm_map_cards_to_nothing">Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?</string>
     <string name="timebox_reached_title">Timebox reached</string>
     <plurals name="timebox_reached">
+        <item quantity="one">%1$d card studied in %2$s</item>
         <item quantity="other">%1$d cards studied in %2$s</item>
     </plurals>
     <!-- minutes used in \'[studied in] x minutes\' context, causing inflexion in some languages -->
     <plurals name="in_minutes">
+        <item quantity="one">%1$d minute</item>
         <item quantity="other">%1$d minutes</item>
     </plurals>
     <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid card</string>
@@ -145,6 +142,7 @@
     <string name="rename" comment="Confirm that the renaming action should be processed.">Rename</string>
     <string name="default_conf_delete_error">The default options group can’t be removed</string>
     <plurals name="factadder_cards_added">
+        <item quantity="one">%d card added</item>
         <item quantity="other">%d cards added</item>
     </plurals>
     <string name="check_db">Check database</string>
@@ -160,6 +158,7 @@
     <string name="import_message_add" comment="Adding a new deck to the collection (import)">Add</string>
     <string name="import_message_replace_confirm">This will delete your existing collection and replace it with the data of file %s</string>
     <plurals name="import_files_message_add_confirm">
+        <item quantity="one">Add “%s” to collection? This may take a long time</item>
         <item quantity="other">Do you want to import the following files:\n%s\nThis may take a long time</item>
     </plurals>
     <string name="import_log_no_apkg">This isn’t a valid Anki package file</string>
@@ -220,21 +219,27 @@
     <string name="tag_editor_add_feedback_existing">Existing tag “%1$s” selected</string>
     <!-- Time spans -->
     <plurals name="time_span_seconds">
+        <item quantity="one">%s second</item>
         <item quantity="other">%s seconds</item>
     </plurals>
     <plurals name="time_span_minutes">
+        <item quantity="one">%s minute</item>
         <item quantity="other">%s minutes</item>
     </plurals>
     <plurals name="time_span_hours">
+        <item quantity="one">%s hour</item>
         <item quantity="other">%s hours</item>
     </plurals>
     <plurals name="time_span_days">
+        <item quantity="one">%s day</item>
         <item quantity="other">%s days</item>
     </plurals>
     <plurals name="time_span_months">
+        <item quantity="one">%s month</item>
         <item quantity="other">%s months</item>
     </plurals>
     <plurals name="time_span_years">
+        <item quantity="one">%s year</item>
         <item quantity="other">%s years</item>
     </plurals>
     <!-- A decimal number of seconds.
@@ -250,6 +255,7 @@
     <string name="filtered_deck_name">Filtered Deck</string>
     <string name="reminder_title">Do not forget to study today!</string>
     <plurals name="reminder_text">
+        <item quantity="one">%2$d card to review in %1$s</item>
         <item quantity="other">%2$d cards to review in %1$s</item>
     </plurals>
     <!-- Currently only used if exporting APKG fails -->
@@ -293,12 +299,15 @@
     <string name="csv_importer_error_exception">Aborted: %s</string>
     <string name="user_is_a_robot">Detected automated test. If you are a human, contact AnkiDroid support</string>
     <plurals name="note_importer_notes_added">
+        <item quantity="one">%d note added</item>
         <item quantity="other">%d notes added</item>
     </plurals>
     <plurals name="note_importer_notes_updated">
+        <item quantity="one">%d note updated</item>
         <item quantity="other">%d notes updated</item>
     </plurals>
     <plurals name="note_importer_notes_unchanged">
+        <item quantity="one">%d note unchanged</item>
         <item quantity="other">%d notes unchanged</item>
     </plurals>
     <!-- JS api -->

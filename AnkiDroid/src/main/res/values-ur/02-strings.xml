@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -47,31 +42,31 @@
     <!-- How to format a percentage shown in the summary field of a preference -->
     <string name="preference_summary_percentage">XXX%</string>
     <!-- Navigation drawer strings -->
-    <string name="drawer_open">دراز کھولیں</string>
-    <string name="drawer_close">دراز بند کریں</string>
-    <string name="CardEditorCardDeck">کارڈ ڈیک:</string>
-    <string name="CardEditorNoteDeck">ڈیک:</string>
-    <string name="CardEditorModel">قسم:</string>
-    <string name="CardEditorTags">ٹیگز: %1$s</string>
-    <string name="CardEditorCards">کارڈ: %1$s</string>
-    <string name="tag_name">ٹیگ کا نام</string>
-    <string name="add_new_filter_tags">شامل/فلٹر کریں ٹیگ</string>
-    <string name="add_tag">ٹیگ شامل کریں</string>
-    <string name="check_all_tags">نشان یا غیرنشان زد کریں تمام ٹیگ</string>
-    <string name="filter_tags">ٹیگز کو فلٹر کریں</string>
-    <string name="no_tags">آپ نے ابھی تک کوئی ٹیگ شامل نہیں کیے</string>
-    <string name="updated_version">اپڈیٹ کر دیا گیا ورژن %s پہ</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="CardEditorCardDeck">Card deck:</string>
+    <string name="CardEditorNoteDeck">Deck:</string>
+    <string name="CardEditorModel">Type:</string>
+    <string name="CardEditorTags">Tags: %1$s</string>
+    <string name="CardEditorCards">Cards: %1$s</string>
+    <string name="tag_name">Tag name</string>
+    <string name="add_new_filter_tags">Add/filter tags</string>
+    <string name="add_tag">Add tag</string>
+    <string name="check_all_tags">Check/uncheck all tags</string>
+    <string name="filter_tags">Filter tags</string>
+    <string name="no_tags">You haven’t added any tags yet</string>
+    <string name="updated_version">Updated to version %s</string>
     <!-- Reviewer.kt -->
     <string name="save_whiteboard">Save whiteboard</string>
-    <string name="enable_whiteboard">وائٹ بورڈ فعال کریں</string>
-    <string name="disable_whiteboard">وائٹ بورڈ غیرفعال کریں</string>
-    <string name="show_whiteboard">وائٹ بورڈ دکھائیں</string>
-    <string name="hide_whiteboard">وائٹ بورڈ چھپائیں</string>
-    <string name="clear_whiteboard">وائٹ بورڈ صاف کریں</string>
-    <string name="replay_audio">پھر چلائیں آڈیو</string>
+    <string name="enable_whiteboard">Enable whiteboard</string>
+    <string name="disable_whiteboard">Disable whiteboard</string>
+    <string name="show_whiteboard">Show whiteboard</string>
+    <string name="hide_whiteboard">Hide whiteboard</string>
+    <string name="clear_whiteboard">Clear whiteboard</string>
+    <string name="replay_audio">Replay audio</string>
     <string name="leech_suspend_notification">Card marked as leech and suspended</string>
     <string name="leech_notification">Card marked as leech</string>
-    <string name="corrupt_font">فانٹ فائل %s خراب</string>
+    <string name="corrupt_font">Corrupt font file %s</string>
     <string name="webview_crash_unknown">Unknown error</string>
     <string name="webview_crash_unknwon_detailed">This was caused by an internal error in the WebView</string>
     <string name="webview_crash_oom">Out of Memory</string>
@@ -82,16 +77,16 @@
     <string name="webview_crash_loop_dialog_content">System WebView failed to render card \'%1$s\'.\n %2$s</string>
     <!-- Browser -->
     <string-array name="browser_column1_headings">
-        <item>سوال</item>
+        <item>Question</item>
         <item>Sort field</item>
     </string-array>
     <string-array name="browser_column2_headings">
-        <item>جواب</item>
-        <item>کارڈ</item>
-        <item>ڈیک</item>
-        <item>نوٹ</item>
-        <item>سوال</item>
-        <item>ٹیگز</item>
+        <item>Answer</item>
+        <item>Card</item>
+        <item>Deck</item>
+        <item>Note</item>
+        <item>Question</item>
+        <item>Tags</item>
         <item>Lapses</item>
         <item>Reviews</item>
         <item>Interval</item>
@@ -104,7 +99,7 @@
     <!-- Custom study options -->
     <string name="custom_study_increase_new_limit">Modify today’s new card limit</string>
     <string name="custom_study_increase_review_limit">Modify today’s review card limit</string>
-    <string name="custom_study_review_forgotten">بھولے ہوئے کارڈ دہرائیں</string>
+    <string name="custom_study_review_forgotten">Review forgotten cards</string>
     <string name="custom_study_review_ahead">Review ahead</string>
     <string name="custom_study_random_selection">Study a random selection of cards</string>
     <string name="custom_study_preview_new">Preview new cards</string>
@@ -119,9 +114,9 @@
     <string name="note_editor_insert_cloze_no_cloze_note_type">Cloze deletions will only work on a Cloze note type</string>
     <string name="saving_facts">Saving note</string>
     <string name="saving_model">Saving note type</string>
-    <string name="save">محفوظ کریں</string>
-    <string name="close">بند کریں</string>
-    <string name="select">منتخب کریں</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="select">Select</string>
     <string name="saving_changes">Saving changes&#8230;</string>
     <string name="reordering_cards">Reordering cards&#8230;</string>
     <string name="field_remapping">%1$s (from “%2$s”)</string>

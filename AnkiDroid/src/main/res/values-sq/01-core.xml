@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -89,10 +84,10 @@
     <string name="type_answer_hint">Type answer</string>
     <string name="show_answer">Show answer</string>
     <string name="hide_answer">Hide answer</string>
-    <string name="ease_button_again">Përsëri</string>
-    <string name="ease_button_hard">Vështirë</string>
-    <string name="ease_button_good">Mirë</string>
-    <string name="ease_button_easy">Lehtë</string>
+    <string name="ease_button_again">Again</string>
+    <string name="ease_button_hard">Hard</string>
+    <string name="ease_button_good">Good</string>
+    <string name="ease_button_easy">Easy</string>
     <string name="studyoptions_congrats_undo">Undo %s</string>
     <string name="menu_import">Import</string>
     <string name="undo">Undo</string>
@@ -156,7 +151,7 @@
     <!-- or "%.1f a" -->
     <string name="rebuild_filtered_deck">Rebuilding filtered deck&#8230;</string>
     <string name="rebuild_cram_label">Rebuild</string>
-    <string name="empty_cram_label">Bosh</string>
+    <string name="empty_cram_label">Empty</string>
     <string name="create_subdeck">Create subdeck</string>
     <string name="empty_filtered_deck">Emptying filtered deck&#8230;</string>
     <string name="custom_study_deck_name">Custom study session</string>
@@ -176,7 +171,7 @@
     <string name="studyoptions_no_cards_due">No cards are due yet</string>
     <string name="sd_card_not_mounted">Device storage not mounted</string>
     <string name="empty_cloze_warning">Edit this note and add some cloze deletions. (%1$s)</string>
-    <string name="button_sync" comment="Text of the sync button">Sinkronizo</string>
+    <string name="button_sync" comment="Text of the sync button">Sync</string>
     <string name="cancel_sync_confirm">Do you want to cancel the sync?</string>
     <string name="continue_sync">Continue sync</string>
     <string name="sync_cancelled">Sync cancelled</string>

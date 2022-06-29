@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -56,8 +51,8 @@
     <string name="pref_cat_whiteboard" maxLength="41">Whiteboard</string>
     <string name="pref_cat_appearance" maxLength="41">Appearance</string>
     <string name="pref_cat_appearance_summ">Change themes and default font</string>
-    <string name="pref_cat_themes" maxLength="41">Ոճեր</string>
-    <string name="pref_cat_fonts" maxLength="41">Տառատեսակ</string>
+    <string name="pref_cat_themes" maxLength="41">Themes</string>
+    <string name="pref_cat_fonts" maxLength="41">Fonts</string>
     <string name="pref_cat_gestures" maxLength="41">Gestures</string>
     <string name="pref_cat_controls" maxLength="41">Controls</string>
     <string name="pref_cat_advanced" maxLength="41">Advanced</string>
@@ -66,7 +61,7 @@
     <string name="pref_cat_workarounds" maxLength="41">Workarounds</string>
     <string name="pref_cat_plugins" maxLength="41">Plugins</string>
     <string name="about_title" maxLength="41">About AnkiDroid</string>
-    <string name="about_version">Տարբերակ.</string>
+    <string name="about_version">Version: </string>
     <!-- preferences.xml entries-->
     <string name="whiteboard_stroke_width" maxLength="41">Stroke width</string>
     <string name="use_input_tag" maxLength="41">Type answer into the card</string>
@@ -138,9 +133,9 @@
     <string name="night_theme" maxLength="41">Night theme</string>
     <string name="default_font" maxLength="41">Default font</string>
     <string name="override_font" maxLength="41">Default font applicability</string>
-    <string name="language" maxLength="41">Լեզու</string>
-    <string name="language_system">Համակարգի լեզու</string>
-    <string name="notification_pref" maxLength="41">Ծանուցումներ</string>
+    <string name="language" maxLength="41">Language</string>
+    <string name="language_system">System language</string>
+    <string name="notification_pref" maxLength="41">Notifications</string>
     <string name="notification_pref_title" maxLength="41">Notify when</string>
     <string name="never_notify">Never notify</string>
     <string name="notify_when_pending">Pending messages available</string>
@@ -188,7 +183,7 @@
     <string name="ylabel_dayoffset_seekbar" maxLength="41">11PM</string>
     <string name="sched_v2" maxLength="41">V2 scheduler</string>
     <string name="sched_v2_summ">Enable the new scheduler. Forces changes in one direction on next sync</string>
-    <string name="sched_ver_toggle_title">Հաստատել</string>
+    <string name="sched_ver_toggle_title">Confirm</string>
     <string name="sched_ver_1to2">The experimental scheduler could cause incorrect scheduling. Please ensure you have read the documentation first. Proceed?</string>
     <string name="pref_keep_screen_on" maxLength="41">Keep screen on</string>
     <string name="pref_keep_screen_on_summ">Disable screen timeout</string>
@@ -250,11 +245,11 @@
         <item quantity="one">%1$s\n%2$d deck uses this group</item>
         <item quantity="other">%1$s\n%2$d decks use this group</item>
     </plurals>
-    <string name="deck_conf_new_cards" maxLength="41">Նոր քարտեր</string>
+    <string name="deck_conf_new_cards" maxLength="41">New cards</string>
     <string name="deck_conf_rev_cards" maxLength="41" comment="Name of the deck options submenu for configuring reviews of due cards.">Reviews</string>
     <string name="deck_conf_lps_cards" maxLength="41" comment="Label of the submenu stating how lapses cards are treated.">Lapses</string>
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">General</string>
-    <string name="deck_conf_reminders" maxLength="41">Հիշեցումներ</string>
+    <string name="deck_conf_reminders" maxLength="41">Reminders</string>
     <string name="deck_conf_steps" maxLength="41">Steps (in minutes)</string>
     <string name="deck_conf_order" maxLength="41">Order</string>
     <string name="deck_conf_new_cards_day" maxLength="41">New cards/day</string>
@@ -287,10 +282,10 @@
     <string name="deck_conf_manage" maxLength="41">Group management</string>
     <string name="deck_conf_manage_summ">Add and change options groups</string>
     <string name="deck_conf_current_group" maxLength="41">Current group</string>
-    <string name="deck_conf_rename" maxLength="41" comment="Menu entry to rename a deck">Վերանվանել</string>
+    <string name="deck_conf_rename" maxLength="41" comment="Menu entry to rename a deck">Rename</string>
     <string name="deck_conf_reset" maxLength="41">Restore defaults</string>
     <string name="deck_conf_reset_message">Restore current options group to default values?</string>
-    <string name="deck_conf_add" maxLength="41" comment="Adding a new deck option group">Ավելացնել</string>
+    <string name="deck_conf_add" maxLength="41" comment="Adding a new deck option group">Add</string>
     <string name="deck_conf_add_summ">Create a copy of the current options group</string>
     <string name="deck_conf_remove_message">Remove current options group?</string>
     <string name="deck_conf_set_subdecks" maxLength="41">Set for all subdecks</string>
@@ -301,7 +296,7 @@
     <string name="deck_conf_set_subdecks_message">Set current options group for all of this deck’s subdecks?</string>
     <string name="pref_browser_editor_font" maxLength="41">Browser and editor font</string>
     <string name="deck_conf_cram_filter" maxLength="41">Filter</string>
-    <string name="deck_conf_cram_search" maxLength="41">Որոնել</string>
+    <string name="deck_conf_cram_search" maxLength="41">Search</string>
     <string name="deck_conf_cram_limit" maxLength="41">Limit to</string>
     <string name="deck_conf_cram_order" maxLength="41">cards selected by</string>
     <string name="deck_conf_cram_reschedule" maxLength="41" comment="Title of the box labelled by deck_conf_cram_reschedule_summ">Reschedule</string>
@@ -310,7 +305,7 @@
     <string name="deck_conf_cram_steps" maxLength="41">Custom steps (in minutes)</string>
     <string name="deck_conf_cram_steps_summ" maxLength="41">Define custom steps</string>
     <string name="deck_conf_reminders_enabled" maxLength="41">Enable notifications for this deck group</string>
-    <string name="deck_conf_reminders_time" maxLength="41">Հիշեցնել</string>
+    <string name="deck_conf_reminders_time" maxLength="41">Remind at</string>
     <!-- analytics options -->
     <string name="analytics_dialog_title">Help make AnkiDroid better!</string>
     <string name="analytics_title" maxLength="41">Share feature usage</string>

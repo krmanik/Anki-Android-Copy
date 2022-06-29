@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -48,26 +43,26 @@
     <string name="preference_summary_percentage">XXX%</string>
     <!-- Navigation drawer strings -->
     <string name="drawer_open">Open drawer</string>
-    <string name="drawer_close">Itxi Kutxa</string>
-    <string name="CardEditorCardDeck">Txartel-sorta:</string>
-    <string name="CardEditorNoteDeck">Sorta:</string>
-    <string name="CardEditorModel">Mota:</string>
-    <string name="CardEditorTags">Etiketak: %1$s</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="CardEditorCardDeck">Card deck:</string>
+    <string name="CardEditorNoteDeck">Deck:</string>
+    <string name="CardEditorModel">Type:</string>
+    <string name="CardEditorTags">Tags: %1$s</string>
     <string name="CardEditorCards">Cards: %1$s</string>
-    <string name="tag_name">Etiketaren izena</string>
+    <string name="tag_name">Tag name</string>
     <string name="add_new_filter_tags">Add/filter tags</string>
-    <string name="add_tag">Etiketa gehitu</string>
+    <string name="add_tag">Add tag</string>
     <string name="check_all_tags">Check/uncheck all tags</string>
-    <string name="filter_tags">Iragazi etiketak</string>
+    <string name="filter_tags">Filter tags</string>
     <string name="no_tags">You haven’t added any tags yet</string>
     <string name="updated_version">Updated to version %s</string>
     <!-- Reviewer.kt -->
     <string name="save_whiteboard">Save whiteboard</string>
-    <string name="enable_whiteboard">Arbela gaitu</string>
-    <string name="disable_whiteboard">Arbela ezgaitu</string>
-    <string name="show_whiteboard">Arbela erakutsi</string>
-    <string name="hide_whiteboard">Arbela ezkutatu</string>
-    <string name="clear_whiteboard">Arbela garbitu</string>
+    <string name="enable_whiteboard">Enable whiteboard</string>
+    <string name="disable_whiteboard">Disable whiteboard</string>
+    <string name="show_whiteboard">Show whiteboard</string>
+    <string name="hide_whiteboard">Hide whiteboard</string>
+    <string name="clear_whiteboard">Clear whiteboard</string>
     <string name="replay_audio">Replay audio</string>
     <string name="leech_suspend_notification">Card marked as leech and suspended</string>
     <string name="leech_notification">Card marked as leech</string>
@@ -82,19 +77,19 @@
     <string name="webview_crash_loop_dialog_content">System WebView failed to render card \'%1$s\'.\n %2$s</string>
     <!-- Browser -->
     <string-array name="browser_column1_headings">
-        <item>Galdera</item>
-        <item>Ordenatzeko eremua</item>
+        <item>Question</item>
+        <item>Sort field</item>
     </string-array>
     <string-array name="browser_column2_headings">
-        <item>Erantzuna</item>
-        <item>Txartela</item>
-        <item>Sorta</item>
-        <item>Oharra</item>
-        <item>Galdera</item>
-        <item>Etiketak</item>
-        <item>Hutsak</item>
-        <item>Berrikusketak</item>
-        <item>Tartea</item>
+        <item>Answer</item>
+        <item>Card</item>
+        <item>Deck</item>
+        <item>Note</item>
+        <item>Question</item>
+        <item>Tags</item>
+        <item>Lapses</item>
+        <item>Reviews</item>
+        <item>Interval</item>
         <item>Ease</item>
         <item>Due</item>
         <item>Card Modified</item>
@@ -104,27 +99,27 @@
     <!-- Custom study options -->
     <string name="custom_study_increase_new_limit">Modify today’s new card limit</string>
     <string name="custom_study_increase_review_limit">Modify today’s review card limit</string>
-    <string name="custom_study_review_forgotten">Errebisatu ahaztutako kartak</string>
+    <string name="custom_study_review_forgotten">Review forgotten cards</string>
     <string name="custom_study_review_ahead">Review ahead</string>
     <string name="custom_study_random_selection">Study a random selection of cards</string>
-    <string name="custom_study_preview_new">Karta berrien aurrebista</string>
+    <string name="custom_study_preview_new">Preview new cards</string>
     <string name="custom_study_limit_tags">Limit to particular tags</string>
     <!-- Card editor -->
-    <string name="cardeditor_title_edit_card">Aldatu oharra</string>
-    <string name="discard_unsaved_changes">Itxi eta galdu oraingo sarrera?</string>
+    <string name="cardeditor_title_edit_card">Edit note</string>
+    <string name="discard_unsaved_changes">Close and lose current input?</string>
     <string name="note_editor_no_cards_created">No cards created. Please fill in more fields</string>
     <string name="note_editor_no_first_field">The first field is empty</string>
     <string name="note_editor_no_cloze_delations">This note type must contain cloze deletions</string>
     <string name="note_editor_no_cards_created_all_fields">The current note type did not produce any cards.\nPlease choose another note type, or click ‘Cards’ and add a field substitution</string>
     <string name="note_editor_insert_cloze_no_cloze_note_type">Cloze deletions will only work on a Cloze note type</string>
-    <string name="saving_facts">Oharra gordetzen</string>
+    <string name="saving_facts">Saving note</string>
     <string name="saving_model">Saving note type</string>
-    <string name="save">Gorde</string>
-    <string name="close">Itxi</string>
-    <string name="select">Hautatu</string>
-    <string name="saving_changes">Aldaketak gordetzen&#8230;</string>
-    <string name="reordering_cards">Txartelak berrordenatzen&#8230;</string>
-    <string name="field_remapping">%1$s (“%2$s”(e)tik)</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="select">Select</string>
+    <string name="saving_changes">Saving changes&#8230;</string>
+    <string name="reordering_cards">Reordering cards&#8230;</string>
+    <string name="field_remapping">%1$s (from “%2$s”)</string>
     <string name="confirm_map_cards_to_nothing">Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?</string>
     <string name="timebox_reached_title">Timebox reached</string>
     <plurals name="timebox_reached">
@@ -136,31 +131,31 @@
         <item quantity="one">%1$d minute</item>
         <item quantity="other">%1$d minutes</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid txartela</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid card</string>
     <string name="note_editor_copy_note">Copy note</string>
     <string name="card_editor_reposition_card">Reposition</string>
-    <string name="card_editor_reset_card">Hasieratu garapena</string>
+    <string name="card_editor_reset_card">Reset progress</string>
     <string name="card_editor_reschedule_card" comment="Action to reschedule a card">Reschedule</string>
-    <string name="card_editor_preview_card" comment="Button offering to preview some card(s)">Aurreikusi</string>
+    <string name="card_editor_preview_card" comment="Button offering to preview some card(s)">Preview</string>
     <string name="preview_progress_bar_text" comment="What card we are on out of how many in card previewer progress bar">%1$d of %2$d</string>
-    <string name="error_insufficient_memory">Eragiketa ezinezkoa da memoria nahikorik ez dagoelako</string>
-    <string name="rename" comment="Confirm that the renaming action should be processed.">Aldatu izena</string>
-    <string name="default_conf_delete_error">Lehenetsitako ezarpen-taldea ezin da ezabatu</string>
+    <string name="error_insufficient_memory">Operation not possible due to insufficient memory on your device</string>
+    <string name="rename" comment="Confirm that the renaming action should be processed.">Rename</string>
+    <string name="default_conf_delete_error">The default options group can’t be removed</string>
     <plurals name="factadder_cards_added">
         <item quantity="one">%d card added</item>
         <item quantity="other">%d cards added</item>
     </plurals>
-    <string name="check_db">Analizatu datu-basea</string>
+    <string name="check_db">Check database</string>
     <string name="check_media">Check media</string>
-    <string name="empty_cards">Txartel hutsak</string>
-    <string name="check_db_message">Datu-basea analizatzen&#8230;</string>
+    <string name="empty_cards">Empty cards</string>
+    <string name="check_db_message">Checking database&#8230;</string>
     <string name="empty_card_warning">This card is empty. Use the “Empty cards” option from the menu on the deck list screen.</string>
     <string name="unknown_type_field_warning">Type answer: unknown field %s</string>
-    <string name="delete_deck">Sorta ezabatzen&#8230;</string>
-    <string name="show_hint">Erakutsi %s</string>
+    <string name="delete_deck">Deleting deck&#8230;</string>
+    <string name="show_hint">Show %s</string>
     <string name="info_rate">Rate AnkiDroid</string>
-    <string name="import_title">Inportatzea</string>
-    <string name="import_message_add" comment="Adding a new deck to the collection (import)">Gehitu</string>
+    <string name="import_title">Importing</string>
+    <string name="import_message_add" comment="Adding a new deck to the collection (import)">Add</string>
     <string name="import_message_replace_confirm">This will delete your existing collection and replace it with the data of file %s</string>
     <plurals name="import_files_message_add_confirm">
         <item quantity="one">Add “%s” to collection? This may take a long time</item>
@@ -185,7 +180,7 @@
     <string name="import_error_multiple_colpkg">Multiple colpkg files were selected.</string>
     <string name="import_error_colpkg_apkg">Both apkg &amp; colpkg files were selected at once.</string>
     <string name="import_stats_error">Some errors occurred while importing the following files:\n%s</string>
-    <string name="import_replacing">Bilduma ordezkatzen&#8230;</string>
+    <string name="import_replacing">Replacing collection&#8230;</string>
     <string name="import_interrupted">Import interrupted: AnkiDroid was closed</string>
     <string name="export_include_schedule">Include scheduling</string>
     <string name="export_include_media">Include media</string>
@@ -193,13 +188,13 @@
     <string name="confirm_apkg_export_deck">Export “%s” as apkg file?</string>
     <string name="export_in_progress">Exporting Anki package file&#8230;</string>
     <string name="export_successful_title">Send Anki package?</string>
-    <string name="export_send_button">Bidali</string>
+    <string name="export_send_button">Send</string>
     <string name="export_save_button">Save to file</string>
     <string name="export_send_no_handlers">No applications available to handle apkg. Saving...</string>
     <string name="export_save_apkg_successful">Successfully saved Anki package</string>
     <string name="export_save_apkg_unsuccessful">Save Anki package failed</string>
-    <string name="export_successful">\"%s\" fitxategia esportatu egin da. Beste aplikazioa baten bidez bidali nahi duzu?</string>
-    <string name="export_email_subject">AnkiDroid-ek esportatutako kartak: %s</string>
+    <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
+    <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
     <string name="export_email_text"><![CDATA[        Hi!
         <br/><br/>
         This is an Anki flashcards deck sent from AnkiDroid[1].
@@ -207,45 +202,45 @@
         [1] %1$s<br/>
         [2] %2$s
         ]]></string>
-    <string name="export_unsuccessful">Errorea apkg fitxategia esportatzean</string>
-    <string name="study_options" comment="Name for a preference category in Filtered deck (aka Cram deck, aka Custom study) options">Aukerak</string>
+    <string name="export_unsuccessful">Error exporting apkg file</string>
+    <string name="study_options" comment="Name for a preference category in Filtered deck (aka Cram deck, aka Custom study) options">Options</string>
     <string name="menu__deck_options">Deck options</string>
     <string name="menu__study_options" comment="Menu item that opens options for a Filtered deck (aka Cram deck, aka Custom study)">Study options</string>
-    <string name="select_tts">TTS hizkuntza ezarri</string>
-    <string name="custom_study">Neurrira egindako ikasketa saioa</string>
-    <string name="more_options">Gehiago</string>
+    <string name="select_tts">Set TTS language</string>
+    <string name="custom_study">Custom study</string>
+    <string name="more_options">More</string>
     <string name="dyn_deck_desc">This is a special deck for studying outside of the normal schedule. Cards will be automatically returned to their original decks after you review them. Deleting this deck from the deck list will return all remaining cards to their original deck.</string>
-    <string name="steps_error">Hurratsak 0 baino handiagoak diren zenbakiak izan behar dira</string>
-    <string name="steps_min_error">Gutxienez hurrats bat behar da</string>
-    <string name="sched_end">(bukaera)</string>
+    <string name="steps_error">Steps must be numbers greater than 0</string>
+    <string name="steps_min_error">At least one step is required</string>
+    <string name="sched_end">(end)</string>
     <string name="sched_unbury_action">To see them now touch the “Unbury” item in the menu</string>
     <string name="sched_has_buried">Some related or buried cards were delayed until tomorrow</string>
-    <string name="tag_editor_add_feedback">\"%2$s\" ukitu \"%1$s\" gehiatzea baieztatzeko</string>
-    <string name="tag_editor_add_feedback_existing">\"%1$s\" etiketa hautatua</string>
+    <string name="tag_editor_add_feedback">Touch “%2$s” to confirm adding “%1$s”</string>
+    <string name="tag_editor_add_feedback_existing">Existing tag “%1$s” selected</string>
     <!-- Time spans -->
     <plurals name="time_span_seconds">
-        <item quantity="one">Segundo %s</item>
-        <item quantity="other">%s segundo</item>
+        <item quantity="one">%s second</item>
+        <item quantity="other">%s seconds</item>
     </plurals>
     <plurals name="time_span_minutes">
-        <item quantity="one">Minutu %s</item>
-        <item quantity="other">%s minutu</item>
+        <item quantity="one">%s minute</item>
+        <item quantity="other">%s minutes</item>
     </plurals>
     <plurals name="time_span_hours">
-        <item quantity="one">Ordu %s</item>
-        <item quantity="other">%s ordu</item>
+        <item quantity="one">%s hour</item>
+        <item quantity="other">%s hours</item>
     </plurals>
     <plurals name="time_span_days">
-        <item quantity="one">Egun %s</item>
-        <item quantity="other">%s egun</item>
+        <item quantity="one">%s day</item>
+        <item quantity="other">%s days</item>
     </plurals>
     <plurals name="time_span_months">
-        <item quantity="one">Hilabete %s</item>
-        <item quantity="other">%s hilabete</item>
+        <item quantity="one">%s month</item>
+        <item quantity="other">%s months</item>
     </plurals>
     <plurals name="time_span_years">
-        <item quantity="one">Urte %s</item>
-        <item quantity="other">%s urte</item>
+        <item quantity="one">%s year</item>
+        <item quantity="other">%s years</item>
     </plurals>
     <!-- A decimal number of seconds.
     Please give this a best-effort translation and explain the requirements for
@@ -257,14 +252,14 @@
     <string name="less_than_time">&lt; %s</string>
     <string name="decks_rename_exists">That deck already exists</string>
     <string name="decks_rename_filtered_nosubdecks">A filtered deck cannot have subdecks</string>
-    <string name="filtered_deck_name">Iragazitako sorta</string>
-    <string name="reminder_title">Ez ahaztu gaur ikasteaz!</string>
+    <string name="filtered_deck_name">Filtered Deck</string>
+    <string name="reminder_title">Do not forget to study today!</string>
     <plurals name="reminder_text">
         <item quantity="one">%2$d card to review in %1$s</item>
         <item quantity="other">%2$d cards to review in %1$s</item>
     </plurals>
     <!-- Currently only used if exporting APKG fails -->
-    <string name="apk_share_error">Errorea apkg fitxategia partekatzerakoan</string>
+    <string name="apk_share_error">Error sharing apkg file</string>
     <!-- Import and export v2 feedback -->
     <string name="export_v2_dummy_note">This file requires a newer version of Anki.</string>
     <!-- Placed in a snackbar with a long URL. Limit the length and move the URL to the start of the string -->

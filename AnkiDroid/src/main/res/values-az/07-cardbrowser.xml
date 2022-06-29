@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -77,13 +72,13 @@
     <string-array name="card_browser_order_labels">
         <item>No sorting (faster)</item>
         <item>By sort field</item>
-        <item>Yaradılma vaxtı</item>
+        <item>By created time</item>
         <item>By note modification time</item>
         <item>By card modification time</item>
-        <item>Eyni vaxtla</item>
+        <item>By due time</item>
         <item>By interval</item>
-        <item>Asanlıqla</item>
-        <item>Qiymətləndirmə ilə</item>
+        <item>By ease</item>
+        <item>By reviews</item>
         <item>By lapses</item>
     </string-array>
     <string name="card_browser_select_all">Select all</string>

@@ -1,36 +1,36 @@
-Memorizza qualsiasi cosa con AnkiDroid!
+Memorize anything with AnkiDroid!
 
-AnkiDroid ti permette di imparare carte mnemoniche  in modo molto efficiente, mostrandotele poco prima del momento in cui le avresti dimenticate. È completamente compatibile con il software per ripetizioni spaziate Anki (compresa la sincronizzazione), il quale è disponibile per Windows, Linux e MacOS.
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-Studia qualsiasi cosa dove e quando vuoi. Fa buon uso dei tempi morti sull'autobus, nelle code al supermercato o in qualsiasi altra situazione di attesa!
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-Crea i tuoi mazzi di carte o scarica mazzi gratis già pronti per moltissime lingue e argomenti (disponibili più di 6000 mazzi).
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-Aggiungi materiale con l'applicazione per desktop Anki o direttamente con AnkiDroid. L'applicazione supporta anche l'aggiunta automatica di materiale da un dizionario!
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ Caratteristiche principali:
-• contenuti delle carte supportati: testo, immagini, audio, LaTeX
-• ripetizioni spaziate (algoritmo supermemo 2)
-• integrazione sintesi vocale
-• più di 6000 mazzi preconfezionati
-• widget con progresso
-• statistiche dettagliate
-• sincronizzazione con AnkiWeb
-• codice sorgente aperto
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
+• spaced repetition (supermemo 2 algorithm)
+• text-to-speech integration
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
+• open source
 
-★ Caratteristiche aggiuntive:
-• risposte scritte (opzionale)
-• lavagna
-• editor delle carte
-• browser delle carte
-• layout per tablet
-• importazione di collezioni esistenti (via Anki Desktop)
-• aggiunta di carte da altre applicazioni come dizionari
-• supporto di tipi di carattere personalizzati
-• sistema completo di backup
-• navigazione sfiorando, toccando
-• personalizzabile
-• gestione dinamica dei mazzi
-• modalità notturna
-• 27 localizzazioni
-• Tutte le precedenti versioni di AnkiDroid possono essere scaricate dal sito Web
+★ Additional features:
+• write answers (optional)
+• whiteboard
+• card editor/adder
+• card browser
+• tablet layout
+• import existing collection files (via Anki Desktop)
+• add cards by intent from other applications like dictionaries
+• custom font support
+• full backup system
+• navigation by swipe, tap
+• customisable
+• dynamic deck handling
+• night mode
+• 27 localisations
+• All previous AnkiDroid versions can be downloaded from the website

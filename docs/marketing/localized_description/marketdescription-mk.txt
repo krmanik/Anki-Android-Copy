@@ -1,25 +1,25 @@
-Запомни нешто со AnkiDroid!
+Memorize anything with AnkiDroid!
 
-AnkiDroid те овозможува да ги научиш флеш картичките многу ефикасно и прикажувајќи ги пред да заборавите. Целосно е компатибилен со проредниот софтвер за повторување Anki (вклучувајќи синхронизација) кој е достапен за Windows, Linux и MacOS.
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-Проучи ги сите видови на работи каде и кога сакаш. Направете добра употреба на мирни времиња на автобуски патувања, во редици во супермаркет или во каква било друга ситуација на чекање!
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-Направете свој флеш-палуби или преземете бесплатни палуби, составени за многу јазици и теми (повеќе од 6000 достапни).
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-Додадете материјал преку десктоп апликацијата Anki или директно преку AnkiDroid. Апликацијата дури и поддржува додавање на материјал автоматски од речникот!
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ Клучни карактеристики:
-• Поддржен содржина на картичката: текст, слики, звуци, LaTeX
-• распоредено повторување (супермоно алгоритам 2)
-• Интегрирање текст-во-говор
-• повеќе од 6000 подвижни палуби
-• додаток за напредок
-• детални статистики
-• синхронизирање со AnkiWeb
-• отворен извор
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
+• spaced repetition (supermemo 2 algorithm)
+• text-to-speech integration
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
+• open source
 
-★ Дополнителни функции:
-• пишува одговори (опционално)
+★ Additional features:
+• write answers (optional)
 • whiteboard
 • card editor/adder
 • card browser

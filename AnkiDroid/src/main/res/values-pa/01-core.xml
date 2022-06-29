@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -44,31 +39,31 @@
 ~ this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <string name="yes">ਹਾ</string>
+    <string name="yes">yes</string>
     <!-- Navigation drawer items-->
-    <string name="decks">ਡੇਕ</string>
-    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">ਕਾਰਡ ਬਰਾਉਜ਼ਰ</string>
-    <string name="statistics">ਅੰਕੜੇ</string>
-    <string name="settings">ਸੈਟਿੰਗ</string>
-    <string name="help">ਮਦਦ</string>
+    <string name="decks">Decks</string>
+    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">Card browser</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
     <string name="drawing">Drawing</string>
-    <string name="send_feedback">ਫ਼ੀਡਬੈਕ ਭੇਜੋ</string>
-    <string name="studyoptions_due_today">ਅੱਜ ਕਰਨ ਵਾਲੇ</string>
-    <string name="studyoptions_new_total">ਕੁੱਲ ਨਵੇਂ ਕਾਰਡ</string>
-    <string name="studyoptions_total_cards">ਕੁੱਲ ਕਾਰਡ</string>
-    <string name="studyoptions_eta">ਅਨੁਮਾਨਿਤ ਸਮਾਂ (ਮਿੰਟ)</string>
-    <string name="studyoptions_start">ਪੜ੍ਹਾਈ</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="studyoptions_due_today">Due today:</string>
+    <string name="studyoptions_new_total">Total new cards:</string>
+    <string name="studyoptions_total_cards">Total cards:</string>
+    <string name="studyoptions_eta">Estimated time (min):</string>
+    <string name="studyoptions_start">Study</string>
     <!-- DeckPicker.kt -->
-    <string name="expand">ਫੈਲਾਓ</string>
+    <string name="expand">Expand</string>
     <string name="collapse">Collapse</string>
-    <string name="study_more">ਹੋਰ ਅਧਿਐਨ ਕਰੋ</string>
+    <string name="study_more">Study more</string>
     <plurals name="deckpicker_title">
         <item quantity="one">%1$d card due (%2$s)</item>
-        <item quantity="other">%1$d ਕਾਰਡ ਬਕਾਇਆ (%2$s)</item>
+        <item quantity="other">%1$d cards due (%2$s)</item>
     </plurals>
     <plurals name="reviewer_window_title">
         <item quantity="one">%d minute left</item>
-        <item quantity="other">%d ਮਿੰਟ ਬਾਕੀ</item>
+        <item quantity="other">%d minutes left</item>
     </plurals>
     <plurals name="reviewer_window_title_hours_new">
         <item quantity="one">%1$d hour %2$d left</item>
@@ -78,8 +73,8 @@
         <item quantity="one">%1$d day %2$d left</item>
         <item quantity="other">%1$d days %2$d left</item>
     </plurals>
-    <string name="no_cards_placeholder_title">ਸੰਗ੍ਰਹਿ ਖਾਲੀ ਹੈ</string>
-    <string name="no_cards_placeholder_description">ਕਾਰਡ ਸ਼ਾਮਲ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ\N ਆਈਕਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ.</string>
+    <string name="no_cards_placeholder_title">Collection is empty</string>
+    <string name="no_cards_placeholder_description">Start adding cards\nusing the + icon.</string>
     <!-- The deck picker via AnkiStatsTaskHandler.java -->
     <plurals name="studied_cards_today">
         <item quantity="one">Studied %1$d card in %2$s today</item>

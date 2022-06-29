@@ -1,36 +1,36 @@
-AnkiDroid ᱛᱮ ᱪᱮᱫ ᱦᱚᱸ ᱢᱚᱱᱮ ᱫᱚᱦᱚᱭ ᱢᱮ!
+Memorize anything with AnkiDroid!
 
-Ankidroid ᱟᱢ ᱦᱤᱲᱤᱧ ᱢᱟᱲᱟᱝ ᱨᱮ ᱟᱢ ᱥᱚᱢᱟᱝ ᱨᱮ ᱯᱷᱞᱟᱥᱠᱟᱰ ᱫᱮᱠᱷᱟᱣᱠᱟᱛᱮ ᱢᱚᱱᱮ ᱫᱚᱦᱚᱼᱦᱚᱪᱚᱭ ᱢᱮᱭᱟᱭ ᱾  ᱱᱚᱶᱟ ᱫᱚ ᱡᱟᱭᱜᱟ ᱟᱲᱟᱜ ᱫᱩᱦᱲᱟᱹ ᱥᱚᱯᱷᱴᱣᱮᱨ Anki(ᱟᱹᱛᱩᱨ ᱟᱬᱜᱚ ᱢᱮᱥᱟ) ᱥᱟᱞᱟᱜ ᱛᱮ ᱵᱮᱥ ᱪᱚᱨᱚᱠ ᱠᱟᱹᱢᱤ ᱟᱭ, ᱱᱚᱶᱟ ᱫᱚ Windows, Linix ᱟᱨ MacOS ᱞᱟᱹᱜᱤᱫ ᱢᱮᱱᱟᱜᱼᱟ ᱾
+AnkiDroid lets you learn flashcards very efficiently by showing them just before you will forget. It is fully compatible with the spaced repetition software Anki (including synchronization), which is available for Windows, Linux and MacOS.
 
-ᱡᱟᱦᱟᱸ ᱨᱮ ᱡᱟᱦᱟᱱᱟᱜ ᱜᱮ ᱡᱟᱦᱟᱸᱛᱤᱨᱮᱦᱚᱸ ᱯᱟᱲᱦᱟᱣ ᱢᱮ ᱾ᱹ ᱵᱚᱥ ᱨᱮ ᱪᱟᱞᱟᱜ ᱡᱷᱚᱜ , ᱥᱩᱯᱟᱹᱨᱢᱟᱨᱠᱮᱴ ᱨᱮᱭᱟᱜ ᱞᱟᱹᱭᱤᱱ ᱟᱨ ᱵᱟᱝ ᱚᱞᱜᱟ ᱛᱟᱹᱝᱜᱤ ᱡᱷᱚᱜ ᱠᱷᱟᱹᱞᱤ ᱥᱚᱢᱚᱭ ᱨᱮᱭᱟᱜ ᱵᱮᱵᱦᱟᱨ  ᱢᱮ! 
+Study all sorts of things wherever and whenever you want. Make good use of idle times on bus trips, in supermarket queues or any other waiting situation!
 
-ᱯᱟᱹᱨᱥᱤ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱟᱭᱢᱟ ᱵᱤᱥᱚᱭ ᱛᱮ ᱠᱳᱢᱯᱟᱭᱤᱞ ᱟᱠᱟᱱ (᱖᱐᱐᱐ ᱠᱷᱚᱱ ᱡᱟᱹᱥᱛᱤ ᱢᱮᱱᱟᱜᱼᱟ)  ᱯᱚᱞᱟᱛᱮ ᱰᱮᱠ ᱠᱚ ᱟᱨ ᱵᱟᱝᱠᱷᱟᱱ ᱱᱤᱡᱮᱛᱮ ᱯᱷᱞᱟᱥᱠᱟᱰ ᱰᱮᱠ ᱠᱚ ᱛᱮᱭᱟᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ ᱾.
+Create your own flashcard decks or download free decks compiled for many languages and topics (more than 6000 available).
 
-ᱰᱮᱥᱠᱴᱟᱹᱯ ᱮᱯᱞᱤᱠᱮᱥᱚᱱ Anki ᱛᱮ ᱟᱨ ᱫᱟᱝ ᱥᱚᱡᱷᱮ ᱛᱮ Ankidroid ᱨᱮ ᱡᱤᱱᱚᱥᱚ ᱠᱚ ᱥᱮᱞᱮᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ ᱾. ᱱᱚᱶᱟ ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱫᱚ ᱥᱟᱵᱟᱫ ᱜᱟᱫᱮᱞ ᱠᱷᱚᱱ ᱡᱤᱱᱤᱥ ᱠᱚ ᱥᱮᱞᱮᱫ ᱦᱚᱸ ᱜᱟᱱᱚᱜᱼᱟ! 
+Add material through the desktop application Anki or directly through AnkiDroid. The application even supports adding material automatically from a dictionary!
 
-★ ᱚᱥᱚᱞ  ᱯᱷᱤᱪᱚᱨ ᱠᱚ:
-• ᱯᱷᱞᱟᱥᱠᱟᱰ ᱥᱟᱯᱚᱴ ᱡᱤᱱᱤᱥ ᱠᱚ: text, images, sounds,  LaTeX
-• ᱥᱯᱮᱥ ᱨᱤᱯᱤᱴᱮᱥᱚᱱ ᱠᱚ  (supermemo 2 algorithm)
-• ᱚᱞ-ᱠᱷᱚᱱ-ᱨᱚᱲ ᱢᱮᱥᱟ ᱢᱤᱫ
-• ᱖᱐᱐᱐ ᱠᱷᱚᱱ ᱡᱟᱹᱥᱛᱤ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ  ᱛᱮᱭᱟᱨ ᱰᱮᱠ ᱠᱚ
-• ᱞᱟᱦᱟᱜ ᱠᱟᱱ  ᱣᱤᱰᱡᱮᱴ
-• ᱵᱤᱵᱨᱚᱬ ᱮᱞᱠᱷᱟ  ᱛᱟᱹᱞᱤᱠᱟ
-• AnkiWeb  ᱥᱟᱞᱟᱜ ᱟᱹᱭᱩᱨ ᱢᱤᱫ
-• ᱡᱷᱤᱡ ᱡᱷᱚᱨ (open source)
+★ Key features:
+• supported flashcard contents: text, images, sounds, LaTeX
+• spaced repetition (supermemo 2 algorithm)
+• text-to-speech integration
+• more than 6000 premade decks
+• progress widget
+• detailed statistics
+• syncing with AnkiWeb
+• open source
 
-★ ᱟᱨᱦᱚᱸ ᱯᱷᱤᱪᱚᱨ ᱮᱢᱟᱱ ᱠᱚᱺ
-• ᱛᱮᱞᱟ ᱚᱞᱢᱮ  (ᱮᱯᱮᱴᱟᱠ)
-• ᱯᱩᱸᱰᱯᱟᱴᱟ
-• ᱠᱟᱰ ᱥᱟᱯᱲᱟᱣ/ᱥᱮᱞᱮᱫᱤᱭᱟᱹ
-• ᱠᱟᱰ  ᱵᱨᱟᱩᱡᱚᱨ
-• ᱴᱟᱵᱞᱮᱴ  ᱞᱮᱭᱟᱣᱴ
-• ᱢᱟᱲᱟᱝ  ᱠᱷᱚᱱ ᱢᱮᱱᱟᱜ ᱨᱚᱫ ᱴᱩᱢᱟᱹᱞ ᱠᱚ ᱟᱹᱜᱩᱭ ᱯᱮ (Anki ᱰᱮᱥᱠᱴᱟᱹᱯ ᱛᱮ)
-• ᱤᱱᱴᱮᱸᱴ ᱛᱮ ᱥᱟᱵᱟᱫ ᱜᱟᱫᱮᱞ ᱠᱷᱚᱱ ᱠᱟᱰ ᱠᱚᱨᱮ ᱥᱮᱞᱮᱫ ᱢᱮ
-• ᱢᱚᱱᱮ ᱛᱮᱭᱟᱜ ᱪᱤᱠᱤ  ᱥᱟᱯᱚᱴ
-• ᱯᱩᱨᱟᱹ ᱵᱮᱠᱟᱹᱯ ᱥᱤᱥᱴᱚᱢ
-• ᱥᱣᱟᱭᱤᱯ, ᱴᱩᱰᱟᱹᱜ ᱠᱟᱛᱮ ᱩᱫᱩᱜᱽ ᱢᱮ
-•  ᱠᱟᱹᱥᱴᱚᱢᱟᱭᱡᱮᱵᱟᱹᱞ
-• ᱰᱭᱱᱢᱤᱠ ᱰᱮᱠ  ᱦᱮᱸᱰᱟᱹᱞᱤᱝ
-• ᱟᱭᱩᱵ  ᱢᱚᱰ
-• ᱒᱗ ᱛᱚᱨᱡᱚᱢᱟ  ᱠᱟᱱ ᱟᱲᱟ ᱠᱚ
-• ᱡᱷᱚᱛᱚ ᱢᱟᱲᱟᱝᱟᱜ AnkiDroid ᱵᱷᱟᱹᱨᱥᱚᱱ  ᱠᱚ ᱣᱮᱵᱥᱟᱭᱤᱴ ᱠᱷᱚᱱ ᱰᱟᱩᱱᱞᱳᱰ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱯᱮ
+★ Additional features:
+• write answers (optional)
+• whiteboard
+• card editor/adder
+• card browser
+• tablet layout
+• import existing collection files (via Anki Desktop)
+• add cards by intent from other applications like dictionaries
+• custom font support
+• full backup system
+• navigation by swipe, tap
+• customisable
+• dynamic deck handling
+• night mode
+• 27 localisations
+• All previous AnkiDroid versions can be downloaded from the website

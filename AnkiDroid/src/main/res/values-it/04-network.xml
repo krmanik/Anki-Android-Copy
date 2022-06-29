@@ -6,11 +6,6 @@
  ~    Instructions for this are available here: https://github.com/ankidroid/Anki-Android/wiki/Translating-AnkiDroid. 
  ~    You may also find the documentation on contributing to Anki useful: https://github.com/ankidroid/Anki-Android/wiki/Contributing   
  ~ 
- ~ Copyright (c) 2009 Andrew <andrewdubya@gmail> 
- ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com> 
- ~ Copyright (c) 2009 Daniel Svaerd <daniel.svard@gmail.com> 
- ~ Copyright (c) 2009 Nicolas Raoul <nicolas.raoul@gmail.com> 
- ~ Copyright (c) 2010 Norbert Nagold <norbert.nagold@gmail.com> 
  ~ This program is free software; you can redistribute it and/or modify it under 
  ~ the terms of the GNU General Public License as published by the Free Software 
  ~ Foundation; either version 3 of the License, or (at your option) any later 
@@ -23,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along with 
  ~ this program.  If not, see <http://www.gnu.org/licenses/>. 
  -->
- 
+
 <!--
 ~ Copyright (c) 2009 Andrew <andrewdubya@gmail>
 ~ Copyright (c) 2009 Edu Zamora <edu.zasu@gmail.com>
@@ -45,89 +40,89 @@
 
 -->
 <resources>
-    <string name="youre_offline">Sei scollegato</string>
-    <string name="sync_even_if_offline">Prova comunque</string>
-    <string name="sync_error">Errore di sincronizzazione</string>
-    <string name="vague_error" comment="Network error dialog title">Errore</string>
-    <string name="retry">Riprova</string>
-    <string name="menu_get_shared_decks">Ottieni mazzi condivisi</string>
-    <string name="connection_error_message">Si è verificato un errore di rete.</string>
-    <string name="not_logged_in_title">Accedi ad AnkiWeb</string>
-    <string name="login_create_account_message">È necessario accedere ad un account di terzi per utilizzare il servizio di sincronizzazione cloud. Puoi crearne uno nel passaggio successivo.</string>
+    <string name="youre_offline">You are offline</string>
+    <string name="sync_even_if_offline">Try Anyway</string>
+    <string name="sync_error">Sync error</string>
+    <string name="vague_error" comment="Network error dialog title">Error</string>
+    <string name="retry">Retry</string>
+    <string name="menu_get_shared_decks">Get shared decks</string>
+    <string name="connection_error_message">A network error has occurred</string>
+    <string name="not_logged_in_title">Log in to AnkiWeb</string>
+    <string name="login_create_account_message">You must log in to a third party account to use the cloud sync service. You can create one in the next step.</string>
     <!-- MyAccount.kt -->
-    <string name="username">Indirizzo di posta elettronica</string>
+    <string name="username">Email address</string>
     <string name="password">Password</string>
-    <string name="log_in">Accedi</string>
-    <string name="sign_up_description">Non hai un account AnkiWeb? È gratis!</string>
-    <string name="sign_up_not_affiliated">Nota: AnkiWeb non è affiliato con AnkiDroid</string>
-    <string name="sign_up">Registrati</string>
-    <string name="logged_as">Connesso come</string>
-    <string name="log_out">Esci</string>
-    <string name="alert_logging_message">Accesso in corso, attendi...</string>
-    <string name="invalid_username_password">Indirizzo di posta elettronica o password errati</string>
-    <string name="reset_password">Reimposta la password</string>
-    <string name="lost_mail_instructions">Indirizzo dimenticato?</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up_description">Don’t have an AnkiWeb account? It’s free!</string>
+    <string name="sign_up_not_affiliated">Note: AnkiWeb is not affiliated with AnkiDroid</string>
+    <string name="sign_up">Sign up</string>
+    <string name="logged_as">Logged in as</string>
+    <string name="log_out">Log out</string>
+    <string name="alert_logging_message">Logging in&#8230;</string>
+    <string name="invalid_username_password">Invalid email address or password</string>
+    <string name="reset_password">Reset password</string>
+    <string name="lost_mail_instructions">Forgot Email?</string>
     <!-- AndroidManifest.xml -->
-    <string name="deckpreferences_title">Opzioni per XXX</string>
-    <string name="sync_prepare_syncing">Preparazione sincronizzazione...</string>
-    <string name="sync_preparing_full_sync_message">Sincronizzazione completa in preparazione...</string>
-    <string name="sync_uploading_message">Carico...</string>
-    <string name="sync_downloading_message">Scarico...</string>
-    <string name="sync_title">Sincronizzazione</string>
-    <string name="sync_log_uploading_message">Sincronizzazione completa da locale</string>
-    <string name="sync_log_clocks_unsynchronized">L\'orologio sul tuo dispositivo è errato di %1$d secondi%2$s; La sincronizzazione richiede che il tuo orologio ed il fuso orario siano impostati correttamente per evitare errori. Assicurati che la data, l\'ora e il fuso orario sul tuo telefono cellulare siano impostati correttamente, quindi sincronizza nuovamente.</string>
-    <string name="sync_log_clocks_unsynchronized_tz">, il fuso orario del dispositivo è forse sbagliato</string>
-    <string name="sync_log_clocks_unsynchronized_date">, la data del dispositivo è forse sbagliata</string>
-    <string name="sync_no_changes_message">Nessuna modifica trovata.</string>
-    <string name="sync_database_acknowledge">Collezione sincronizzata</string>
-    <string name="sync_log_error_specific">Errore sincronizzazione, tipo: %1$s, messaggio: %2$s</string>
-    <string name="sync_corrupt_database">Il tuo database è corrotto. Riparalo prima di provare nuovamente a sincronizzare.\n\nVedi %s per informazioni su come riparare il database.</string>
-    <string name="sync_too_busy">Server sovraccarico. Prova più tardi.</string>
-    <string name="sync_remote_db_error">Il database scaricato è corrotto. Riprova.</string>
-    <string name="sync_overwrite_error">La tua collezione corrente non ha potuto essere sovrascritta con il file scaricato.</string>
-    <string name="sync_connection_error">Connessione scaduta. Ci sono problemi con la connessione internet oppure hai un file molto grande nella tua cartella dei media.</string>
-    <string name="sync_write_access_error">Il file scaricato non ha potuto essere salvato sulla scheda SD. O la tua scheda SD è montata in sola lettura, o non c\'è spazio sufficiente.</string>
-    <string name="sync_error_invalid_sync_server">Il server di sincronizzazione personalizzato in Impostazioni avanzate non è valido (%s). Inserire un server valido o disabilitare l\'impostazione.</string>
-    <string name="sync_deletions_message">Sincronizzazione eliminazioni...</string>
-    <string name="sync_small_objects_message">Sincronizzazione piccoli oggetti...</string>
-    <string name="sync_finish_message">Completamento sincronizzazione...</string>
-    <string name="sync_log_finish_error">Errore durante l\'invio al server</string>
-    <string name="sync_writing_db">Scrittura modifiche nel database...</string>
-    <string name="sync_download_chunk">Scarico modifiche...</string>
-    <string name="sync_upload_chunk">Carico modifiche...</string>
-    <string name="sync_up_down_size">Inviati: %1$d KB, ricevuti: %2$d KB</string>
-    <string name="sync_generic_error">Si è verificato un errore. Riprova più tardi.</string>
-    <string name="sync_check_upload_file">Controllo file prima di caricarlo...</string>
-    <string name="sync_check_download_file">Controllo file scaricato...</string>
-    <string name="sync_media_find">Ricerca media modificati...</string>
-    <string name="sync_media_no_changes">Nessuna modifica ai file multimediali.</string>
-    <string name="sync_media_success">Media sincronizzati con successo.</string>
-    <string name="sync_media_partial_updated">Sincronizzazione media parzialmente completata:\n%1$d file multimediali scaricati.\n%2$d file multimediali caricati.</string>
-    <string name="sync_media_changes_count">%d modifiche media da caricare</string>
-    <string name="sync_media_downloaded_count">%d file multimediali scaricati</string>
-    <string name="sync_sanity_failed">Dopo la sincronizzazione, la collezione era in uno stato incoerente. Per risolvere questo problema, AnkiDroid forzerà una sincronizzazione completa. Scegliere quali dati vuoi mantenere, o annulla se preferisci sincronizzare più tardi.</string>
-    <string name="sync_media_sanity_failed">Sincronizzazione dei contenuti multimediali terminata, ma il conteggio dei media non corrisponde con il server. La prossima volta verrà eseguita una sincronizzazione completa per correggere eventuali errori.</string>
-    <string name="sync_media_db_error">Sincronizzazione media non riuscita perché la banca dati corrente è corrotta. Si raccomanda un controllo multimediale.</string>
-    <string name="sync_media_error">Errore di sincronizzazione dei dati multimediali.</string>
-    <string name="sync_media_error_check">Errore durante la sincronizzazione di media. Si raccomanda un controllo del media.</string>
+    <string name="deckpreferences_title">Options for XXX</string>
+    <string name="sync_prepare_syncing">Preparing syncing&#8230;</string>
+    <string name="sync_preparing_full_sync_message">Preparing full sync&#8230;</string>
+    <string name="sync_uploading_message">Uploading&#8230;</string>
+    <string name="sync_downloading_message">Downloading&#8230;</string>
+    <string name="sync_title">Synchronization</string>
+    <string name="sync_log_uploading_message">Full sync from local</string>
+    <string name="sync_log_clocks_unsynchronized">Your clock’s off by %1$d seconds%2$s. Make sure that the date, time, and timezone on your phone are set correctly, then sync again.</string>
+    <string name="sync_log_clocks_unsynchronized_tz">, the time zone’s possibly wrong</string>
+    <string name="sync_log_clocks_unsynchronized_date">, the date’s possibly wrong</string>
+    <string name="sync_no_changes_message">No changes found</string>
+    <string name="sync_database_acknowledge">Collection synchronized</string>
+    <string name="sync_log_error_specific">Syncing error, type: %1$s, message: %2$s</string>
+    <string name="sync_corrupt_database">Your database is corrupt. Please fix it before trying again to sync.\n\nSee %s for information about repairing your database.</string>
+    <string name="sync_too_busy">Server busy. Try again later.</string>
+    <string name="sync_remote_db_error">The downloaded database was corrupt. Please try again.</string>
+    <string name="sync_overwrite_error">Your current collection couldn’t be overwritten by the downloaded file</string>
+    <string name="sync_connection_error">Connection timed out. Either your internet connection is experiencing problems, or you have a very large file in your media folder.</string>
+    <string name="sync_write_access_error">The downloaded file couldn’t be saved to the SD card. Either the card is mounted read-only or there isn’t enough space.</string>
+    <string name="sync_error_invalid_sync_server">The Custom Sync Server in Advanced Settings is invalid (%s). Please enter a valid server, or disable the setting.</string>
+    <string name="sync_deletions_message">Syncing deletions&#8230;</string>
+    <string name="sync_small_objects_message">Syncing small objects&#8230;</string>
+    <string name="sync_finish_message">Finishing syncing&#8230;</string>
+    <string name="sync_log_finish_error">Error while sending finish direction to server</string>
+    <string name="sync_writing_db">Writing changes into database&#8230;</string>
+    <string name="sync_download_chunk">Downloading changes&#8230;</string>
+    <string name="sync_upload_chunk">Uploading changes&#8230;</string>
+    <string name="sync_up_down_size">Up: %1$d KB, down: %2$d KB</string>
+    <string name="sync_generic_error">An error has occurred. Try again later.</string>
+    <string name="sync_check_upload_file">Checking file before upload&#8230;</string>
+    <string name="sync_check_download_file">Checking downloaded file&#8230;</string>
+    <string name="sync_media_find">Finding changed media&#8230;</string>
+    <string name="sync_media_no_changes">No changes to media files</string>
+    <string name="sync_media_success">Media synced</string>
+    <string name="sync_media_partial_updated">Media sync partially completed:\n%1$d media files downloaded.\n%2$d media files uploaded.</string>
+    <string name="sync_media_changes_count">%d media changes to upload</string>
+    <string name="sync_media_downloaded_count">%d media files downloaded</string>
+    <string name="sync_sanity_failed">After syncing, the collection was in an inconsistent state. To fix this problem, AnkiDroid will force a full sync. Choose which side you would like to keep.</string>
+    <string name="sync_media_sanity_failed">Media sync completed, but the media count doesn’t agree with the server. The next media sync will be full to correct any error.</string>
+    <string name="sync_media_db_error">Media sync failed because current database is corrupt. A media check is recommended.</string>
+    <string name="sync_media_error">Error syncing media data</string>
+    <string name="sync_media_error_check">Error while syncing media. A media check is recommended.</string>
     <!-- Please run ‘Check database’ before syncing -->
-    <string name="sync_basic_check_failed">Si prega di eseguire «%s» prima di sincronizzare</string>
-    <string name="sync_sanity_local">Locale</string>
-    <string name="sync_sanity_remote">Remoto</string>
-    <string name="force_full_sync_title">Forza sincronizzazione completa</string>
-    <string name="force_full_sync_summary">Alla prossima sincronizzazione, forza le modifiche in una direzione</string>
+    <string name="sync_basic_check_failed">Please run ‘%s’ before syncing</string>
+    <string name="sync_sanity_local">Local</string>
+    <string name="sync_sanity_remote">Remote</string>
+    <string name="force_full_sync_title">Force full sync</string>
+    <string name="force_full_sync_summary">On next sync, force changes in one direction</string>
     <string name="force_full_sync_confirmation">Forced full sync</string>
-    <string name="full_sync_confirmation">La modifica richiesta provocherà il caricamento completo del database la prossima volta che sincronizzi la collezione. Se hai delle ripetizioni o degli altri cambiamenti in sospeso su un altro dispositivo che non sono ancora stati sincronizzati qui, andranno persi. Continuare?</string>
-    <string name="full_sync_confirmation_upgrade">A causa di un bug nella versione precedentemente installata di AnkiDroid, si consiglia di forzare una sincronizzazione completa.</string>
-    <string name="sync_error_407_proxy_required">Autenticazione proxy richiesta.</string>
-    <string name="sync_error_409">Solo un client alla volta può accedere ad AnkiWeb. Se una precedente sincronizzazione è fallita, riprova nuovamente tra pochi minuti.</string>
-    <string name="sync_error_413_collection_size">La tua collezione o un file multimediale è troppo grande per sincronizzare.</string>
-    <string name="sync_error_500_unknown">AnkiWeb ha riscontrato un errore. Riprova tra qualche minuto e se il problema persiste invia un report di bug.</string>
-    <string name="sync_error_501_upgrade_required">Aggiorna all\'ultima versione di AnkiDroid</string>
-    <string name="sync_error_502_maintenance">AnkiWeb è in manutenzione. Riprova tra qualche minuto.</string>
-    <string name="sync_error_504_gateway_timeout">504 errore di timeout gateway ricevuto.</string>
+    <string name="full_sync_confirmation">The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven’t been synchronized here yet, they will be lost. Continue?</string>
+    <string name="full_sync_confirmation_upgrade">Due to a bug in the previously installed version of AnkiDroid, it’s recommended to force a full sync.</string>
+    <string name="sync_error_407_proxy_required">Proxy authentication required.</string>
+    <string name="sync_error_409">Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes.</string>
+    <string name="sync_error_413_collection_size">Your collection or a media file is too large to sync.</string>
+    <string name="sync_error_500_unknown">AnkiWeb encountered an error. Please try again in a few minutes, and if the problem persists, please file a bug report.</string>
+    <string name="sync_error_501_upgrade_required">Please upgrade to the latest version of AnkiDroid</string>
+    <string name="sync_error_502_maintenance">AnkiWeb is under maintenance. Please try again in a few minutes.</string>
+    <string name="sync_error_504_gateway_timeout">504 gateway timeout error received.</string>
     <!-- Deck Picker Sync Icon -->
-    <string name="sync_menu_title_full_sync">Sincronizza (tutto)</string>
-    <string name="sync_menu_title_no_account">Sincronizza (login)</string>
-    <string name="sync_error_unknown_host_readable">Impossibile connettersi ad AnkiWeb. Funziona la conessione internet?\n\n%s</string>
+    <string name="sync_menu_title_full_sync">Sync (full)</string>
+    <string name="sync_menu_title_no_account">Sync (log in)</string>
+    <string name="sync_error_unknown_host_readable">Could not connect to AnkiWeb. Is your internet working?\n\n%s</string>
 </resources>
